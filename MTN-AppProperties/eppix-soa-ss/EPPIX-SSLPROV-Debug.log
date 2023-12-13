@@ -1,0 +1,1294 @@
+20200127: 103809     DEBUG     0[main] - com.eppixcomm.eppix.base.test.TestHeliosRpcServices.loadproperties(TestHeliosRpcServices.java:100) - loading appProperties
+20200127: 103809     DEBUG    48[main] - com.eppixcomm.eppix.base.test.TestHeliosRpcServices.loadproperties(TestHeliosRpcServices.java:107) - appProperties loaded : {jdbc_driver=com.informix.jdbc.IfxDriver, jdbc_user=compans, jdbc_pass=C0mp@ns234, jdbc_url=jdbc:informix-sqli:mtnx91:9777/eppix:INFORMIXSERVER=eppix_tcp2}
+20200127: 103809     DEBUG    48[main] - com.eppixcomm.eppix.base.test.TestHeliosRpcServices.dbConnectionInit(TestHeliosRpcServices.java:120) - DB Connection start
+20200127: 103809     DEBUG    48[main] - com.eppixcomm.eppix.base.test.TestHeliosRpcServices.dbConnectionInit(TestHeliosRpcServices.java:123) - {jdbc_driver=com.informix.jdbc.IfxDriver, jdbc_user=compans, jdbc_pass=C0mp@ns234, jdbc_url=jdbc:informix-sqli:mtnx91:9777/eppix:INFORMIXSERVER=eppix_tcp2}
+20200127: 103811     DEBUG  2227[main] - com.eppixcomm.eppix.common.data.DACFactory.<init>(DACFactory.java:95) - constructor( connection, thrower )
+20200127: 103811     DEBUG  2235[main] - com.eppixcomm.eppix.common.data.ConnectionContext.connect(ConnectionContext.java:100) - connect( connection )
+20200127: 103811     DEBUG  2235[main] - com.eppixcomm.eppix.common.data.ConnectionContext.get(ConnectionContext.java:82) - get()
+20200127: 103811     DEBUG  2243[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.HeliosRpcServices )
+20200127: 103811     DEBUG  2271[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getHeliosRpcServicesDAC(BaseDACFactory.java:453) - getSimGetForMsisdnDAC()
+20200127: 103811     DEBUG  2278[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.HeliosRpcServicesDACImpl com.eppixcomm.eppix.base.dml.HeliosRpcServicesDML@7591083d
+20200127: 103811     DEBUG  2279[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.HeliosRpcServicesDACImpl
+20200127: 103811     DEBUG  2306[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20200127: 103811     DEBUG  2306[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.HeliosRpcServicesDACImpl TO MAP
+20200127: 103811     DEBUG  2309[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.GetCustomer )
+20200127: 103811     DEBUG  2312[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getGetCustomerDAC(BaseDACFactory.java:583) - getGetCustomerDAC
+20200127: 103811     DEBUG  2314[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.GetCustomerDACImpl com.eppixcomm.eppix.base.dml.GetCustomerDML@23ab930d
+20200127: 103811     DEBUG  2314[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.GetCustomerDACImpl
+20200127: 103811     DEBUG  2315[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20200127: 103811     DEBUG  2315[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.GetCustomerDACImpl TO MAP
+20200127: 103811     DEBUG  2315[main] - com.eppixcomm.eppix.base.test.TestHeliosRpcServices.dbConnectionInit(TestHeliosRpcServices.java:152) - DB Connection successfull
+20200127: 103811     DEBUG  2332[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigrade )
+20200127: 103811     DEBUG  2477[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getSubscriberUpgradeMigradeDAC(BaseDACFactory.java:518) - getSubscriberUpgradeMigradeDAC
+20200127: 103811     DEBUG  2483[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeDACImpl com.eppixcomm.eppix.base.dml.SubscriberUpgradeMigradeDML@63c12fb0
+20200127: 103811     DEBUG  2483[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeDACImpl
+20200127: 103811     DEBUG  2486[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20200127: 103811     DEBUG  2487[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeDACImpl TO MAP
+20200127: 103811     DEBUG  2487[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.HeliosRpcServices )
+20200127: 103811     DEBUG  2491[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.Slcustm )
+20200127: 103811     DEBUG  2590[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getSlcustmDAC(BaseAbstractDACFactory.java:212) - getSlcustmDAC()
+20200127: 103812     DEBUG  2625[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SlcustmDACImpl com.eppixcomm.eppix.base.dml.SlcustmAbstractDMLFactory@7506e922
+20200127: 103812     DEBUG  2625[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SlcustmDACImpl
+20200127: 103812     DEBUG  2628[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20200127: 103812     DEBUG  2628[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SlcustmDACImpl TO MAP
+20200127: 103812     DEBUG  2629[main] - com.eppixcomm.eppix.base.blo.SlcustmAbstractBLO.get(SlcustmAbstractBLO.java:679) - get( filter )
+20200127: 103812     DEBUG  2629[main] - com.eppixcomm.eppix.base.blo.SlcustmAbstractDACImpl.get(SlcustmAbstractDACImpl.java:1461) - get( filter )
+20200127: 103812     DEBUG  2636[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+Slcustm|0|equalCustomer|
+
+20200127: 103812     DEBUG  3463[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: Slcustm
+Execute SQL Statement: SELECT CUSTOMER, ALPHA, NAME, ADDRESS1, ADDRESS2, ADDRESS3, ADDRESS4, ADDRESS5, CREDIT_CATEGORY, EXPORT_INDICATOR, CUST_DISC_CODE, CURRENCY, TERRITORY, CLASS, REGION, INVOICE_CUSTOMER, STATEMENT_CUSTOMER, GROUP_CUSTOMER, DATE_LAST_ISSUE, DATE_CREATED, ANALYSIS_CODES1, ANALYSIS_CODES2, ANALYSIS_CODES3, ANALYSIS_CODES4, ANALYSIS_CODES5, REMINDER_CAT, SETTLEMENT_CODE, SETT_DAYS_CODE, PRICE_LIST, LETTER_CODE, BALANCE_FWD, CREDIT_LIMIT, YTD_SALES, YTD_COST_OF_SALES, CUMULATIVE_SALES, ORDER_BALANCE, SALES_NL_CAT, SPECIAL_PRICE, VAT_REGISTRATION, DIRECT_DEBIT, INVOICES_PRINTED, CONSOLIDATED_INV, COMMENT_ONLY_INV, BANK_ACCOUNT_NO, BANK_SORT_CODE, BANK_NAME, BANK_ADDRESS1, BANK_ADDRESS2, BANK_ADDRESS3, BANK_ADDRESS4, ANALYSIS_CODE_6, PRODUCE_STATEMENTS, EDI_CUSTOMER, VAT_TYPE, LANGUAGE, DELIVERY_METHOD, CARRIER, VAT_REG_NUMBER, VAT_EXE_NUMBER, PAYDAYS1, PAYDAYS2, PAYDAYS3, BANK_BRANCH_CODE, PRINT_CP_WITH_STAT, PAYMENT_METHOD, CUSTOMER_CLASS, SALES_TYPE, CP_LOWER_VALUE, ADDRESS6, FAX, TELEX, BTX, CP_CHARGE, CONTROL_DIGIT, PAYER, RESPONSIBILITY, DESPATCH_HELD, CREDIT_CONTROLLER, REMINDER_LETTERS, SEVERITY_DAYS1, SEVERITY_DAYS2, SEVERITY_DAYS3, SEVERITY_DAYS4, SEVERITY_DAYS5, SEVERITY_DAYS6, DELIVERY_REASON, SHIPPER_CODE1, SHIPPER_CODE2, SHIPPER_CODE3, SHIPPING_NOTE_IND, ACCOUNT_TYPE, ADMIN_FEE, INTREST_RATE
+FROM SLCUSTM
+WHERE (CUSTOMER) = ?
+Argument(s): |A4476581|
+20200127: 103812     DEBUG  3479[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@64a294a6
+20200127: 103813     DEBUG  3633[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.AuxCustomers )
+20200127: 103813     DEBUG  3634[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getAuxCustomersDAC(BaseAbstractDACFactory.java:122) - getAuxCustomersDAC()
+20200127: 103813     DEBUG  3645[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.AuxCustomersDACImpl com.eppixcomm.eppix.base.dml.AuxCustomersDMLFactory@1a93a7ca
+20200127: 103813     DEBUG  3646[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.AuxCustomersDACImpl
+20200127: 103813     DEBUG  3648[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20200127: 103813     DEBUG  3649[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.AuxCustomersDACImpl TO MAP
+20200127: 103813     DEBUG  3649[main] - com.eppixcomm.eppix.base.blo.AuxCustomersAbstractBLO.get(AuxCustomersAbstractBLO.java:689) - get( filter )
+20200127: 103813     DEBUG  3649[main] - com.eppixcomm.eppix.base.blo.AuxCustomersAbstractDACImpl.get(AuxCustomersAbstractDACImpl.java:1309) - get( filter )
+20200127: 103813     DEBUG  3651[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+AuxCustomers|0|equalBillAcNo|
+
+20200127: 103813     DEBUG  3913[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: AuxCustomers
+Execute SQL Statement: SELECT AUX_TITLE, AUX_FIRSTNAME, AUX_INVOICE_ADDRID, BANK_NAME, BANK_ADDR1, BANK_ADDR2, BANK_AC_NAME, REF, BANK_SCODE, BANK_AC_NO, BANK_AC_TYPE, BANK_PAY_TYPE, AUX_PREF_DEBIT_DAY, BILL_AC_NO, PROTECT_CODE, HANDSET_CT, BANK_DATE, CONF_DATE, AUX_COMMENT, DATE_OF_BIRTH, REF_PAY_DATE, AC_CLOS_DATE, NO_REAS_DATE, REM_LET_DATE, AC_TRAN_DATE, NO_AC_DATE, SR_FLAG, PROCESSED, PACKAGE_CODE, AUX_ACCOUNT_TYPE, AUX_BILL_CYCLE, CREDIT_CARD_NO, CREDIT_CARD_NAME, EXPIRY_DATE, AUX_CARD_CVV_NO, CREDIT_SCORE, SERV_PROV_ID, DEALER_ID, SALESMAN, ID_NUMBER, ACC_STATUS, COMP_REG_NO, STATIONARY_TYPE, MAX_NO_SUBS, AUX_CURRENCY, AUX_COUNTRY_CODE, AUX_GENDER, AUX_SUB_GRP_ACC_NO, AUX_PREPAID_STAT, AUX_CREDIT_CLASS, AUX_AUTO_LIMIT_IND, AUX_LMT_UP_VAL, AUX_LMT_DN_VAL, AUX_ANALYSIS_1, AUX_ANALYSIS_2, AUX_ANALYSIS_3, AUX_ANALYSIS_4, AUX_ANALYSIS_5, AUX_ANALYSIS_6, AUX_ANALYSIS_7, AUX_ANALYSIS_8, AUX_ANALYSIS_9, AUX_ANALYSIS_10, AUX_ANALYSIS_11, AUX_ANALYSIS_12, AUX_ANALYSIS_13, AUX_ANALYSIS_14, AUX_ANALYSIS_15, AUX_ANALYSIS_16, AUX_ANALYSIS_17, AUX_ANALYSIS_18, AUX_ANALYSIS_19, AUX_ANALYSIS_20, AUX_ANALYSIS_21, AUX_ANALYSIS_22, AUX_ANALYSIS_23, AUX_ANALYSIS_24, AUX_ANALYSIS_25, AUX_ANALYSIS_26, AUX_ANALYSIS_27, AUX_ANALYSIS_28, AUX_ANALYSIS_29, AUX_ANALYSIS_30
+FROM AUX_CUSTOMERS
+WHERE (BILL_AC_NO) = ?
+Argument(s): |A4476581|
+20200127: 103813     DEBUG  3917[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@504bae78
+20200127: 103813     DEBUG  4013[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getAul
+20200127: 103813     DEBUG  4014[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getAul|0||
+
+20200127: 103813     DEBUG  4182[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getAul
+Execute SQL Statement: SELECT * FROM aul_acc_up_lowlmt WHERE aul_bill_ac_no = ? 
+Argument(s): |A4476581|
+20200127: 103813     DEBUG  4183[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@4cdf35a9
+20200127: 103813     DEBUG  4282[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getAccountBalance
+20200127: 103813     DEBUG  4283[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getAccountBalance|0||
+
+20200127: 103813     DEBUG  4452[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getAccountBalance
+Execute SQL Statement: SELECT NVL(SUM(unall_amount), 0) FROM slitemm WHERE customer = ? AND open_indicator = 'O' AND dated <= TODAY
+Argument(s): |A4476581|
+20200127: 103813     DEBUG  4453[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@53e25b76
+20200127: 103813     DEBUG  4574[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.AuxCustomers )
+20200127: 103813     DEBUG  4574[main] - com.eppixcomm.eppix.base.blo.AuxCustomersAbstractBLO.get(AuxCustomersAbstractBLO.java:689) - get( filter )
+20200127: 103813     DEBUG  4574[main] - com.eppixcomm.eppix.base.blo.AuxCustomersAbstractDACImpl.get(AuxCustomersAbstractDACImpl.java:1309) - get( filter )
+20200127: 103813     DEBUG  4574[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+AuxCustomers|0|equalBillAcNo|
+
+20200127: 103814     DEBUG  4633[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: AuxCustomers
+Execute SQL Statement: SELECT AUX_TITLE, AUX_FIRSTNAME, AUX_INVOICE_ADDRID, BANK_NAME, BANK_ADDR1, BANK_ADDR2, BANK_AC_NAME, REF, BANK_SCODE, BANK_AC_NO, BANK_AC_TYPE, BANK_PAY_TYPE, AUX_PREF_DEBIT_DAY, BILL_AC_NO, PROTECT_CODE, HANDSET_CT, BANK_DATE, CONF_DATE, AUX_COMMENT, DATE_OF_BIRTH, REF_PAY_DATE, AC_CLOS_DATE, NO_REAS_DATE, REM_LET_DATE, AC_TRAN_DATE, NO_AC_DATE, SR_FLAG, PROCESSED, PACKAGE_CODE, AUX_ACCOUNT_TYPE, AUX_BILL_CYCLE, CREDIT_CARD_NO, CREDIT_CARD_NAME, EXPIRY_DATE, AUX_CARD_CVV_NO, CREDIT_SCORE, SERV_PROV_ID, DEALER_ID, SALESMAN, ID_NUMBER, ACC_STATUS, COMP_REG_NO, STATIONARY_TYPE, MAX_NO_SUBS, AUX_CURRENCY, AUX_COUNTRY_CODE, AUX_GENDER, AUX_SUB_GRP_ACC_NO, AUX_PREPAID_STAT, AUX_CREDIT_CLASS, AUX_AUTO_LIMIT_IND, AUX_LMT_UP_VAL, AUX_LMT_DN_VAL, AUX_ANALYSIS_1, AUX_ANALYSIS_2, AUX_ANALYSIS_3, AUX_ANALYSIS_4, AUX_ANALYSIS_5, AUX_ANALYSIS_6, AUX_ANALYSIS_7, AUX_ANALYSIS_8, AUX_ANALYSIS_9, AUX_ANALYSIS_10, AUX_ANALYSIS_11, AUX_ANALYSIS_12, AUX_ANALYSIS_13, AUX_ANALYSIS_14, AUX_ANALYSIS_15, AUX_ANALYSIS_16, AUX_ANALYSIS_17, AUX_ANALYSIS_18, AUX_ANALYSIS_19, AUX_ANALYSIS_20, AUX_ANALYSIS_21, AUX_ANALYSIS_22, AUX_ANALYSIS_23, AUX_ANALYSIS_24, AUX_ANALYSIS_25, AUX_ANALYSIS_26, AUX_ANALYSIS_27, AUX_ANALYSIS_28, AUX_ANALYSIS_29, AUX_ANALYSIS_30
+FROM AUX_CUSTOMERS
+WHERE (BILL_AC_NO) = ?
+Argument(s): |A4476581|
+20200127: 103814     DEBUG  4635[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@726f3b58
+20200127: 103814     DEBUG  4742[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getManyAudAddress(SubscriberUpgradeMigradeBLO.java:12847) - LOOP1: 0: ADRESSTYPE TO GET: CHPY
+20200127: 103814     DEBUG  4743[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getManyAudAddress(SubscriberUpgradeMigradeBLO.java:12848) - =================================================================
+20200127: 103814     DEBUG  4743[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getManyAud|0|NONE|
+
+20200127: 103814     DEBUG  4903[main] - com.eppixcomm.eppix.common.data.DAOImpl.iterator(DAOImpl.java:2376) - iterator(static SQL): DML Name: getManyAud
+Execute SQL Statement: SELECT * FROM aud_address WHERE aud_account_no = ? AND aud_address_type = ? AND (aud_in_date <= TODAY OR aud_in_date IS NULL) ORDER BY aud_in_date DESC, aud_addrid DESC
+Argument(s): |A4476581|CHPY|
+20200127: 103814     DEBUG  4953[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getManyAudAddress(SubscriberUpgradeMigradeBLO.java:12879) - LOOP1: 0
+20200127: 103814     DEBUG  4954[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getManyAudAddress(SubscriberUpgradeMigradeBLO.java:12880) - LOOP1 ADDRESS ID: 0
+20200127: 103814     DEBUG  4954[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getManyAudAddress(SubscriberUpgradeMigradeBLO.java:12881) - AUX CST ADDRESS ID: 16397425
+20200127: 103814     DEBUG  4955[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getManyAudAddress(SubscriberUpgradeMigradeBLO.java:12882) - AUD ADDRESS TYPE TYPE LEN: 4
+20200127: 103814     DEBUG  4955[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getManyAudAddress(SubscriberUpgradeMigradeBLO.java:12893) - CHECK INVOICE ADDRESS TYPE: N
+20200127: 103814     DEBUG  4955[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getManyAudAddress(SubscriberUpgradeMigradeBLO.java:12847) - LOOP1: 1: ADRESSTYPE TO GET: CPOS
+20200127: 103814     DEBUG  4955[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getManyAudAddress(SubscriberUpgradeMigradeBLO.java:12848) - =================================================================
+20200127: 103814     DEBUG  4955[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getManyAud|0|NONE|
+
+20200127: 103814     DEBUG  5052[main] - com.eppixcomm.eppix.common.data.DAOImpl.iterator(DAOImpl.java:2376) - iterator(static SQL): DML Name: getManyAud
+Execute SQL Statement: SELECT * FROM aud_address WHERE aud_account_no = ? AND aud_address_type = ? AND (aud_in_date <= TODAY OR aud_in_date IS NULL) ORDER BY aud_in_date DESC, aud_addrid DESC
+Argument(s): |A4476581|CPOS|
+20200127: 103814     DEBUG  5103[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getManyAudAddress(SubscriberUpgradeMigradeBLO.java:12879) - LOOP1: 1
+20200127: 103814     DEBUG  5103[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getManyAudAddress(SubscriberUpgradeMigradeBLO.java:12880) - LOOP1 ADDRESS ID: 0
+20200127: 103814     DEBUG  5104[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getManyAudAddress(SubscriberUpgradeMigradeBLO.java:12881) - AUX CST ADDRESS ID: 16397425
+20200127: 103814     DEBUG  5104[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getManyAudAddress(SubscriberUpgradeMigradeBLO.java:12882) - AUD ADDRESS TYPE TYPE LEN: 4
+20200127: 103814     DEBUG  5104[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getManyAudAddress(SubscriberUpgradeMigradeBLO.java:12893) - CHECK INVOICE ADDRESS TYPE: N
+20200127: 103814     DEBUG  5105[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.SksKeySetting )
+20200127: 103814     DEBUG  5106[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getSksKeySettingDAC(BaseAbstractDACFactory.java:314) - getSksKeySettingDAC()
+20200127: 103814     DEBUG  5108[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SksKeySettingDACImpl com.eppixcomm.eppix.base.dml.SksKeySettingAbstractDMLFactory@5e91993f
+20200127: 103814     DEBUG  5108[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SksKeySettingDACImpl
+20200127: 103814     DEBUG  5110[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20200127: 103814     DEBUG  5110[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SksKeySettingDACImpl TO MAP
+20200127: 103814     DEBUG  5110[main] - com.eppixcomm.eppix.base.blo.SksKeySettingAbstractBLO.get(SksKeySettingAbstractBLO.java:500) - get( filter )
+20200127: 103814     DEBUG  5110[main] - com.eppixcomm.eppix.base.blo.SksKeySettingAbstractDACImpl.get(SksKeySettingAbstractDACImpl.java:420) - get( filter )
+20200127: 103814     DEBUG  5111[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+SksKeySetting|0|equalSksKeyCode|
+
+20200127: 103814     DEBUG  5272[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: SksKeySetting
+Execute SQL Statement: SELECT SKS_KEY_CODE, SKS_VALUE, SKS_COMMENT, SKS_TIMESTAMP
+FROM SKS_KEY_SETTING
+WHERE (SKS_KEY_CODE) = ?
+Argument(s): |CCALLOCFLD|
+20200127: 103814     DEBUG  5273[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@36aa7bc2
+20200127: 103814     DEBUG  5413[main] - com.eppixcomm.eppix.base.blo.GetCustomerBLO.getAuxKeyField(GetCustomerBLO.java:1513) - 
+SELECT aux_analysis_26 FROM aux_customers WHERE bill_ac_no = 'A4476581'
+20200127: 103814     DEBUG  5562[main] - com.eppixcomm.eppix.base.blo.GetCustomerBLO.getAcaCreditControllerId(GetCustomerBLO.java:1458) - 
+SELECT aca_controller_id, aca_end FROM aca_credit_alloc WHERE aca_key_field = 'aux_analysis_26' AND aca_end >= 'LD1111CH' AND aca_end NOT IN ('<<DEFAULT>>', '<<LAST>>') ORDER BY aca_end
+20200127: 103815     DEBUG  5733[main] - com.eppixcomm.eppix.base.blo.GetCustomerBLO.getAcaCreditControllerId(GetCustomerBLO.java:1469) - Controller ID 36 :
+20200127: 103815     DEBUG  5733[main] - com.eppixcomm.eppix.base.blo.GetCustomerBLO.getCreditController(GetCustomerBLO.java:1386) - select * from cca_crd_controller	where cca_controller_id = '36 '
+20200127: 103815     DEBUG  6092[main] - com.eppixcomm.eppix.base.blo.GetCustomerBLO.getCreditController(GetCustomerBLO.java:1409) - 
+CREDIT CONTROLLER: Legal                           
+CREDIT CONTROLLER TEL:5555                
+20200127: 103815     DEBUG  6312[main] - com.eppixcomm.eppix.base.blo.GetCustomerBLO.getCreditController(GetCustomerBLO.java:1428) - 
+CONTROLLER ID: 36 
+CREDIT DESCRIPTION: Legal                           
+CREDIT CONTROLLER TEL:5555                
+CREDIT TARGET TYPE:G
+CREDIT TARGET GROUP:9
+CREDIT TARGET USER:null
+20200127: 103815     DEBUG  6313[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getDccCreditClass
+20200127: 103815     DEBUG  6313[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getDccCreditClass|0||
+
+20200127: 103816     DEBUG  6632[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getDccCreditClass
+Execute SQL Statement: SELECT * FROM dcc_credit_classes WHERE dcc_class_id = ? 
+Argument(s): |FAIR|
+20200127: 103816     DEBUG  6633[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@41a4555e
+20200127: 103816     DEBUG  6812[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getCdeTotalSum
+20200127: 103816     DEBUG  6812[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getCdeTotalSum|0||
+
+20200127: 103816     DEBUG  7062[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getCdeTotalSum
+Execute SQL Statement: SELECT SUM(cde_amount_paid - cde_amount_rel) FROM cde_cust_deposit WHERE cde_customer_id = ? AND (cde_deposit_status = 1 OR cde_deposit_status= 3)
+Argument(s): |A4476581|
+20200127: 103816     DEBUG  7062[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@2d363fb3
+20200127: 103816     DEBUG  7202[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getCdeTotalSum
+20200127: 103816     DEBUG  7202[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getCdeTotalSum|0||
+
+20200127: 103816     DEBUG  7312[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getCdeTotalSum
+Execute SQL Statement: SELECT SUM(cde_amount_paid - cde_amount_rel) FROM cde_cust_deposit WHERE cde_customer_id = ? AND (cde_deposit_status = 1 OR cde_deposit_status= 3)
+Argument(s): |A4476581|
+20200127: 103816     DEBUG  7313[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@69222c14
+20200127: 103816     DEBUG  7452[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getCdeLastStatus
+20200127: 103816     DEBUG  7452[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getCdeLastStatus|0||
+
+20200127: 103817     DEBUG  7682[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getCdeLastStatus
+Execute SQL Statement: SELECT cde_deposit_status FROM cde_cust_deposit WHERE cde_deposit_id = (SELECT MAX(cde_deposit_id) FROM cde_cust_deposit WHERE cde_customer_id = ?)
+
+Argument(s): |A4476581|
+20200127: 103817     DEBUG  7822[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getCviAcv
+20200127: 103817     DEBUG  7823[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getCviAcv|0||
+
+20200127: 103817     DEBUG  8052[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getCviAcv
+Execute SQL Statement: SELECT cvi.* FROM cvi_crm_value_ind cvi, acv_acc_crm_value acv WHERE cvi_crm_value = acv_crm_value AND acv_bill_ac_no = ? 
+Argument(s): |A4476581|
+20200127: 103817     DEBUG  8053[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@e2d56bf
+20200127: 103817     DEBUG  8222[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getSerialCustomer
+20200127: 103817     DEBUG  8223[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getSerialCustomer|0||
+
+20200127: 103817     DEBUG  8532[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getSerialCustomer
+Execute SQL Statement: SELECT SC_SERIAL, SC_BILL_AC_NO FROM SC_SERIAL_CUSTOMER WHERE SC_BILL_AC_NO = ?
+Argument(s): |A4476581|
+20200127: 103817     DEBUG  8532[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@4d591d15
+20200127: 103818     DEBUG  8723[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getEppixHierarchyByType|0|NONE|
+
+20200127: 103818     DEBUG  9033[main] - com.eppixcomm.eppix.common.data.DAOImpl.iterator(DAOImpl.java:2376) - iterator(static SQL): DML Name: getEppixHierarchyByType
+Execute SQL Statement: SELECT EH_SERIAL, EH_ENTITY_ID, EH_TYPE, EH_VALUE, EH_LINK, EH_HIER_TYPE FROM EH_EPPIX_HIERARCHY WHERE EH_ENTITY_ID = ? AND EH_HIER_TYPE = ? AND EH_TYPE = ? 
+Argument(s): |4914843|COMPANY|ACCOUNT|
+20200127: 103818     DEBUG  9253[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getMasterEhHh
+20200127: 103818     DEBUG  9254[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getMasterEhHh|0||
+
+20200127: 103818     DEBUG  9564[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getMasterEhHh
+Execute SQL Statement: SELECT eh.*, hh.* FROM eh_eppix_hierarchy eh, hh_hierarchy_head hh WHERE eh.eh_entity_id = hh.hh_serial AND hh.hh_serial = ? AND eh.eh_hier_type = ? AND eh.eh_type = ? 
+Argument(s): |4914843|COMPANY|COMPANY|
+20200127: 103819     ERROR  9703[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getScEhHH(SubscriberUpgradeMigradeBLO.java:10247) - Serial: 4914843 does not exist in table hh_hierarchy_head/eh_eppix_hierarchy
+20200127: 103819     ERROR  9703[main] - com.eppixcomm.eppix.base.blo.GetCustomerBLO.getCustomer(GetCustomerBLO.java:526) - Serial: 4914843 does not exist in table hh_hierarchy_head/eh_eppix_hierarchy
+20200127: 103819     DEBUG  9704[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getDlhDynamicLmtHdrById
+20200127: 103819     DEBUG  9705[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getDlhDynamicLmtHdrById|0||
+
+20200127: 103819     DEBUG  9933[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getDlhDynamicLmtHdrById
+Execute SQL Statement: select * from dlh_dynmc_lmt_hdr where dlh_id_no = ? 
+Argument(s): |7606026443082|
+20200127: 103819     DEBUG  9966[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@368239c8
+20200127: 103819     DEBUG 10093[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getUdvTT
+20200127: 103819     DEBUG 10094[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getUdvTT|0||
+
+20200127: 103819     DEBUG 10344[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getUdvTT
+Execute SQL Statement: SELECT udv_userdoc_deliv.* ,(SELECT tt_text FROM tt_type_text WHERE udv_doc_type = tt_type AND tt_group = 'DOCTYPE' AND tt_lang = 'ENG' ), (SELECT tt_text FROM tt_type_text WHERE udv_delivery = tt_type AND tt_group = 'DELIVMTHDS' AND tt_lang = 'ENG'), (SELECT tt_text FROM tt_type_text WHERE udv_format = tt_type AND tt_group = 'OUTPTFRMTS' AND tt_lang = 'ENG'), (SELECT tt_text FROM tt_type_text WHERE udv_address_type = tt_type AND tt_group = 'ADDRESSTYP' AND tt_lang = 'ENG') FROM udv_userdoc_deliv WHERE udv_userdoc_deliv.udv_doc_type = ? AND udv_userdoc_deliv.udv_bill_ac_no = ? 
+Argument(s): |STATE|A4476581|
+20200127: 103819     DEBUG 10345[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@7c53a9eb
+20200127: 103819     DEBUG 10463[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+insertUserHistory|12||
+
+20200127: 103820     ERROR 10712[main] - com.eppixcomm.eppix.common.data.DAOThrower.unexpected(DAOThrower.java:150) - com.eppixcomm.eppix.base.error.EPPIXSeriousException: A database error has occurred: SQL Error: Reason: Cannot insert a null into column (ush_user_history.ush_login)., SQL State: 23000, Vendor Code: -391, DML Name: insertUserHistory, SQL Statement: INSERT INTO ush_user_history(ush_login, ush_hist_code, ush_comment, ush_terminal_id, ush_timestamp)VALUES( ?, ?, ?, ?, CURRENT);, Argument(s): |CUSTINFO|Customer Info Viewed for Customer: A4476581||
+20200127: 103820     ERROR 10712[main] - com.eppixcomm.eppix.base.blo.GetCustomerBLO.getCustomer(GetCustomerBLO.java:605) - A database error has occurred: SQL Error: Reason: Cannot insert a null into column (ush_user_history.ush_login)., SQL State: 23000, Vendor Code: -391, DML Name: insertUserHistory, SQL Statement: INSERT INTO ush_user_history(ush_login, ush_hist_code, ush_comment, ush_terminal_id, ush_timestamp)VALUES( ?, ?, ?, ?, CURRENT);, Argument(s): |CUSTINFO|Customer Info Viewed for Customer: A4476581||
+20200127: 103820     DEBUG 10716[main] - com.eppixcomm.eppix.base.blo.GetCustomerBLO.getCustomer(GetCustomerBLO.java:849) - 
+EXPIRY DATE IN AUX: 1899-12-30
+20200127: 103820     DEBUG 10716[main] - com.eppixcomm.eppix.base.blo.GetCustomerBLO.getCustomer(GetCustomerBLO.java:850) - 
+EXPIRY DATE TEST DATE: 1900-01-01
+20200127: 103820     DEBUG 10721[main] - com.eppixcomm.eppix.base.test.TestHeliosRpcServices.testGetCustomerExpiryDt(TestHeliosRpcServices.java:87) - 
+CustomerGetRsp [CRMColour=0
+CRMKeyword=UNBANDED
+CRMValue=UNB
+IDNumber=7606026443082
+accType=IS
+accountNo_1=
+accountNo_10=
+accountNo_2=
+accountNo_3=
+accountNo_4=
+accountNo_5=
+accountNo_6=
+accountNo_7=
+accountNo_8=
+accountNo_9=
+accountNumber=A4476581
+accountStatus=LOC
+accountTransferredDate=
+accountType=
+addresInDate_1=
+addresInDate_10=
+addresInDate_2=
+addresInDate_3=
+addresInDate_4=
+addresInDate_5=
+addresInDate_6=
+addresInDate_7=
+addresInDate_8=
+addresInDate_9=
+addresType_1=CHPY
+addresType_10=
+addresType_2=CPOS
+addresType_3=
+addresType_4=
+addresType_5=
+addresType_6=
+addresType_7=
+addresType_8=
+addresType_9=
+addressClassification_1=
+addressClassification_10=
+addressClassification_2=
+addressClassification_3=
+addressClassification_4=
+addressClassification_5=
+addressClassification_6=
+addressClassification_7=
+addressClassification_8=
+addressClassification_9=
+addressContact_1=
+addressContact_10=
+addressContact_2=
+addressContact_3=
+addressContact_4=
+addressContact_5=
+addressContact_6=
+addressContact_7=
+addressContact_8=
+addressContact_9=
+addressEMail_1=
+addressEMail_10=
+addressEMail_2=
+addressEMail_3=
+addressEMail_4=
+addressEMail_5=
+addressEMail_6=
+addressEMail_7=
+addressEMail_8=
+addressEMail_9=
+addressFax_1=
+addressFax_10=
+addressFax_2=
+addressFax_3=
+addressFax_4=
+addressFax_5=
+addressFax_6=
+addressFax_7=
+addressFax_8=
+addressFax_9=
+addressGeneral1_1=
+addressGeneral1_10=
+addressGeneral1_2=
+addressGeneral1_3=
+addressGeneral1_4=
+addressGeneral1_5=
+addressGeneral1_6=
+addressGeneral1_7=
+addressGeneral1_8=
+addressGeneral1_9=
+addressGeneral2_1=
+addressGeneral2_10=
+addressGeneral2_2=
+addressGeneral2_3=
+addressGeneral2_4=
+addressGeneral2_5=
+addressGeneral2_6=
+addressGeneral2_7=
+addressGeneral2_8=
+addressGeneral2_9=
+addressGeneral3_1=
+addressGeneral3_10=
+addressGeneral3_2=
+addressGeneral3_3=
+addressGeneral3_4=
+addressGeneral3_5=
+addressGeneral3_6=
+addressGeneral3_7=
+addressGeneral3_8=
+addressGeneral3_9=
+addressID_1=0
+addressID_10=0
+addressID_2=0
+addressID_3=0
+addressID_4=0
+addressID_5=0
+addressID_6=0
+addressID_7=0
+addressID_8=0
+addressID_9=0
+addressLine1_1=
+addressLine1_10=
+addressLine1_2=
+addressLine1_3=
+addressLine1_4=
+addressLine1_5=
+addressLine1_6=
+addressLine1_7=
+addressLine1_8=
+addressLine1_9=
+addressLine2_1=
+addressLine2_10=
+addressLine2_2=
+addressLine2_3=
+addressLine2_4=
+addressLine2_5=
+addressLine2_6=
+addressLine2_7=
+addressLine2_8=
+addressLine2_9=
+addressLine3_1=
+addressLine3_10=
+addressLine3_2=
+addressLine3_3=
+addressLine3_4=
+addressLine3_5=
+addressLine3_6=
+addressLine3_7=
+addressLine3_8=
+addressLine3_9=
+addressLine4_1=
+addressLine4_10=
+addressLine4_2=
+addressLine4_3=
+addressLine4_4=
+addressLine4_5=
+addressLine4_6=
+addressLine4_7=
+addressLine4_8=
+addressLine4_9=
+addressLine5_1=
+addressLine5_10=
+addressLine5_2=
+addressLine5_3=
+addressLine5_4=
+addressLine5_5=
+addressLine5_6=
+addressLine5_7=
+addressLine5_8=
+addressLine5_9=
+addressLine6_1=
+addressLine6_10=
+addressLine6_2=
+addressLine6_3=
+addressLine6_4=
+addressLine6_5=
+addressLine6_6=
+addressLine6_7=
+addressLine6_8=
+addressLine6_9=
+addressName_1=
+addressName_10=
+addressName_2=
+addressName_3=
+addressName_4=
+addressName_5=
+addressName_6=
+addressName_7=
+addressName_8=
+addressName_9=
+addressPostCode_1=
+addressPostCode_10=
+addressPostCode_2=
+addressPostCode_3=
+addressPostCode_4=
+addressPostCode_5=
+addressPostCode_6=
+addressPostCode_7=
+addressPostCode_8=
+addressPostCode_9=
+addressTelephone2_1=
+addressTelephone2_10=
+addressTelephone2_2=
+addressTelephone2_3=
+addressTelephone2_4=
+addressTelephone2_5=
+addressTelephone2_6=
+addressTelephone2_7=
+addressTelephone2_8=
+addressTelephone2_9=
+addressTelephone_1=
+addressTelephone_10=
+addressTelephone_2=
+addressTelephone_3=
+addressTelephone_4=
+addressTelephone_5=
+addressTelephone_6=
+addressTelephone_7=
+addressTelephone_8=
+addressTelephone_9=
+addressUniqueID_1=
+addressUniqueID_10=
+addressUniqueID_2=
+addressUniqueID_3=
+addressUniqueID_4=
+addressUniqueID_5=
+addressUniqueID_6=
+addressUniqueID_7=
+addressUniqueID_8=
+addressUniqueID_9=
+adminFee=0
+adressNotes_1=
+adressNotes_10=
+adressNotes_2=
+adressNotes_3=
+adressNotes_4=
+adressNotes_5=
+adressNotes_6=
+adressNotes_7=
+adressNotes_8=
+adressNotes_9=
+alphaCode=CHISALE
+altCurrency=
+analysis1=
+analysis10=
+analysis11=M
+analysis12=
+analysis13=
+analysis14=
+analysis15=
+analysis16=
+analysis17=000
+analysis18=
+analysis19=017
+analysis2=
+analysis20=
+analysis21=
+analysis22=1450017
+analysis23=STANDARD
+analysis24=LAD
+analysis25=UNB
+analysis26=LD1111CH
+analysis27=0.00
+analysis28=
+analysis29=810460211
+analysis3=
+analysis30=
+analysis4=
+analysis5=Y
+analysis6=S
+analysis7=
+analysis8=0
+analysis9=
+analysisCode1=HANDOVER
+analysisCode2=DCCM1
+analysisCode3=
+analysisCode6=
+analysisCode4=
+analysisCode5=
+auxAccountType=IS
+auxilaryComment=
+balance=0.0
+balanceForwardMethod=N
+bankAccountName=Mr Menzi Chisale
+bankAccountNo=62351001921
+bankAccountType=2
+bankAddress1=REMOTE BANKING SERVICE     560
+bankAddress2=
+bankAddress3=
+bankAddress4=
+bankBranchCode=250655
+bankName=FIRSTRAND BANK
+bankRef=
+bankSortCode=250655
+billingCycle=CYC83
+btx=
+carrier=
+chequeReturnedDate=
+companyRegNo=
+controlDigit=
+countryCode=027
+cpCharge=
+cpLowerValue=0.00
+creditCardCVVNo=
+creditCardName=
+creditCardNumber=
+creditCategory=
+creditClass=FAIR
+creditClassDescription=Fair
+creditController=36 
+creditControllerDescription=Legal                           
+creditControllerTelephone=5555                
+creditLimit=257.00
+creditLimitDowngrade=
+creditLimitUpgrade=
+creditScore=0
+cumulativeSales=0.00
+currency1=
+customerClass=
+customerName=Chisale
+customerTitle=Mr
+customersLanguage=ENG
+dateCreated=2012-12-08
+dateLastIssue=2013-10-31
+dateOfBirth=1976-06-02
+dealerID=66842
+deliveryMethod=PRINT     
+deliveryReason=
+despatchHeld=N
+directDebit=D
+directDebitConfirmationDate=1899-12-30
+directDebitSubmissionDate=1899-12-30
+discountCode=
+ediCustomerFlag=
+evaluateCreditLimit=N
+expiryDate=
+exportIndicator=
+firstName=Menzi
+gender=M
+groupReference=A4476581
+handsetCount=0
+hierarchyName=
+interestRate=0
+invoiceAccount=A4476581
+invoiceAddressFlag_1=N
+invoiceAddressFlag_10=null
+invoiceAddressFlag_2=N
+invoiceAddressFlag_3=null
+invoiceAddressFlag_4=null
+invoiceAddressFlag_5=null
+invoiceAddressFlag_6=null
+invoiceAddressFlag_7=null
+invoiceAddressFlag_8=null
+invoiceAddressFlag_9=null
+invoiceAddressId=16397425
+lastDepositStatus=
+letterCode=
+limitMechanism=1
+maxNoSubscribers=1
+maximumLimit=20000.0
+minimumLimit=100.0
+noAccountDate=
+noBarsDate=
+orderBalance=0.00
+packageCode=
+paidDeposit=0.00
+paydays1=
+paydays2=
+paydays3=
+payer=
+paymentMethod=
+paymentType=NONE
+pendingDeposit=0.00
+prePaidStatus=CC
+prefferedDebitDay=31
+priceList=SPC
+printCpWithStat=
+processedMegaDownload=N
+produceCommentOnlyInvoicesFlag=N
+produceConsolidatedInvoicesFlag=O
+produceInvoicesFlag=Y
+produceStatmentsFlag=
+protectCode=
+referToPayerDate=
+region=04
+reminderCategory=
+reminderLetterDate=
+reminderLetters=Y
+responsibility=
+salesNominalLedgerCategory=C04
+salesType=
+salesman=NONE
+serviceProviderID=64
+settlementDays=
+settlementDiscount=
+severityDays1=
+severityDays2=
+severityDays3=
+severityDays4=
+severityDays5=
+severityDays6=
+shipperCode1=
+shipperCode2=
+shipperCode3=
+shippingNoteIndicator=Y
+specialPrice=
+srFlag=S
+statementAccount=A4476581
+stationeryType=
+subGroupAccount=A4476581
+subscriberId_1=0
+subscriberId_10=0
+subscriberId_2=0
+subscriberId_3=0
+subscriberId_4=0
+subscriberId_5=0
+subscriberId_6=0
+subscriberId_7=0
+subscriberId_8=0
+subscriberId_9=0
+territory=
+vatExeNumber=
+vatRegNumber=
+vatRegistrationNo=
+vatType=X
+yearToDateCostOfSales=0.00
+yearToDateSales=0.00]
+20201008: 161204     DEBUG     0[main] - com.eppixcomm.eppix.base.test.TestSelfServiceProv.loadproperties(TestSelfServiceProv.java:86) - loading appProperties
+20201008: 161204     DEBUG    15[main] - com.eppixcomm.eppix.base.test.TestSelfServiceProv.loadproperties(TestSelfServiceProv.java:93) - appProperties loaded : {jdbc_driver=com.informix.jdbc.IfxDriver, jdbc_user=compans, jdbc_pass=C0mp@ns234, jdbc_url=jdbc:informix-sqli:mtnx91:9777/eppix:INFORMIXSERVER=eppix_tcp2}
+20201008: 161204     DEBUG    15[main] - com.eppixcomm.eppix.base.test.TestSelfServiceProv.dbConnectionInit(TestSelfServiceProv.java:106) - DB Connection start
+20201008: 161204     DEBUG    15[main] - com.eppixcomm.eppix.base.test.TestSelfServiceProv.dbConnectionInit(TestSelfServiceProv.java:109) - {jdbc_driver=com.informix.jdbc.IfxDriver, jdbc_user=compans, jdbc_pass=C0mp@ns234, jdbc_url=jdbc:informix-sqli:mtnx91:9777/eppix:INFORMIXSERVER=eppix_tcp2}
+20201008: 161206     DEBUG  2082[main] - com.eppixcomm.eppix.common.data.DACFactory.<init>(DACFactory.java:95) - constructor( connection, thrower )
+20201008: 161206     DEBUG  2087[main] - com.eppixcomm.eppix.common.data.ConnectionContext.connect(ConnectionContext.java:100) - connect( connection )
+20201008: 161206     DEBUG  2087[main] - com.eppixcomm.eppix.common.data.ConnectionContext.get(ConnectionContext.java:82) - get()
+20201008: 161206     DEBUG  2094[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.SelfServBundleProv )
+20201008: 161206     DEBUG  2148[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getSelfServBundleProvDAC(BaseDACFactory.java:544) - getSelfServBundleProvDAC
+20201008: 161206     DEBUG  2159[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SelfServBundleProvDACImpl com.eppixcomm.eppix.base.dml.SelfServBundleProvDML@6d21714c
+20201008: 161206     DEBUG  2160[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SelfServBundleProvDACImpl
+20201008: 161206     DEBUG  2196[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161206     DEBUG  2197[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SelfServBundleProvDACImpl TO MAP
+20201008: 161206     DEBUG  2197[main] - com.eppixcomm.eppix.base.test.TestSelfServiceProv.dbConnectionInit(TestSelfServiceProv.java:128) - DB Connection successfull
+20201008: 161206     DEBUG  2201[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.doSelfServBundleProv(SelfServBundleProvBLO.java:106) - 
+userName: vermeu_s
+hostName: eppix
+language: ENG
+msisdnNo: 739199886
+effectiveDate: 2020-10-08
+referenceNo: 123456789-3
+netwrkServ: 
+servDescription: MTN 300MB
+recurring: 0
+prorateChg: 10000
+subCharge: 74.56
+limitValue: 10.00
+action: ADD
+20201008: 161206     DEBUG  2210[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigrade )
+20201008: 161206     DEBUG  2294[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getSubscriberUpgradeMigradeDAC(BaseDACFactory.java:518) - getSubscriberUpgradeMigradeDAC
+20201008: 161206     DEBUG  2304[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeDACImpl com.eppixcomm.eppix.base.dml.SubscriberUpgradeMigradeDML@7e32c033
+20201008: 161206     DEBUG  2304[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeDACImpl
+20201008: 161206     DEBUG  2307[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161206     DEBUG  2307[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeDACImpl TO MAP
+20201008: 161206     DEBUG  2309[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.GetSULMaxUsageAllowed )
+20201008: 161206     DEBUG  2309[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getGetSULMaxUsageAllowedDAC(BaseDACFactory.java:531) - getGetSULMaxUsageAllowedDAC
+20201008: 161206     DEBUG  2312[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.GetSULMaxUsageAllowedDACImpl com.eppixcomm.eppix.base.dml.GetSULMaxUsageAllowedDML@6477463f
+20201008: 161206     DEBUG  2312[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.GetSULMaxUsageAllowedDACImpl
+20201008: 161206     DEBUG  2313[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161206     DEBUG  2313[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.GetSULMaxUsageAllowedDACImpl TO MAP
+20201008: 161206     DEBUG  2316[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.EppixDeviceInsPlatform )
+20201008: 161206     DEBUG  2319[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getEppixDeviceInsPlatformDAC(BaseDACFactory.java:479) - getEppixDeviceInsPlatformDAC
+20201008: 161206     DEBUG  2323[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.EppixDeviceInsPlatformDACImpl com.eppixcomm.eppix.base.dml.EppixDeviceInsPlatformDML@621be5d1
+20201008: 161206     DEBUG  2323[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.EppixDeviceInsPlatformDACImpl
+20201008: 161206     DEBUG  2324[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161206     DEBUG  2324[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.EppixDeviceInsPlatformDACImpl TO MAP
+20201008: 161206     DEBUG  2328[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.VamActiveMsisdn )
+20201008: 161206     DEBUG  2328[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getVamActiveMsisdnDAC(BaseDACFactory.java:260) - getVamActiveMsisdnDAC()
+20201008: 161206     DEBUG  2345[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.VamActiveMsisdnDACImpl com.eppixcomm.eppix.base.dml.VamActiveMsisdnDMLFactory@32a1bec0
+20201008: 161206     DEBUG  2346[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.VamActiveMsisdnDACImpl
+20201008: 161206     DEBUG  2347[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161206     DEBUG  2347[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.VamActiveMsisdnDACImpl TO MAP
+20201008: 161206     DEBUG  2347[main] - com.eppixcomm.eppix.base.blo.VamActiveMsisdnAbstractBLO.get(VamActiveMsisdnAbstractBLO.java:654) - get( filter )
+20201008: 161206     DEBUG  2347[main] - com.eppixcomm.eppix.base.blo.VamActiveMsisdnAbstractDACImpl.get(VamActiveMsisdnAbstractDACImpl.java:683) - get( filter )
+20201008: 161206     DEBUG  2351[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+VamActiveMsisdn|0|equalVamMsisdnNo|
+
+20201008: 161206     DEBUG  2810[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: VamActiveMsisdn
+Execute SQL Statement: SELECT VAM_SUBSCRIBER_ID, VAM_SIM_NO, VAM_MSISDN_NO, VAM_TWINBILL_NO, VAM_STAT_CODE, VAM_CONNECT_DATE, VAM_DCONNECT_DATE, VAM_INTERN_TARIFF, VAM_CONTR_TERMINAT, VAM_CONTR_PERIOD, VAM_TERMINAT_NOTIF, VAM_DIR_ENTRY, VAM_ITEMISED, VAM_DEPARTMENT, VAM_SALESMAN, VAM_DEALER_ID, VAM_ABAR_DATE, VAM_SUBS_SUFFIX, VAM_MESS_COMMENT, VAM_AIRTIME_NET, VAM_PR_FLAG, VAM_HIERARCHY, VAM_MSISDN_KNOWN, VAM_TARIFF_CHG, VAM_ORIG_PROV_ID, VAM_IMP_PROV_ID, VAM_ORIG_SERV_PROV, VAM_IMP_SERV_PROV, VAM_MSISDN_TYPE, VAM_DUMMY, VAM_MSISDN_EXPRTD, VAM_EXPORTED_TO, VAM_ANALYSIS_1, VAM_ANALYSIS_2, VAM_ANALYSIS_3, VAM_ANALYSIS_4, VAM_ANALYSIS_5
+FROM VAM_ACTIVE_MSISDN
+WHERE (VAM_MSISDN_NO) = ?
+Argument(s): |739199886|
+20201008: 161206     DEBUG  2833[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@61e717c2
+20201008: 161207     DEBUG  3104[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.SbdSubDets )
+20201008: 161207     DEBUG  3319[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getSbdSubDetsDAC(BaseAbstractDACFactory.java:234) - getSbdSubDetsDAC()
+20201008: 161207     DEBUG  3328[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SbdSubDetsDACImpl com.eppixcomm.eppix.base.dml.SbdSubDetsAbstractDMLFactory@1b9e1916
+20201008: 161207     DEBUG  3328[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SbdSubDetsDACImpl
+20201008: 161207     DEBUG  3329[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161207     DEBUG  3330[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SbdSubDetsDACImpl TO MAP
+20201008: 161207     DEBUG  3330[main] - com.eppixcomm.eppix.base.blo.SbdSubDetsAbstractBLO.get(SbdSubDetsAbstractBLO.java:531) - get( filter )
+20201008: 161207     DEBUG  3330[main] - com.eppixcomm.eppix.base.blo.SbdSubDetsAbstractDACImpl.get(SbdSubDetsAbstractDACImpl.java:556) - get( filter )
+20201008: 161207     DEBUG  3332[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+SbdSubDets|0|equalSbdSubscriberId|
+
+20201008: 161207     DEBUG  3793[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: SbdSubDets
+Execute SQL Statement: SELECT SBD_SUBSCRIBER_ID, SBD_DIALLING_NO, SBD_BILL_AC_NO, SBD_CONNECT_DATE, SBD_DCONNECT_DATE, SBD_TERM_DATE, SBD_TITLE, SBD_SURNAME, SBD_FIRSTNAME, SBD_GENDER, SBD_DOB, SBD_PASSWORD, SBD_LOCATION_CODE, SBD_BILL_CYCLE, SBD_PACKAGE_CODE, SBD_BILLED_UPTO, SBD_TARIFF_PLAN
+FROM SBD_SUB_DETS
+WHERE SBD_SUBSCRIBER_ID = ?
+Argument(s): |14587872|
+20201008: 161207     DEBUG  3796[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@4c98385c
+20201008: 161208     DEBUG  4083[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.ChgCharges )
+20201008: 161208     DEBUG  4085[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getChgChargesDAC(BaseAbstractDACFactory.java:578) - getChgChargesDAC()
+20201008: 161208     DEBUG  4104[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.ChgChargesDACImpl com.eppixcomm.eppix.base.dml.ChgChargesDMLFactory@53e25b76
+20201008: 161208     DEBUG  4105[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.ChgChargesDACImpl
+20201008: 161208     DEBUG  4109[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161208     DEBUG  4110[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.ChgChargesDACImpl TO MAP
+20201008: 161208     DEBUG  4111[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractBLO.get(ChgChargesAbstractBLO.java:564) - get( filter )
+20201008: 161208     DEBUG  4112[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractDACImpl.get(ChgChargesAbstractDACImpl.java:523) - get( filter )
+20201008: 161208     DEBUG  4113[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+ChgCharges|0|equalChgCode|
+
+20201008: 161208     DEBUG  4576[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: ChgCharges
+Execute SQL Statement: SELECT CHG_CODE, CHG_DESCRIPTION, CHG_VALUE, CHG_VAT_CODE, CHG_NCODE, CHG_NETID, CHG_CHARGEF, CHG_PERIOD, CHG_FREQUENCY, CHG_EFFECTIVE_DATE, CHG_CLASS_ID
+FROM CHG_CHARGES
+WHERE CHG_CODE = ?
+Argument(s): |OTGA|
+20201008: 161208     DEBUG  4581[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@ee7d9f1
+20201008: 161208     DEBUG  4876[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.Sysdirm )
+20201008: 161208     DEBUG  4878[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getSysdirmDAC(BaseAbstractDACFactory.java:327) - getSysdirmDAC()
+20201008: 161208     DEBUG  4891[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SysdirmDACImpl com.eppixcomm.eppix.base.dml.SysdirmAbstractDMLFactory@6996db8
+20201008: 161208     DEBUG  4892[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SysdirmDACImpl
+20201008: 161208     DEBUG  4897[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161208     DEBUG  4898[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SysdirmDACImpl TO MAP
+20201008: 161208     DEBUG  4898[main] - com.eppixcomm.eppix.base.blo.SysdirmAbstractBLO.get(SysdirmAbstractBLO.java:501) - get( filter )
+20201008: 161208     DEBUG  4899[main] - com.eppixcomm.eppix.base.blo.SysdirmAbstractDACImpl.get(SysdirmAbstractDACImpl.java:435) - get( filter )
+20201008: 161208     DEBUG  4900[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+Sysdirm|0|equalSystemKey|
+
+20201008: 161209     DEBUG  5330[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: Sysdirm
+Execute SQL Statement: SELECT SYSTEM_KEY, KEY_VALUE, DESCRIPTION
+FROM SYSDIRM
+WHERE (SYSTEM_KEY) = ?
+Argument(s): |OPVATCODE|
+20201008: 161209     DEBUG  5331[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@75a1cd57
+20201008: 161209     DEBUG  5598[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getVatPercentageByCode
+20201008: 161209     DEBUG  5604[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getVatPercentageByCode|0||
+
+20201008: 161210     DEBUG  6051[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getVatPercentageByCode
+Execute SQL Statement: SELECT percentage FROM cevatm WHERE vat_code = ? 
+Argument(s): |VST|
+20201008: 161210     DEBUG  6059[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@515f550a
+20201008: 161210     DEBUG  6339[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.getChgMinVat(SelfServBundleProvBLO.java:2002) - 
+Vat Percentage for charge: 1.15
+20201008: 161210     DEBUG  6340[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.getChgMinVat(SelfServBundleProvBLO.java:2005) - 
+Charge excl of VAT: 64.83
+20201008: 161210     DEBUG  6344[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.VcfVrbleChrgFee )
+20201008: 161210     DEBUG  6345[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getVcfVrbleChrgFeeDAC(BaseAbstractDACFactory.java:1477) - getVcfVrbleChrgFeeDAC()
+20201008: 161210     DEBUG  6358[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.VcfVrbleChrgFeeDACImpl com.eppixcomm.eppix.base.dml.VcfVrbleChrgFeeDMLFactory@5e265ba4
+20201008: 161210     DEBUG  6359[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.VcfVrbleChrgFeeDACImpl
+20201008: 161210     DEBUG  6362[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161210     DEBUG  6363[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.VcfVrbleChrgFeeDACImpl TO MAP
+20201008: 161210     DEBUG  6365[main] - com.eppixcomm.eppix.base.blo.VcfVrbleChrgFeeAbstractBLO.get(VcfVrbleChrgFeeAbstractBLO.java:266) - get( filter )
+20201008: 161210     DEBUG  6365[main] - com.eppixcomm.eppix.base.blo.VcfVrbleChrgFeeAbstractDACImpl.get(VcfVrbleChrgFeeAbstractDACImpl.java:436) - get( filter )
+20201008: 161210     DEBUG  6369[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+VcfVrbleChrgFee|0|equalVcfSubscriberId+equalVcfModel+equalVcfProductCode+equalVcfFullAmt|
+
+20201008: 161210     DEBUG  6883[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: VcfVrbleChrgFee
+Execute SQL Statement: SELECT VCF_EQUIP_ID, VCF_CUSTOMER, VCF_SUBSCRIBER_ID, VCF_VARIABLE_TYPE, VCF_PRODUCT_CODE, VCF_DESCRIPTION, VCF_MAKE, VCF_MODEL, VCF_INVENTRY_ITEMID, VCF_START_DATE, VCF_END_DATE, VCF_CONTRC_LENGTH, VCF_FULL_AMT, VCF_MONTH_AMT, VCF_NEXT_PERIOD, VCF_NEXT_YEAR, VCF_REM_AMT, VCF_REM_PERIOD, VCF_CHARGE_CODE, VCF_STATUS, VCF_TIMESTAMP
+FROM vcf_vrble_chrg_fee
+WHERE VCF_SUBSCRIBER_ID = ?  AND VCF_MODEL = ?  AND VCF_PRODUCT_CODE = ?  AND VCF_FULL_AMT = ? 
+Argument(s): |14587872|123456789-3|OTGA|64.83|
+20201008: 161211     DEBUG  7156[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.Slcustm )
+20201008: 161211     DEBUG  7156[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getSlcustmDAC(BaseAbstractDACFactory.java:212) - getSlcustmDAC()
+20201008: 161211     DEBUG  7171[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SlcustmDACImpl com.eppixcomm.eppix.base.dml.SlcustmAbstractDMLFactory@2401f4c3
+20201008: 161211     DEBUG  7172[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SlcustmDACImpl
+20201008: 161211     DEBUG  7174[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161211     DEBUG  7175[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SlcustmDACImpl TO MAP
+20201008: 161211     DEBUG  7175[main] - com.eppixcomm.eppix.base.blo.SlcustmAbstractBLO.get(SlcustmAbstractBLO.java:679) - get( filter )
+20201008: 161211     DEBUG  7175[main] - com.eppixcomm.eppix.base.blo.SlcustmAbstractDACImpl.get(SlcustmAbstractDACImpl.java:1461) - get( filter )
+20201008: 161211     DEBUG  7177[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+Slcustm|0|equalCustomer|
+
+20201008: 161211     DEBUG  7668[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: Slcustm
+Execute SQL Statement: SELECT CUSTOMER, ALPHA, NAME, ADDRESS1, ADDRESS2, ADDRESS3, ADDRESS4, ADDRESS5, CREDIT_CATEGORY, EXPORT_INDICATOR, CUST_DISC_CODE, CURRENCY, TERRITORY, CLASS, REGION, INVOICE_CUSTOMER, STATEMENT_CUSTOMER, GROUP_CUSTOMER, DATE_LAST_ISSUE, DATE_CREATED, ANALYSIS_CODES1, ANALYSIS_CODES2, ANALYSIS_CODES3, ANALYSIS_CODES4, ANALYSIS_CODES5, REMINDER_CAT, SETTLEMENT_CODE, SETT_DAYS_CODE, PRICE_LIST, LETTER_CODE, BALANCE_FWD, CREDIT_LIMIT, YTD_SALES, YTD_COST_OF_SALES, CUMULATIVE_SALES, ORDER_BALANCE, SALES_NL_CAT, SPECIAL_PRICE, VAT_REGISTRATION, DIRECT_DEBIT, INVOICES_PRINTED, CONSOLIDATED_INV, COMMENT_ONLY_INV, BANK_ACCOUNT_NO, BANK_SORT_CODE, BANK_NAME, BANK_ADDRESS1, BANK_ADDRESS2, BANK_ADDRESS3, BANK_ADDRESS4, ANALYSIS_CODE_6, PRODUCE_STATEMENTS, EDI_CUSTOMER, VAT_TYPE, LANGUAGE, DELIVERY_METHOD, CARRIER, VAT_REG_NUMBER, VAT_EXE_NUMBER, PAYDAYS1, PAYDAYS2, PAYDAYS3, BANK_BRANCH_CODE, PRINT_CP_WITH_STAT, PAYMENT_METHOD, CUSTOMER_CLASS, SALES_TYPE, CP_LOWER_VALUE, ADDRESS6, FAX, TELEX, BTX, CP_CHARGE, CONTROL_DIGIT, PAYER, RESPONSIBILITY, DESPATCH_HELD, CREDIT_CONTROLLER, REMINDER_LETTERS, SEVERITY_DAYS1, SEVERITY_DAYS2, SEVERITY_DAYS3, SEVERITY_DAYS4, SEVERITY_DAYS5, SEVERITY_DAYS6, DELIVERY_REASON, SHIPPER_CODE1, SHIPPER_CODE2, SHIPPER_CODE3, SHIPPING_NOTE_IND, ACCOUNT_TYPE, ADMIN_FEE, INTREST_RATE
+FROM SLCUSTM
+WHERE (CUSTOMER) = ?
+Argument(s): |A3832377|
+20201008: 161211     DEBUG  7669[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@123772c4
+20201008: 161212     DEBUG  7951[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.CrbaCustRiskAux )
+20201008: 161212     DEBUG  7952[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getCrbaCustRiskAuxDAC(BaseAbstractDACFactory.java:1601) - getCrbaCustRiskAuxDAC()
+20201008: 161212     DEBUG  7969[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.CrbaCustRiskAuxDACImpl com.eppixcomm.eppix.base.dml.CrbaCustRiskAuxDMLFactory@73a28541
+20201008: 161212     DEBUG  7969[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.CrbaCustRiskAuxDACImpl
+20201008: 161212     DEBUG  7972[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161212     DEBUG  7973[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.CrbaCustRiskAuxDACImpl TO MAP
+20201008: 161212     DEBUG  7973[main] - com.eppixcomm.eppix.base.blo.CrbaCustRiskAuxAbstractBLO.get(CrbaCustRiskAuxAbstractBLO.java:270) - get( filter )
+20201008: 161212     DEBUG  7974[main] - com.eppixcomm.eppix.base.blo.CrbaCustRiskAuxAbstractDACImpl.get(CrbaCustRiskAuxAbstractDACImpl.java:322) - get( filter )
+20201008: 161212     DEBUG  7975[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+CrbaCustRiskAux|0|equalcrbaBillAcNo|
+
+20201008: 161212     DEBUG  8547[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: CrbaCustRiskAux
+Execute SQL Statement: SELECT CRBA_BILL_AC_NO, CRBA_ACC_DISC_VAL, CRBA_AUX_FLOAT_1, CRBA_AUX_FLOAT_2, CRBA_AUX_FLOAT_3, CRBA_AUX_INT_1, CRBA_AUX_INT_2, CRBA_AUX_INT_3, CRBA_AUX_CHAR_1, CRBA_AUX_CHAR_2, CRBA_AUX_CHAR_3, CRBA_AUX_DATE_1, CRBA_AUX_DATE_2, CRBA_AUX_DATE_3
+FROM crba_cust_risk_aux
+WHERE CRBA_BILL_AC_NO = ? 
+Argument(s): |A3832377|
+20201008: 161212     DEBUG  8550[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@16b3fc9e
+20201008: 161212     DEBUG  8769[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getSumAccountSubsciptionCharges
+20201008: 161212     DEBUG  8770[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getSumAccountSubsciptionCharges|0||
+
+20201008: 161213     DEBUG  9246[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getSumAccountSubsciptionCharges
+Execute SQL Statement: Select sum(chg_value) from vas_active_service, vst_service_types, chg_charges where vas_subscriber_id IN (Select sbd_subscriber_id FROM sbd_sub_dets WHERE sbd_bill_ac_no = ?)and vas_service_type = vst_service_type and vas_sub_charge1 = chg_code and chg_effective_date = (SELECT MAX(chg_effective_date) FROM chg_charges WHERE chg_code = vas_sub_charge1)
+Argument(s): |A3832377|
+20201008: 161213     DEBUG  9248[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@1e81f4dc
+20201008: 161213     DEBUG  9481[main] - com.eppixcomm.eppix.base.blo.EppixDeviceInsPlatformDACImpl.getSumAccountSubsciptionCharges(EppixDeviceInsPlatformDACImpl.java:45) - 
+SUM CHARGES: com.eppixcomm.eppix.common.data.StringDMO@65ae6ba4
+20201008: 161213     DEBUG  9482[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getSumAccountParamCharges
+20201008: 161213     DEBUG  9482[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getSumAccountParamCharges|0||
+
+20201008: 161214     DEBUG 10471[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getSumAccountParamCharges
+Execute SQL Statement: Select sum(chg_value) from psh_Param_serv_hdr, psd_param_serv_det,chg_charges where psh_subscriber_id IN (Select sbd_subscriber_id FROM sbd_sub_dets WHERE sbd_bill_ac_no = ?)AND psh_id = psd_psh_id AND PSD_SUB_CHARGE = chg_ncode and chg_effective_date = (SELECT MAX(chg_effective_date) FROM chg_charges WHERE chg_code = PSD_SUB_CHARGE)
+Argument(s): |A3832377|
+20201008: 161214     DEBUG 10471[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@7960847b
+20201008: 161214     DEBUG 10703[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getSumSubscriberVcfCharges
+20201008: 161214     DEBUG 10704[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getSumSubscriberVcfCharges|0||
+
+20201008: 161215     DEBUG 11072[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getSumSubscriberVcfCharges
+Execute SQL Statement: Select sum(vcf_month_amt) from vcf_vrble_chrg_fee Where vcf_subscriber_id IN (Select sbd_subscriber_id FROM sbd_sub_dets WHERE sbd_bill_ac_no = ? ) AND  vcf_status = 'A' 
+Argument(s): |A3832377|
+20201008: 161215     DEBUG 11079[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@9e89d68
+20201008: 161215     DEBUG 11295[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getSumSpulByAccount
+20201008: 161215     DEBUG 11311[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getSumSpulByAccount|0||
+
+20201008: 161215     DEBUG 11715[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getSumSpulByAccount
+Execute SQL Statement: Select SUM(BLH_BILL_LIMIT_VAL) FROM BLH_BILL_LIMIT_HD WHERE BLH_SUBSCRIBER_ID IN (SELECT sbd_subscriber_id from sbd_sub_dets where  sbd_bill_ac_no = ?) AND BLH_SERVICE_CODE = 'SPUL'
+Argument(s): |A3832377|
+20201008: 161215     DEBUG 11716[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@ed17bee
+20201008: 161216     DEBUG 11932[main] - com.eppixcomm.eppix.base.blo.EppixDeviceInsPlatformBLO.checkAccountExposureSS(EppixDeviceInsPlatformBLO.java:1183) - 
+DISCOUNT RETURNED: 0.00
+CREDIT LIMIT FROM SLCUSTM RETURNED: 873.61
+DEVICE Charges: 74.56
+subscriptionCharges: 0.00
+ACCOUNT SPUL: 0.00
+TOTAL ACCOUNT SPUL: 74.56
+20201008: 161216      INFO 11934[main] - com.eppixcomm.eppix.base.blo.EppixDeviceInsPlatformBLO.checkAccountExposureSS(EppixDeviceInsPlatformBLO.java:1195) - TOTAL ASPUL 74.56 is less then the credit limit:873.61
+20201008: 161216     DEBUG 11942[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.BcyBillingCycle )
+20201008: 161216     DEBUG 11945[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getBcyBillingCycleDAC(BaseAbstractDACFactory.java:550) - getBcyBillingCycleDAC()
+20201008: 161216     DEBUG 11961[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.BcyBillingCycleDACImpl com.eppixcomm.eppix.base.dml.BcyBillingCycleDMLFactory@2aae9190
+20201008: 161216     DEBUG 11961[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.BcyBillingCycleDACImpl
+20201008: 161216     DEBUG 11963[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161216     DEBUG 11964[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.BcyBillingCycleDACImpl TO MAP
+20201008: 161216     DEBUG 11964[main] - com.eppixcomm.eppix.base.blo.BcyBillingCycleAbstractBLO.get(BcyBillingCycleAbstractBLO.java:587) - get( filter )
+20201008: 161216     DEBUG 11964[main] - com.eppixcomm.eppix.base.blo.BcyBillingCycleAbstractDACImpl.get(BcyBillingCycleAbstractDACImpl.java:492) - get( filter )
+20201008: 161216     DEBUG 11965[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+BcyBillingCycle|0|equalBcyBillCycle|
+
+20201008: 161216     DEBUG 12295[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: BcyBillingCycle
+Execute SQL Statement: SELECT BCY_BILL_CYCLE, BCY_DESCRIPTION, BCY_PERIOD, BCY_FREQUENCY, BCY_DAY_OF_RUN, BCY_NEXT_RUN, BCY_SUSPENDED, BCY_USE_STATUS, BCY_NEXT_CALL_RUN, BCY_IN_ADVANCE
+FROM BCY_BILLING_CYCLE
+WHERE BCY_BILL_CYCLE = ?
+Argument(s): |CYC65|
+20201008: 161216     DEBUG 12296[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@1f89ab83
+20201008: 161216     DEBUG 12498[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.doSelfServBundleProv(SelfServBundleProvBLO.java:691) - 
+BCY Next run check in future: 16/10/2020
+20201008: 161216     DEBUG 12498[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.doSelfServBundleProv(SelfServBundleProvBLO.java:696) - 
+BCY Next run check in future true:  add 1 month: 16/11/2020
+20201008: 161216      INFO 12498[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.doSelfServBundleProv(SelfServBundleProvBLO.java:704) - 
+bcyPeriodMonth: 11
+bcyPeriodyear: 2020
+20201008: 161216     DEBUG 12499[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.SksKeySetting )
+20201008: 161216     DEBUG 12499[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getSksKeySettingDAC(BaseAbstractDACFactory.java:314) - getSksKeySettingDAC()
+20201008: 161216     DEBUG 12504[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SksKeySettingDACImpl com.eppixcomm.eppix.base.dml.SksKeySettingAbstractDMLFactory@7b3300e5
+20201008: 161216     DEBUG 12504[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SksKeySettingDACImpl
+20201008: 161216     DEBUG 12505[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161216     DEBUG 12505[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SksKeySettingDACImpl TO MAP
+20201008: 161216     DEBUG 12505[main] - com.eppixcomm.eppix.base.blo.SksKeySettingAbstractBLO.get(SksKeySettingAbstractBLO.java:500) - get( filter )
+20201008: 161216     DEBUG 12506[main] - com.eppixcomm.eppix.base.blo.SksKeySettingAbstractDACImpl.get(SksKeySettingAbstractDACImpl.java:420) - get( filter )
+20201008: 161216     DEBUG 12506[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+SksKeySetting|0|equalSksKeyCode|
+
+20201008: 161216     DEBUG 12831[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: SksKeySetting
+Execute SQL Statement: SELECT SKS_KEY_CODE, SKS_VALUE, SKS_COMMENT, SKS_TIMESTAMP
+FROM SKS_KEY_SETTING
+WHERE (SKS_KEY_CODE) = ?
+Argument(s): |SSRSPULUPD|
+20201008: 161216     DEBUG 12832[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@67f89fa3
+20201008: 161217     DEBUG 13028[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.BlhBillLimitHd )
+20201008: 161217     DEBUG 13030[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getBlhBillLimitHdDAC(BaseAbstractDACFactory.java:930) - getBlhBillLimitHdDAC()
+20201008: 161217     DEBUG 13036[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.BlhBillLimitHdDACImpl com.eppixcomm.eppix.base.dml.BlhBillLimitHdDMLFactory@43556938
+20201008: 161217     DEBUG 13037[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.BlhBillLimitHdDACImpl
+20201008: 161217     DEBUG 13038[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161217     DEBUG 13038[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.BlhBillLimitHdDACImpl TO MAP
+20201008: 161217     DEBUG 13038[main] - com.eppixcomm.eppix.base.blo.BlhBillLimitHdAbstractBLO.get(BlhBillLimitHdAbstractBLO.java:264) - get( filter )
+20201008: 161217     DEBUG 13038[main] - com.eppixcomm.eppix.base.blo.BlhBillLimitHdAbstractDACImpl.get(BlhBillLimitHdAbstractDACImpl.java:98) - get( filter )
+20201008: 161217     DEBUG 13039[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+BlhBillLimitHd|0|equalBlhSubscriberId+equalBlhServiceCode|
+
+20201008: 161217     DEBUG 13333[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: BlhBillLimitHd
+Execute SQL Statement: SELECT BLH_SUBSCRIBER_ID, BLH_SERVICE_CODE, BLH_BILL_LIMIT_VAL, BLH_LEVEL,BLH_TYPE, BLH_VAT_IND, BLH_UNBILL_USAGE, BLH_UNBILL_CHARGES, BLH_DIFF,BLH_USER_STATUS, BLH_NEXT_THRESHOLD, BLH_PREV_THRESHOLD, BLH_NEXT_ACN_ID,BLH_PREV_ACN_ID, BLH_NETWORK_ACN, BLH_TRIG_FLAG, BLH_LAST_UPDATE
+FROM BLH_BILL_LIMIT_HD
+WHERE BLH_SUBSCRIBER_ID = ? AND BLH_SERVICE_CODE = ?
+Argument(s): |14587872|SPUL|
+20201008: 161217     ERROR 13530[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getBillLimit(SubscriberUpgradeMigradeBLO.java:5604) - Failed to get Bill Limits for subscriber: 14587872 and service code: SPUL
+20201008: 161217     ERROR 13530[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getBillLimit(SubscriberUpgradeMigradeBLO.java:5620) - Exception getting Bill Limits for subscriber: 14587872 and service code: SPUL EXCEPTION: com.eppixcomm.eppix.base.error.EPPIXSeriousException: Failed to get Bill Limits for subscriber: 14587872 and service code: SPUL
+20201008: 161217     ERROR 13530[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.updateBillLimitSpul(SelfServBundleProvBLO.java:982) - Failed to get BLH for subscriber: 14587872 with new billlimit value: 10 com.eppixcomm.eppix.base.error.EPPIXSeriousException: Exception getting Bill Limits for subscriber: 14587872 and service code: SPUL EXCEPTION: com.eppixcomm.eppix.base.error.EPPIXSeriousException: Failed to get Bill Limits for subscriber: 14587872 and service code: SPUL
+20201008: 161217     DEBUG 13531[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.Sysdirm )
+20201008: 161217     DEBUG 13531[main] - com.eppixcomm.eppix.base.blo.SysdirmAbstractBLO.get(SysdirmAbstractBLO.java:501) - get( filter )
+20201008: 161217     DEBUG 13531[main] - com.eppixcomm.eppix.base.blo.SysdirmAbstractDACImpl.get(SysdirmAbstractDACImpl.java:435) - get( filter )
+20201008: 161217     DEBUG 13531[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+Sysdirm|0|equalSystemKey|
+
+20201008: 161217     DEBUG 13635[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: Sysdirm
+Execute SQL Statement: SELECT SYSTEM_KEY, KEY_VALUE, DESCRIPTION
+FROM SYSDIRM
+WHERE (SYSTEM_KEY) = ?
+Argument(s): |OPVATCODE|
+20201008: 161217     DEBUG 13636[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@4f47d241
+20201008: 161217     DEBUG 13833[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getVatPercentageByCode
+20201008: 161217     DEBUG 13834[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getVatPercentageByCode|0||
+
+20201008: 161218     DEBUG 13931[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getVatPercentageByCode
+Execute SQL Statement: SELECT percentage FROM cevatm WHERE vat_code = ? 
+Argument(s): |VST|
+20201008: 161218     DEBUG 13931[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@19e1023e
+20201008: 161218     DEBUG 14123[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.getProrateChgMinVat(SelfServBundleProvBLO.java:1976) - 
+Vat Percentage: 1.15
+20201008: 161218     DEBUG 14124[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.ChargeProrataActivation(SelfServBundleProvBLO.java:1493) - 
+SUBSCRIBER: 14587872
+MSISDN: 739199886
+SERVICE CODE: OTGA
+PRORATA DATE: 2020-10-08
+PRORATA (MIN VAT) VALUE: 86.96
+20201008: 161218     DEBUG 14125[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.ChargeProrataActivation(SelfServBundleProvBLO.java:1703) - BEFORE BILL CREATE
+20201008: 161218     DEBUG 14130[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.ChargeProrataActivation(SelfServBundleProvBLO.java:1728) - 
+1 servType: SR
+20201008: 161218     DEBUG 14131[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.ChargeProrataActivation(SelfServBundleProvBLO.java:1729) - 
+1 servType legth: 2
+20201008: 161218     DEBUG 14132[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.ChargeProrataActivation(SelfServBundleProvBLO.java:1737) - 
+2 servType: SR   
+20201008: 161218     DEBUG 14132[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.ChargeProrataActivation(SelfServBundleProvBLO.java:1738) - 
+2 servType legth: 5
+20201008: 161218     DEBUG 14136[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.Sysdirm )
+20201008: 161218     DEBUG 14137[main] - com.eppixcomm.eppix.base.blo.SysdirmAbstractBLO.get(SysdirmAbstractBLO.java:501) - get( filter )
+20201008: 161218     DEBUG 14138[main] - com.eppixcomm.eppix.base.blo.SysdirmAbstractDACImpl.get(SysdirmAbstractDACImpl.java:435) - get( filter )
+20201008: 161218     DEBUG 14138[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+Sysdirm|0|equalSystemKey|
+
+20201008: 161218     DEBUG 14243[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: Sysdirm
+Execute SQL Statement: SELECT SYSTEM_KEY, KEY_VALUE, DESCRIPTION
+FROM SYSDIRM
+WHERE (SYSTEM_KEY) = ?
+Argument(s): |OPVATCODE|
+20201008: 161218     DEBUG 14245[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@2a3046da
+20201008: 161218     DEBUG 14435[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getVatPercentageByCode
+20201008: 161218     DEBUG 14436[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getVatPercentageByCode|0||
+
+20201008: 161218     DEBUG 14539[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getVatPercentageByCode
+Execute SQL Statement: SELECT percentage FROM cevatm WHERE vat_code = ? 
+Argument(s): |VST|
+20201008: 161218     DEBUG 14539[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@5cbc508c
+20201008: 161218     DEBUG 14727[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.getProrateChgMinVat(SelfServBundleProvBLO.java:1976) - 
+Vat Percentage: 1.15
+20201008: 161218     DEBUG 14728[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.Sysdirm )
+20201008: 161218     DEBUG 14728[main] - com.eppixcomm.eppix.base.blo.SysdirmAbstractBLO.get(SysdirmAbstractBLO.java:501) - get( filter )
+20201008: 161218     DEBUG 14729[main] - com.eppixcomm.eppix.base.blo.SysdirmAbstractDACImpl.get(SysdirmAbstractDACImpl.java:435) - get( filter )
+20201008: 161218     DEBUG 14729[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+Sysdirm|0|equalSystemKey|
+
+20201008: 161218     DEBUG 14829[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: Sysdirm
+Execute SQL Statement: SELECT SYSTEM_KEY, KEY_VALUE, DESCRIPTION
+FROM SYSDIRM
+WHERE (SYSTEM_KEY) = ?
+Argument(s): |OPVATCODE|
+20201008: 161218     DEBUG 14830[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@574caa3f
+20201008: 161219     DEBUG 15011[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getVatPercentageByCode
+20201008: 161219     DEBUG 15012[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getVatPercentageByCode|0||
+
+20201008: 161219     DEBUG 15105[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getVatPercentageByCode
+Execute SQL Statement: SELECT percentage FROM cevatm WHERE vat_code = ? 
+Argument(s): |VST|
+20201008: 161219     DEBUG 15106[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@3f102e87
+20201008: 161219     DEBUG 15283[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.getProrateChgMinVat(SelfServBundleProvBLO.java:1976) - 
+Vat Percentage: 1.15
+20201008: 161219     DEBUG 15284[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.ChargeProrataActivation(SelfServBundleProvBLO.java:1771) - 
+PRORATA CHARGE MIN VAT: 86.96
+20201008: 161219     DEBUG 15285[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.ChargeProrataActivation(SelfServBundleProvBLO.java:1890) - There is a failed record: true
+20201008: 161219      INFO 15286[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.insertBillTable(SubscriberUpgradeMigradeBLO.java:18393) - BILL TABLE TO INSERT INTO: bill_CYC6520201016
+20201008: 161219     DEBUG 15289[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.BillCccccyyyymmdd )
+20201008: 161219     DEBUG 15292[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getBillCccccyyyymmddDAC(BaseAbstractDACFactory.java:905) - getBillCccccyyyymmddDAC()
+20201008: 161219     DEBUG 15318[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.BillCccccyyyymmddDACImpl com.eppixcomm.eppix.base.dml.BillCccccyyyymmddDMLFactory@4fccd51b
+20201008: 161219     DEBUG 15319[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.BillCccccyyyymmddDACImpl
+20201008: 161219     DEBUG 15320[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161219     DEBUG 15321[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.BillCccccyyyymmddDACImpl TO MAP
+20201008: 161219     DEBUG 15321[main] - com.eppixcomm.eppix.base.blo.BillCccccyyyymmddAbstractBLO.get(BillCccccyyyymmddAbstractBLO.java:603) - get( filter )
+20201008: 161219     DEBUG 15321[main] - com.eppixcomm.eppix.base.blo.BillCccccyyyymmddAbstractDACImpl.get(BillCccccyyyymmddAbstractDACImpl.java:649) - get( filter )
+20201008: 161219     DEBUG 15322[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+BillCccccyyyymmdd|0|equalSubscriberId+equalChaserv+equalBilldat+equalPackge|
+
+20201008: 161220     DEBUG 15908[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: BillCccccyyyymmdd
+Execute SQL Statement: SELECT BILL_ID, SUBSCRIBER_ID, HANDSET, CHASERV, BILLIND, BILLDAT, COST, CHARGE, SPARECH, INVOICE_NO, TWINBILL_NO, VATAMT, VATRATE, CYCLE_NO, VATCODE, START_PERIOD, END_PERIOD, BATCH_RUN_NUM, TIMESTAMP, CURRENCY_CHARGE, EXCHANGE_RATE, EXCH_OPERATOR, CHARGE_CLASS_ID, TECHNOLOGY, PACKAGE
+FROM BILL_CCCCCYYYYMMDD
+WHERE SUBSCRIBER_ID = ? AND (CHASERV) = ? AND BILLDAT = ? AND (PACKAGE) = ?
+Argument(s): |14587872|OTGA|2020-10-08|FF130|
+20201008: 161220     ERROR 16091[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.insertBillTable(SubscriberUpgradeMigradeBLO.java:18474) - Failed to get billing details from table: bill_CYC6520201016 for Subscriber: 14587872
+20201008: 161220     DEBUG 16092[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.BillCccccyyyymmdd )
+20201008: 161220     DEBUG 16092[main] - com.eppixcomm.eppix.base.blo.BillCccccyyyymmddAbstractBLO.create(BillCccccyyyymmddAbstractBLO.java:208) - create( billCccccyyyymmddDMO )
+20201008: 161220     DEBUG 16094[main] - com.eppixcomm.eppix.base.blo.BillCccccyyyymmddAbstractDACImpl.create(BillCccccyyyymmddAbstractDACImpl.java:117) - create( billCccccyyyymmddDMO )
+20201008: 161220     DEBUG 16095[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+BillCccccyyyymmdd|11||
+
+20201008: 161220     DEBUG 16198[main] - com.eppixcomm.eppix.common.data.DAOImpl.insert(DAOImpl.java:2509) - 0|14587872|739199886|OTGA|n|2020-10-08|86.96|86.96|CFFOTGA SR   |0|0|0.00|0.00|CYC65||2020-10-08|2020-10-15||2020-10-08 16:12:19|86.96|1.00|*|0|GSM|FF130
+20201008: 161220     DEBUG 16482[main] - com.eppixcomm.eppix.common.data.DAOImpl.insert(DAOImpl.java:2543) - insert(DBO): DML Name: BillCccccyyyymmdd
+Execute SQL Statement: INSERT INTO BILL_CCCCCYYYYMMDD (BILL_ID, SUBSCRIBER_ID, HANDSET, CHASERV, BILLIND, BILLDAT, COST, CHARGE, SPARECH, INVOICE_NO, TWINBILL_NO, VATAMT, VATRATE, CYCLE_NO, VATCODE, START_PERIOD, END_PERIOD, BATCH_RUN_NUM, TIMESTAMP, CURRENCY_CHARGE, EXCHANGE_RATE, EXCH_OPERATOR, CHARGE_CLASS_ID, TECHNOLOGY, PACKAGE) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+Argument(s): |0|14587872|739199886|OTGA|n|2020-10-08|86.96|86.96|CFFOTGA SR   |0|0|0.00|0.00|CYC65||2020-10-08|2020-10-15||2020-10-08 16:12:19|86.96|1.00|*|0|GSM|FF130|
+20201008: 161220     DEBUG 16483[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.insertBillTable(SubscriberUpgradeMigradeBLO.java:18549) - 
+RETURNED DMO FROM INSERT BILLID: 18778
+20201008: 161220     DEBUG 16486[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.CrbCustRiskBal )
+20201008: 161220     DEBUG 16487[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getCrbCustRiskBalDAC(BaseAbstractDACFactory.java:943) - getCrbCustRiskBalDAC()
+20201008: 161220     DEBUG 16499[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.CrbCustRiskBalDACImpl com.eppixcomm.eppix.base.dml.CrbCustRiskBalDMLFactory@18ef96
+20201008: 161220     DEBUG 16499[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.CrbCustRiskBalDACImpl
+20201008: 161220     DEBUG 16502[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161220     DEBUG 16503[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.CrbCustRiskBalDACImpl TO MAP
+20201008: 161220     DEBUG 16503[main] - com.eppixcomm.eppix.base.blo.CrbCustRiskBalAbstractBLO.get(CrbCustRiskBalAbstractBLO.java:256) - get( filter )
+20201008: 161220     DEBUG 16503[main] - com.eppixcomm.eppix.base.blo.CrbCustRiskBalAbstractDACImpl.get(CrbCustRiskBalAbstractDACImpl.java:96) - get( filter )
+20201008: 161220     DEBUG 16507[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+crbCustRiskBal|0|equalCrbBillAcNo|
+
+20201008: 161220     DEBUG 16823[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: crbCustRiskBal
+Execute SQL Statement: SELECT CRB_BILL_AC_NO, CRB_ACCOUNT_TYPE, CRB_CREDIT_LIMIT, CRB_ACC_BAL, CRB_UNBILL_CHARGES, CRB_UNBILL_CALLS, CRB_DIFF, CRB_NEXT_THRESHOLD, CRB_PREV_THRESHOLD, CRB_COLL_PLAN, CRB_MIN_THRESHOLD, CRB_ACTIVATE_FLAG, CRB_EAP_FLAG, CRB_BL_STATUS, CRB_BL_TYPE, CRB_BL_LIMIT, CRB_BL_DIFF, CRB_BL_NEXT_THRESH, CRB_BL_PREV_THRESH, CRB_BL_NEXT_ACN_ID, CRB_BL_PREV_ACN_ID, CRB_BL_TRIG_FLAG, CRB_BL_LAST_UPDATE
+FROM CRB_CUST_RISK_BAL
+WHERE CRB_BILL_AC_NO = ?
+Argument(s): |A3832377|
+20201008: 161220     DEBUG 16826[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@1ef7fe8e
+20201008: 161221     DEBUG 17008[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.CrbCustRiskBal )
+20201008: 161221     DEBUG 17008[main] - com.eppixcomm.eppix.base.blo.CrbCustRiskBalAbstractBLO.modify(CrbCustRiskBalAbstractBLO.java:159) - modify( filter )
+20201008: 161221     DEBUG 17009[main] - com.eppixcomm.eppix.base.blo.CrbCustRiskBalAbstractDACImpl.modify(CrbCustRiskBalAbstractDACImpl.java:165) - modify( filter )
+20201008: 161221     DEBUG 17010[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+crbCustRiskBal|16|equalCrbBillAcNo|
+
+20201008: 161221     DEBUG 17272[main] - com.eppixcomm.eppix.common.data.DAOImpl.updateCustom(DAOImpl.java:2935) - updateCustom(DBO): DML Name: crbCustRiskBal
+Execute SQL Statement: UPDATE CRB_CUST_RISK_BAL SET CRB_UNBILL_CHARGES = ?,CRB_BL_LAST_UPDATE = ?
+WHERE CRB_BILL_AC_NO = ?
+Argument(s): |86.96|2020-10-08 16:12:21|A3832377|
+20201008: 161221     DEBUG 17273[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.CrbCustRiskBal )
+20201008: 161221     DEBUG 17273[main] - com.eppixcomm.eppix.base.blo.CrbCustRiskBalAbstractBLO.get(CrbCustRiskBalAbstractBLO.java:256) - get( filter )
+20201008: 161221     DEBUG 17274[main] - com.eppixcomm.eppix.base.blo.CrbCustRiskBalAbstractDACImpl.get(CrbCustRiskBalAbstractDACImpl.java:96) - get( filter )
+20201008: 161221     DEBUG 17274[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+crbCustRiskBal|0|equalCrbBillAcNo|
+
+20201008: 161221     DEBUG 17360[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: crbCustRiskBal
+Execute SQL Statement: SELECT CRB_BILL_AC_NO, CRB_ACCOUNT_TYPE, CRB_CREDIT_LIMIT, CRB_ACC_BAL, CRB_UNBILL_CHARGES, CRB_UNBILL_CALLS, CRB_DIFF, CRB_NEXT_THRESHOLD, CRB_PREV_THRESHOLD, CRB_COLL_PLAN, CRB_MIN_THRESHOLD, CRB_ACTIVATE_FLAG, CRB_EAP_FLAG, CRB_BL_STATUS, CRB_BL_TYPE, CRB_BL_LIMIT, CRB_BL_DIFF, CRB_BL_NEXT_THRESH, CRB_BL_PREV_THRESH, CRB_BL_NEXT_ACN_ID, CRB_BL_PREV_ACN_ID, CRB_BL_TRIG_FLAG, CRB_BL_LAST_UPDATE
+FROM CRB_CUST_RISK_BAL
+WHERE CRB_BILL_AC_NO = ?
+Argument(s): |A3832377|
+20201008: 161221     DEBUG 17363[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@31b7dea0
+20201008: 161221     DEBUG 17532[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.calculateCreditLimDiffs(SubscriberUpgradeMigradeBLO.java:19831) - Step 1
+20201008: 161221     DEBUG 17533[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.calculateCreditLimDiffs(SubscriberUpgradeMigradeBLO.java:19844) - ACCOUNT BALANCE: 0.00
+20201008: 161221     DEBUG 17534[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.calculateCreditLimDiffs(SubscriberUpgradeMigradeBLO.java:19845) - UNBILL CHARGES: 86.9599999999999937472239253111183643341064453125
+20201008: 161221     DEBUG 17535[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.calculateCreditLimDiffs(SubscriberUpgradeMigradeBLO.java:19846) - UNBILL CALLS: 0
+20201008: 161221     DEBUG 17535[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.calculateCreditLimDiffs(SubscriberUpgradeMigradeBLO.java:19847) - CREDIT LIMIT: 873.6100000000000136424205265939235687255859375
+20201008: 161221     DEBUG 17537[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.calculateCreditLimDiffs(SubscriberUpgradeMigradeBLO.java:19855) - CrValue: 0.0009954098510777119354087515806765098196092615
+20201008: 161221     DEBUG 17537[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.calculateCreditLimDiffs(SubscriberUpgradeMigradeBLO.java:19862) - Step 2
+20201008: 161221     DEBUG 17538[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.calculateCreditLimDiffs(SubscriberUpgradeMigradeBLO.java:19878) - Step 3
+20201008: 161221     DEBUG 17539[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.calculateCreditLimDiffs(SubscriberUpgradeMigradeBLO.java:19946) - Step 4
+20201008: 161221     DEBUG 17539[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.calculateCreditLimDiffs(SubscriberUpgradeMigradeBLO.java:19955) - Step 5
+20201008: 161221     DEBUG 17540[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.calculateCreditLimDiffs(SubscriberUpgradeMigradeBLO.java:19986) - Step 6
+20201008: 161221     DEBUG 17541[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.calculateCreditLimDiffs(SubscriberUpgradeMigradeBLO.java:19994) - Step 7
+20201008: 161221     DEBUG 17541[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.BlhBillLimitHd )
+20201008: 161221     DEBUG 17541[main] - com.eppixcomm.eppix.base.blo.BlhBillLimitHdAbstractBLO.iterate(BlhBillLimitHdAbstractBLO.java:248) - iterate( filter )
+20201008: 161221     DEBUG 17542[main] - com.eppixcomm.eppix.base.blo.BlhBillLimitHdAbstractDACImpl.iterate(BlhBillLimitHdAbstractDACImpl.java:120) - iterate( filter )
+20201008: 161221     DEBUG 17542[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+BlhBillLimitHd|0|equalBlhSubscriberId|
+
+20201008: 161221     DEBUG 17852[main] - com.eppixcomm.eppix.common.data.DAOImpl.iterator(DAOImpl.java:2276) - iterator(param SQL): DML Name: BlhBillLimitHd
+Execute SQL Statement: SELECT BLH_SUBSCRIBER_ID, BLH_SERVICE_CODE, BLH_BILL_LIMIT_VAL, BLH_LEVEL,BLH_TYPE, BLH_VAT_IND, BLH_UNBILL_USAGE, BLH_UNBILL_CHARGES, BLH_DIFF,BLH_USER_STATUS, BLH_NEXT_THRESHOLD, BLH_PREV_THRESHOLD, BLH_NEXT_ACN_ID,BLH_PREV_ACN_ID, BLH_NETWORK_ACN, BLH_TRIG_FLAG, BLH_LAST_UPDATE
+FROM BLH_BILL_LIMIT_HD
+WHERE BLH_SUBSCRIBER_ID = ?
+Argument(s): |14587872|
+20201008: 161221     DEBUG 17858[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@13b6d03
+20201008: 161222     DEBUG 17941[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.BlhBillLimitHd )
+20201008: 161222     DEBUG 17941[main] - com.eppixcomm.eppix.base.blo.BlhBillLimitHdAbstractBLO.modify(BlhBillLimitHdAbstractBLO.java:181) - modify( filter )
+20201008: 161222     DEBUG 17942[main] - com.eppixcomm.eppix.base.blo.BlhBillLimitHdAbstractDACImpl.modify(BlhBillLimitHdAbstractDACImpl.java:165) - modify( filter )
+20201008: 161222     DEBUG 17942[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+BlhBillLimitHd|16|equalBlhSubscriberId+equalBlhServiceCode|
+
+20201008: 161222     DEBUG 18192[main] - com.eppixcomm.eppix.common.data.DAOImpl.updateCustom(DAOImpl.java:2935) - updateCustom(DBO): DML Name: BlhBillLimitHd
+Execute SQL Statement: UPDATE BLH_BILL_LIMIT_HD SET BLH_UNBILL_CHARGES = ?
+WHERE BLH_SUBSCRIBER_ID = ? AND BLH_SERVICE_CODE = ?
+Argument(s): |86.96|14587872|BLMT|
+20201008: 161222     DEBUG 18193[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.BlhBillLimitHd )
+20201008: 161222     DEBUG 18193[main] - com.eppixcomm.eppix.base.blo.BlhBillLimitHdAbstractBLO.iterate(BlhBillLimitHdAbstractBLO.java:248) - iterate( filter )
+20201008: 161222     DEBUG 18194[main] - com.eppixcomm.eppix.base.blo.BlhBillLimitHdAbstractDACImpl.iterate(BlhBillLimitHdAbstractDACImpl.java:120) - iterate( filter )
+20201008: 161222     DEBUG 18194[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+BlhBillLimitHd|0|equalBlhSubscriberId|
+
+20201008: 161222     DEBUG 18360[main] - com.eppixcomm.eppix.common.data.DAOImpl.iterator(DAOImpl.java:2276) - iterator(param SQL): DML Name: BlhBillLimitHd
+Execute SQL Statement: SELECT BLH_SUBSCRIBER_ID, BLH_SERVICE_CODE, BLH_BILL_LIMIT_VAL, BLH_LEVEL,BLH_TYPE, BLH_VAT_IND, BLH_UNBILL_USAGE, BLH_UNBILL_CHARGES, BLH_DIFF,BLH_USER_STATUS, BLH_NEXT_THRESHOLD, BLH_PREV_THRESHOLD, BLH_NEXT_ACN_ID,BLH_PREV_ACN_ID, BLH_NETWORK_ACN, BLH_TRIG_FLAG, BLH_LAST_UPDATE
+FROM BLH_BILL_LIMIT_HD
+WHERE BLH_SUBSCRIBER_ID = ?
+Argument(s): |14587872|
+20201008: 161222     DEBUG 18363[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@2cfb4a64
+20201008: 161222     DEBUG 18445[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.updateBillLimDiff(SubscriberUpgradeMigradeBLO.java:19483) - no
+20201008: 161222     DEBUG 18446[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.updateBillLimDiff(SubscriberUpgradeMigradeBLO.java:19499) - RETURN VALUE: 0
+20201008: 161222     DEBUG 18446[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.BlhBillLimitHd )
+20201008: 161222     DEBUG 18447[main] - com.eppixcomm.eppix.base.blo.BlhBillLimitHdAbstractBLO.iterate(BlhBillLimitHdAbstractBLO.java:248) - iterate( filter )
+20201008: 161222     DEBUG 18447[main] - com.eppixcomm.eppix.base.blo.BlhBillLimitHdAbstractDACImpl.iterate(BlhBillLimitHdAbstractDACImpl.java:120) - iterate( filter )
+20201008: 161222     DEBUG 18448[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+BlhBillLimitHd|0|equalBlhSubscriberId|
+
+20201008: 161222     DEBUG 18603[main] - com.eppixcomm.eppix.common.data.DAOImpl.iterator(DAOImpl.java:2276) - iterator(param SQL): DML Name: BlhBillLimitHd
+Execute SQL Statement: SELECT BLH_SUBSCRIBER_ID, BLH_SERVICE_CODE, BLH_BILL_LIMIT_VAL, BLH_LEVEL,BLH_TYPE, BLH_VAT_IND, BLH_UNBILL_USAGE, BLH_UNBILL_CHARGES, BLH_DIFF,BLH_USER_STATUS, BLH_NEXT_THRESHOLD, BLH_PREV_THRESHOLD, BLH_NEXT_ACN_ID,BLH_PREV_ACN_ID, BLH_NETWORK_ACN, BLH_TRIG_FLAG, BLH_LAST_UPDATE
+FROM BLH_BILL_LIMIT_HD
+WHERE BLH_SUBSCRIBER_ID = ?
+Argument(s): |14587872|
+20201008: 161222     DEBUG 18605[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@233c0b17
+20201008: 161222     DEBUG 18683[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.updateBillLimDiff(SubscriberUpgradeMigradeBLO.java:19483) - no
+20201008: 161222     DEBUG 18684[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.updateBillLimDiff(SubscriberUpgradeMigradeBLO.java:19499) - RETURN VALUE: 0
+20201008: 161222     DEBUG 18689[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.MshMsisdnHistory )
+20201008: 161222     DEBUG 18691[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getMshMsisdnHistoryDAC(BaseAbstractDACFactory.java:762) - getMshMsisdnHistoryDAC()
+20201008: 161222     DEBUG 18707[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.MshMsisdnHistoryDACImpl com.eppixcomm.eppix.base.dml.MshMsisdnHistoryDMLFactory@47fd17e3
+20201008: 161222     DEBUG 18708[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.MshMsisdnHistoryDACImpl
+20201008: 161222     DEBUG 18709[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161222     DEBUG 18709[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.MshMsisdnHistoryDACImpl TO MAP
+20201008: 161222     DEBUG 18709[main] - com.eppixcomm.eppix.base.blo.MshMsisdnHistoryAbstractBLO.create(MshMsisdnHistoryAbstractBLO.java:138) - create( mshMsisdnHistoryDMO )
+20201008: 161222     DEBUG 18710[main] - com.eppixcomm.eppix.base.blo.MshMsisdnHistoryAbstractDACImpl.create(MshMsisdnHistoryAbstractDACImpl.java:98) - create( mshMsisdnHistoryDMO )
+20201008: 161222     DEBUG 18711[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+MshMsisdnHistory|11||
+
+20201008: 161222     DEBUG 18801[main] - com.eppixcomm.eppix.common.data.DAOImpl.insert(DAOImpl.java:2509) - 14587872|739199886      |BSRA      | CFF OTGA 86.96 OTGA                              |vermeu_s  |eppix               |2020-10-08 16:12:22
+20201008: 161223     DEBUG 19236[main] - com.eppixcomm.eppix.common.data.DAOImpl.insert(DAOImpl.java:2543) - insert(DBO): DML Name: MshMsisdnHistory
+Execute SQL Statement: INSERT INTO MSH_MSISDN_HISTORY (MSH_SUBSCRIBER_ID, MSH_MSISDN_NO, MSH_HIST_CODE, MSH_COMMENT, MSH_USER_ID, MSH_TERMINAL_ID, MSH_TIMESTAMP) VALUES (?,?,?,?,?,?,?)
+Argument(s): |14587872|739199886      |BSRA      | CFF OTGA 86.96 OTGA                              |vermeu_s  |eppix               |2020-10-08 16:12:22|
+20201008: 161223     DEBUG 19237[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.getChgMinVat(SelfServBundleProvBLO.java:2002) - 
+Vat Percentage for charge: 1.15
+20201008: 161223     DEBUG 19238[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.getChgMinVat(SelfServBundleProvBLO.java:2005) - 
+Charge excl of VAT: 64.83
+20201008: 161223     DEBUG 19238[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.getChgMinVat(SelfServBundleProvBLO.java:2002) - 
+Vat Percentage for charge: 1.15
+20201008: 161223     DEBUG 19238[main] - com.eppixcomm.eppix.base.blo.SelfServBundleProvBLO.getChgMinVat(SelfServBundleProvBLO.java:2005) - 
+Charge excl of VAT: 64.83
+20201008: 161223     DEBUG 19239[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.VcfVrbleChrgFee )
+20201008: 161223     DEBUG 19239[main] - com.eppixcomm.eppix.base.blo.VcfVrbleChrgFeeAbstractBLO.create(VcfVrbleChrgFeeAbstractBLO.java:91) - create( vcfVrbleChrgFeeDMO )
+20201008: 161223     DEBUG 19240[main] - com.eppixcomm.eppix.base.blo.VcfVrbleChrgFeeAbstractBLO.exists(VcfVrbleChrgFeeAbstractBLO.java:212) - exists(vcfVrbleChrgFeeDMO)
+20201008: 161223     DEBUG 19240[main] - com.eppixcomm.eppix.base.blo.VcfVrbleChrgFeeAbstractDACImpl.exists(VcfVrbleChrgFeeAbstractDACImpl.java:96) - exists( VcfVrbleChrgFeeDMO)
+20201008: 161223     DEBUG 19240[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+VcfVrbleChrgFee|9|filterByPrimaryKey|
+
+20201008: 161223     DEBUG 19487[main] - com.eppixcomm.eppix.common.data.DAOImpl.exists(DAOImpl.java:1012) - exists(DBO): DML Name: VcfVrbleChrgFee
+Execute SQL Statement: SELECT DISTINCT(0)
+FROM vcf_vrble_chrg_fee
+WHERE VCF_EQUIP_ID = ?
+Argument(s): |0|
+20201008: 161223     DEBUG 19651[main] - com.eppixcomm.eppix.base.blo.VcfVrbleChrgFeeAbstractDACImpl.create(VcfVrbleChrgFeeAbstractDACImpl.java:50) - create( vcfVrbleChrgFeeDMO )
+20201008: 161223     DEBUG 19652[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+VcfVrbleChrgFee|11||
+
+20201008: 161223     DEBUG 19734[main] - com.eppixcomm.eppix.common.data.DAOImpl.insert(DAOImpl.java:2509) - 0|A3832377|14587872|SR|OTGA|MTN 300MB||123456789-3||2020-10-08||1|64.83|64.83|11|2020|0.0|0|OTGA|A|2020-10-08 16:12:23
+20201008: 161224     DEBUG 20004[main] - com.eppixcomm.eppix.common.data.DAOImpl.insert(DAOImpl.java:2543) - insert(DBO): DML Name: VcfVrbleChrgFee
+Execute SQL Statement: INSERT INTO vcf_vrble_chrg_fee (VCF_EQUIP_ID, VCF_CUSTOMER, VCF_SUBSCRIBER_ID, VCF_VARIABLE_TYPE, VCF_PRODUCT_CODE, VCF_DESCRIPTION, VCF_MAKE, VCF_MODEL, VCF_INVENTRY_ITEMID, VCF_START_DATE, VCF_END_DATE, VCF_CONTRC_LENGTH, VCF_FULL_AMT, VCF_MONTH_AMT, VCF_NEXT_PERIOD, VCF_NEXT_YEAR, VCF_REM_AMT, VCF_REM_PERIOD, VCF_CHARGE_CODE, VCF_STATUS, VCF_TIMESTAMP) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+Argument(s): |0|A3832377|14587872|SR|OTGA|MTN 300MB||123456789-3||2020-10-08||1|64.83|64.83|11|2020|0.0|0|OTGA|A|2020-10-08 16:12:23|
+20201008: 161224     DEBUG 20005[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.MshMsisdnHistory )
+20201008: 161224     DEBUG 20006[main] - com.eppixcomm.eppix.base.blo.MshMsisdnHistoryAbstractBLO.create(MshMsisdnHistoryAbstractBLO.java:138) - create( mshMsisdnHistoryDMO )
+20201008: 161224     DEBUG 20006[main] - com.eppixcomm.eppix.base.blo.MshMsisdnHistoryAbstractDACImpl.create(MshMsisdnHistoryAbstractDACImpl.java:98) - create( mshMsisdnHistoryDMO )
+20201008: 161224     DEBUG 20006[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+MshMsisdnHistory|11||
+
+20201008: 161224     DEBUG 20007[main] - com.eppixcomm.eppix.common.data.DAOImpl.insert(DAOImpl.java:2509) - 14587872|739199886      |EICSRA    |A3832377 Ref 123456789-3 CHG OTGA                 |vermeu_s  |eppix               |2020-10-08 16:12:24
+20201008: 161224     DEBUG 20216[main] - com.eppixcomm.eppix.common.data.DAOImpl.insert(DAOImpl.java:2543) - insert(DBO): DML Name: MshMsisdnHistory
+Execute SQL Statement: INSERT INTO MSH_MSISDN_HISTORY (MSH_SUBSCRIBER_ID, MSH_MSISDN_NO, MSH_HIST_CODE, MSH_COMMENT, MSH_USER_ID, MSH_TERMINAL_ID, MSH_TIMESTAMP) VALUES (?,?,?,?,?,?,?)
+Argument(s): |14587872|739199886      |EICSRA    |A3832377 Ref 123456789-3 CHG OTGA                 |vermeu_s  |eppix               |2020-10-08 16:12:24|
+20201008: 161224     DEBUG 20221[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.SbhSubHistory )
+20201008: 161224     DEBUG 20222[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getSbhSubHistoryDAC(BaseAbstractDACFactory.java:363) - getSysdirmDAC()
+20201008: 161224     DEBUG 20236[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SbhSubHistoryDACImpl com.eppixcomm.eppix.base.dml.SbhSubHistoryDMLFactory@23223dd8
+20201008: 161224     DEBUG 20236[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SbhSubHistoryDACImpl
+20201008: 161224     DEBUG 20237[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161224     DEBUG 20238[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SbhSubHistoryDACImpl TO MAP
+20201008: 161224     DEBUG 20238[main] - com.eppixcomm.eppix.base.blo.SbhSubHistoryAbstractBLO.create(SbhSubHistoryAbstractBLO.java:132) - create( sbhSubHistoryDMO )
+20201008: 161224     DEBUG 20238[main] - com.eppixcomm.eppix.base.blo.SbhSubHistoryAbstractDACImpl.create(SbhSubHistoryAbstractDACImpl.java:103) - create( sbhSubHistoryDMO )
+20201008: 161224     DEBUG 20238[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+SbhSubHistory|11||
+
+20201008: 161224     DEBUG 20312[main] - com.eppixcomm.eppix.common.data.DAOImpl.insert(DAOImpl.java:2509) - 14587872|0|EICSRA    |                                                  |A3832377 Ref 123456789-3 CHG OTGA                 |vermeu_s  |eppix               |2020-10-08 16:12:24
+20201008: 161225     DEBUG 21344[main] - com.eppixcomm.eppix.common.data.DAOImpl.insert(DAOImpl.java:2543) - insert(DBO): DML Name: SbhSubHistory
+Execute SQL Statement: INSERT INTO SBH_SUB_HISTORY (SBH_SUBSCRIBER_ID, SBH_FIELD_ID, SBH_HIST_CODE, SBH_OLD_VALUE, SBH_NEW_VALUE, SBH_USER_ID, SBH_TERMINAL_ID, SBH_TIMESTAMP) VALUES (?,?,?,?,?,?,?,?)
+Argument(s): |14587872|0|EICSRA    |                                                  |A3832377 Ref 123456789-3 CHG OTGA                 |vermeu_s  |eppix               |2020-10-08 16:12:24|
+20201008: 161225     DEBUG 21349[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.SmhSimHistory )
+20201008: 161225     DEBUG 21350[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getSmhSimHistoryDAC(BaseDACFactory.java:395) - getTolSimNosDAC()
+20201008: 161225     DEBUG 21360[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SmhSimHistoryAbstractDACImpl com.eppixcomm.eppix.base.dml.SmhSimHistoryAbstractDMLFactory@45c8e616
+20201008: 161225     DEBUG 21361[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SmhSimHistoryAbstractDACImpl
+20201008: 161225     DEBUG 21362[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20201008: 161225     DEBUG 21362[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SmhSimHistoryAbstractDACImpl TO MAP
+20201008: 161225     DEBUG 21363[main] - com.eppixcomm.eppix.base.blo.SmhSimHistoryAbstractBLO.create(SmhSimHistoryAbstractBLO.java:173) - create( smhSimHistoryDMO )
+20201008: 161225     DEBUG 21363[main] - com.eppixcomm.eppix.base.blo.SmhSimHistoryAbstractDACImpl.create(SmhSimHistoryAbstractDACImpl.java:46) - create(SmhSimHistoryDMO smhSimHistoryDMO)
+20201008: 161225     DEBUG 21364[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+SmhSimHistory|11||
+
+20201008: 161225     DEBUG 21437[main] - com.eppixcomm.eppix.common.data.DAOImpl.insert(DAOImpl.java:2509) - A3832377 Ref 123456789-3 CHG OTGA                 |EICSRA    |0006312497962 |14587872|eppix     |2020-10-08 16:12:25|vermeu_s  
+20201008: 161226     DEBUG 22225[main] - com.eppixcomm.eppix.common.data.DAOImpl.insert(DAOImpl.java:2543) - insert(DBO): DML Name: SmhSimHistory
+Execute SQL Statement: INSERT INTO SMH_SIM_HISTORY (SMH_COMMENT,SMH_HIST_CODE,SMH_SIM_NO,SMH_SUBSCRIBER_ID,SMH_TERMINAL_ID,SMH_TIMESTAMP,SMH_USER_ID) VALUES (?,?,?,?,?,?,?)
+Argument(s): |A3832377 Ref 123456789-3 CHG OTGA                 |EICSRA    |0006312497962 |14587872|eppix     |2020-10-08 16:12:25|vermeu_s  |

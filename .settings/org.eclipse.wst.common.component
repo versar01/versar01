@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="EPPIX_BASE">
+        <wb-resource deploy-path="/" source-path="/src"/>
+        <wb-resource deploy-path="/" source-path="/absrc"/>
+        <wb-resource deploy-path="/" source-path="/batchsrc"/>
+        <wb-resource deploy-path="/" source-path="/commonsrc"/>
+        <wb-resource deploy-path="/" source-path="/soaLib"/>
+        <wb-resource deploy-path="/" source-path="/SharedObj"/>
+        <wb-resource deploy-path="/" source-path="/.apt_generated"/>
+    </wb-module>
+</project-modules>

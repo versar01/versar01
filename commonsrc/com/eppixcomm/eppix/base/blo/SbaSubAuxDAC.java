@@ -1,0 +1,8 @@
+package com.eppixcomm.eppix.base.blo;
+
+
+
+public interface SbaSubAuxDAC extends SbaSubAuxAbstractDAC{
+
+	
+}

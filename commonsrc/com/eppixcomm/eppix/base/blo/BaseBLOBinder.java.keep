@@ -1,0 +1,188 @@
+/*============================================================================================= *
+ *
+ * (c) 2006 Copyright Eppixcomm.
+ * All Rights Reserved
+ * Legal Information goes here.
+ *
+ *============================================================================================= */
+/**----------------------------------------------------------------------------------------------
+ *
+ * Version control details:
+ *    @version $Revision: $
+ *    @author  $Author: $
+ *----------------------------------------------------------------------------------------------*/
+package com.eppixcomm.eppix.base.blo;
+
+import com.eppixcomm.eppix.base.error.EPPIXException;
+import com.eppixcomm.eppix.base.error.EPPIXFatalException;
+import com.eppixcomm.eppix.base.error.Thrower;
+import com.eppixcomm.eppix.common.blo.Language;
+import com.eppixcomm.eppix.common.util.EppixLocale;
+
+import java.sql.Connection;
+
+/**
+ * This class contains any additional logic for BaseBLOBinder, if any. It
+ * extends the BaseAbstractBLOBinder which holds all the default logic for this
+ * class.
+ * 
+ * @author ${Author}
+ * @version $Revision: 1.1 $
+ * 
+ * @since $jdk$
+ */
+public class BaseBLOBinder extends BaseAbstractBLOBinder {
+	// ~ Static variables/initializers
+	// //////////////////////////////////////////
+
+	// private static Thrower thrower = Thrower.getThrower(BaseBLOBinder.class);
+
+	// ~ Constructors
+	// ///////////////////////////////////////////////////////////
+	/**
+	 * Creates a new BaseBLOBinder object.
+	 * 
+	 * @param locale
+	 *            DOCUMENT ME!
+	 * @param ctx
+	 *            DOCUMENT ME!
+	 * 
+	 * @throws EPPIXFatalException
+	 *             DOCUMENT ME!
+	 */
+	// public BaseBLOBinder(EppixLocale locale, SessionContext ctx)
+	// throws EPPIXFatalException {
+	// super(locale, ctx);
+	// }
+	/**
+	 * Creates a new BaseBLOBinder object.
+	 * 
+	 * @param loginName
+	 *            DOCUMENT ME!
+	 * @param locale
+	 *            DOCUMENT ME!
+	 * @param connection
+	 *            DOCUMENT ME!
+	 * 
+	 * @throws EPPIXFatalException
+	 *             DOCUMENT ME!
+	 */
+	public BaseBLOBinder(String loginName, EppixLocale locale,
+			Connection connection) throws EPPIXFatalException {
+		super(loginName, locale, connection);
+	}
+	
+	public BaseBLOBinder(String loginName, EppixLocale locale, Class dac,
+			Connection connection) throws EPPIXFatalException {
+		super(loginName, locale, dac, connection);
+	}	
+
+//	public EqEventQueue eqEventQueue() throws EPPIXFatalException {
+//		return (EqEventQueue) getBLO(EqEventQueue.class);
+//	}
+//
+//	public EcEventCommand ecEventCommand() throws EPPIXFatalException {
+//		return (EcEventCommand) getBLO(EcEventCommand.class);
+//	}
+//
+//	public EdEventDepends edEventDepends() throws EPPIXFatalException {
+//		return (EdEventDepends) getBLO(EdEventDepends.class);
+//	}
+//
+//	public EcdEventCmdDet ecdEventCmdDet() throws EPPIXFatalException {
+//		return (EcdEventCmdDet) getBLO(EcdEventCmdDet.class);
+//	}
+//
+//	public NtpNetTransPend ntpNetTransPend() throws EPPIXFatalException {
+//		return (NtpNetTransPend) getBLO(NtpNetTransPend.class);
+//	}
+//
+//	public PshParamServHdr pshParamServHdr() throws EPPIXFatalException {
+//		return (PshParamServHdr) getBLO(PshParamServHdr.class);
+//	}
+//
+//	public PsdParamServDet psdParamServDet() throws EPPIXFatalException {
+//		return (PsdParamServDet) getBLO(PsdParamServDet.class);
+//	}
+//
+//	public ApmApnPopMain apmApnPopMain() throws EPPIXFatalException {
+//		return (ApmApnPopMain) getBLO(ApmApnPopMain.class);
+//	}
+//
+//	public AneApnNonEppix aneApnNonEppix() throws EPPIXFatalException {
+//		return (AneApnNonEppix) getBLO(AneApnNonEppix.class);
+//	}
+//
+//	public VsmServiceMsisdn vsmServiceMsisdn() throws EPPIXFatalException {
+//		return (VsmServiceMsisdn) getBLO(VsmServiceMsisdn.class);
+//	}
+//
+//	public TsTariffService tsTariffService() throws EPPIXFatalException {
+//		return (TsTariffService) getBLO(TsTariffService.class);
+//	}
+//
+//	public SeqMapN2N seqMapN2N() throws EPPIXFatalException {
+//		return (SeqMapN2N) getBLO(SeqMapN2N.class);
+//	}
+//
+//	public NctCompressType nctCompressType() throws EPPIXFatalException {
+//		return (NctCompressType) getBLO(NctCompressType.class);
+//	}
+//
+//	public NcrCompressRule ncrCompressRule() throws EPPIXFatalException {
+//		return (NcrCompressRule) getBLO(NcrCompressRule.class);
+//	}
+//
+//	public EiEppixIsis eiEppixIsis() throws EPPIXFatalException {
+//		return (EiEppixIsis) getBLO(EiEppixIsis.class);
+//	}
+//
+//	public TolSimNos tolSimNos() throws EPPIXFatalException {
+//		return (TolSimNos) getBLO(TolSimNos.class);
+//	}
+//
+//	public SmhSimHistory smhSimHistory() throws EPPIXFatalException {
+//		return (SmhSimHistory) getBLO(SmhSimHistory.class);
+//	}
+//
+//	public Language language() throws EPPIXFatalException {
+//		return (Language) getBLO(Language.class);
+//	}
+//
+//	public Opservm opservm() throws EPPIXFatalException {
+//		return (Opservm) getBLO(Opservm.class);
+//	}
+//	
+//	public PdPortDetails pdPortDetails() throws EPPIXFatalException {
+//		return (PdPortDetails) getBLO(PdPortDetails.class);
+//	}
+//
+//	public BtcBatchControl btcBatchControl() throws EPPIXFatalException
+//	{
+//			return (BtcBatchControl) getBLO(BtcBatchControl.class);
+//	}	
+//	
+//	public PtmPermToMarket ptmPermToMarket() throws EPPIXFatalException {
+//		return (PtmPermToMarket) getBLO(PtmPermToMarket.class);
+//	}
+//
+//		public SbhSubHistory sbhSubHistory() throws EPPIXFatalException {
+//			return (SbhSubHistory) getBLO(SbhSubHistory.class);
+//	}
+//
+//		public SbuSubUpgrade sbuSubUpgrade() throws EPPIXFatalException {
+//			return (SbuSubUpgrade) getBLO(SbuSubUpgrade.class);
+//	}
+//		
+//		public SmnSimNos smnSimNos() throws EPPIXFatalException {
+//			return (SmnSimNos) getBLO(SmnSimNos.class);
+//	}	
+//		
+//		public CuhCustomerHistory cuhCustomerHistory() throws EPPIXFatalException {
+//			return (CuhCustomerHistory) getBLO(CuhCustomerHistory.class);
+//	}		
+//		
+//		public MshMsisdnHistory mshMsisdnHistory() throws EPPIXFatalException {
+//			return (MshMsisdnHistory) getBLO(MshMsisdnHistory.class);
+//	}			
+}

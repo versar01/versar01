@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="absrc"/>
+	<classpathentry kind="src" path="batchsrc"/>
+	<classpathentry kind="src" path="commonsrc"/>
+	<classpathentry kind="src" path="soaLib"/>
+	<classpathentry kind="src" path="SharedObj"/>
+	<classpathentry exported="true" kind="lib" path="C:/Java/lib/ifxjdbc.jar"/>
+	<classpathentry kind="lib" path="C:/Java/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="C:/Java/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="C:/Java/J2EE/lib/javaee.jar"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Java/lib/WarehouseAutoActivation.jar"/>
+	<classpathentry kind="lib" path="C:/Java/lib/EPXSORGGetNextAvaialableIP.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="oracle.eclipse.tools.weblogic.lib.application/EpxEbuInsValidateCustomer"/>
+	<classpathentry kind="lib" path="C:/Java/lib/EPPIX_BASEJ8.jar" sourcepath=""/>
+	<classpathentry kind="lib" path="C:/Weblogic12c/wls12213/wlserver/server/lib/javax.javaee-api.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jackson-core-2.13"/>
+	<classpathentry kind="con" path="oracle.eclipse.tools.weblogic.lib.application/DefaultDelEbu"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

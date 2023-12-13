@@ -1,0 +1,640 @@
+20191007: 162741     DEBUG     0[main] - com.eppixcomm.eppix.base.test.TestIdcAccSubServ.loadproperties(TestIdcAccSubServ.java:109) - loading appProperties
+20191007: 162741     DEBUG     7[main] - com.eppixcomm.eppix.base.test.TestIdcAccSubServ.loadproperties(TestIdcAccSubServ.java:116) - appProperties loaded : {jdbc_driver=com.informix.jdbc.IfxDriver, jdbc_user=compans, jdbc_pass=C0mp@ns234, jdbc_url=jdbc:informix-sqli://mtnx91:9101/eppix:INFORMIXSERVER=epx_91_dev_3}
+20191007: 162741     DEBUG     7[main] - com.eppixcomm.eppix.base.test.TestIdcAccSubServ.dbConnectionInit(TestIdcAccSubServ.java:129) - DB Connection start
+20191007: 162741     DEBUG     8[main] - com.eppixcomm.eppix.base.test.TestIdcAccSubServ.dbConnectionInit(TestIdcAccSubServ.java:132) - {jdbc_driver=com.informix.jdbc.IfxDriver, jdbc_user=compans, jdbc_pass=C0mp@ns234, jdbc_url=jdbc:informix-sqli://mtnx91:9101/eppix:INFORMIXSERVER=epx_91_dev_3}
+20191007: 162742     DEBUG   489[main] - com.eppixcomm.eppix.common.data.DACFactory.<init>(DACFactory.java:95) - constructor( connection, thrower )
+20191007: 162742     DEBUG   491[main] - com.eppixcomm.eppix.common.data.ConnectionContext.connect(ConnectionContext.java:100) - connect( connection )
+20191007: 162742     DEBUG   492[main] - com.eppixcomm.eppix.common.data.ConnectionContext.get(ConnectionContext.java:82) - get()
+20191007: 162742     DEBUG   498[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.IDAccSubServList )
+20191007: 162742     DEBUG   523[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getIDAccSubServListDAC(BaseDACFactory.java:570) - getIDAccSubServListDAC
+20191007: 162742     DEBUG   529[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.IDAccSubServListDACImpl com.eppixcomm.eppix.base.dml.IDAccSubServListDML@736e9adb
+20191007: 162742     DEBUG   529[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.IDAccSubServListDACImpl
+20191007: 162742     DEBUG   553[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 162742     DEBUG   554[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.IDAccSubServListDACImpl TO MAP
+20191007: 162742     DEBUG   554[main] - com.eppixcomm.eppix.base.test.TestIdcAccSubServ.dbConnectionInit(TestIdcAccSubServ.java:152) - DB Connection successfull
+20191007: 162742     DEBUG   565[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigrade )
+20191007: 162742     DEBUG   697[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getSubscriberUpgradeMigradeDAC(BaseDACFactory.java:518) - getSubscriberUpgradeMigradeDAC
+20191007: 162742     DEBUG   703[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeDACImpl com.eppixcomm.eppix.base.dml.SubscriberUpgradeMigradeDML@619a5dff
+20191007: 162742     DEBUG   703[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeDACImpl
+20191007: 162742     DEBUG   707[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 162742     DEBUG   707[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeDACImpl TO MAP
+20191007: 162742     DEBUG   709[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.HeliosRpcServices )
+20191007: 162742     DEBUG   712[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getHeliosRpcServicesDAC(BaseDACFactory.java:453) - getSimGetForMsisdnDAC()
+20191007: 162742     DEBUG   714[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.HeliosRpcServicesDACImpl com.eppixcomm.eppix.base.dml.HeliosRpcServicesDML@6438a396
+20191007: 162742     DEBUG   715[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.HeliosRpcServicesDACImpl
+20191007: 162742     DEBUG   716[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 162742     DEBUG   717[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.HeliosRpcServicesDACImpl TO MAP
+20191007: 162742     DEBUG   718[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.GetServiceDiscount )
+20191007: 162742     DEBUG   720[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getGetServiceDiscountDAC(BaseDACFactory.java:425) - getGetServiceDiscountDAC()
+20191007: 162742     DEBUG   722[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.GetServiceDiscountDACImpl com.eppixcomm.eppix.base.dml.GetServiceDiscountDML@7506e922
+20191007: 162742     DEBUG   722[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.GetServiceDiscountDACImpl
+20191007: 162742     DEBUG   723[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 162742     DEBUG   723[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.GetServiceDiscountDACImpl TO MAP
+20191007: 162742     DEBUG   725[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.GetSubscriberUpgradeEligibility )
+20191007: 162742     DEBUG   728[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getGetSubscriberUpgradeEligibilityDAC(BaseDACFactory.java:557) - GetSubscriberUpgradeEligibilityDAC
+20191007: 162742     DEBUG   730[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.GetSubscriberUpgradeEligibilityDACImpl com.eppixcomm.eppix.base.dml.GetSubscriberUpgradeEligibilityDML@5b80350b
+20191007: 162742     DEBUG   731[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.GetSubscriberUpgradeEligibilityDACImpl
+20191007: 162742     DEBUG   731[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 162742     DEBUG   731[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.GetSubscriberUpgradeEligibilityDACImpl TO MAP
+20191007: 162742     DEBUG   733[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.GetSULMaxUsageAllowed )
+20191007: 162742     DEBUG   736[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getGetSULMaxUsageAllowedDAC(BaseDACFactory.java:531) - getGetSULMaxUsageAllowedDAC
+20191007: 162742     DEBUG   738[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.GetSULMaxUsageAllowedDACImpl com.eppixcomm.eppix.base.dml.GetSULMaxUsageAllowedDML@50134894
+20191007: 162742     DEBUG   738[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.GetSULMaxUsageAllowedDACImpl
+20191007: 162742     DEBUG   739[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 162742     DEBUG   739[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.GetSULMaxUsageAllowedDACImpl TO MAP
+20191007: 162742     DEBUG   739[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.GetServiceDiscount )
+20191007: 162742     DEBUG   739[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigrade )
+20191007: 162742     DEBUG   742[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.Sysdirm )
+20191007: 162742     DEBUG   829[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getSysdirmDAC(BaseAbstractDACFactory.java:327) - getSysdirmDAC()
+20191007: 162742     DEBUG   835[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SysdirmDACImpl com.eppixcomm.eppix.base.dml.SysdirmAbstractDMLFactory@20fa23c1
+20191007: 162742     DEBUG   835[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SysdirmDACImpl
+20191007: 162742     DEBUG   836[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 162742     DEBUG   836[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SysdirmDACImpl TO MAP
+20191007: 162742     DEBUG   837[main] - com.eppixcomm.eppix.base.blo.SysdirmAbstractBLO.get(SysdirmAbstractBLO.java:501) - get( filter )
+20191007: 162742     DEBUG   837[main] - com.eppixcomm.eppix.base.blo.SysdirmAbstractDACImpl.get(SysdirmAbstractDACImpl.java:435) - get( filter )
+20191007: 162742     DEBUG   841[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+Sysdirm|0|equalSystemKey|
+
+20191007: 162742     DEBUG   939[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: Sysdirm
+Execute SQL Statement: SELECT SYSTEM_KEY, KEY_VALUE, DESCRIPTION
+FROM SYSDIRM
+WHERE (SYSTEM_KEY) = ?
+Argument(s): |OPVATCODE|
+20191007: 162742     DEBUG   939[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@3b764bce
+20191007: 162742     DEBUG  1004[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getVatPercentageByCode
+20191007: 162742     DEBUG  1005[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getVatPercentageByCode|0||
+
+20191007: 162742     DEBUG  1110[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getVatPercentageByCode
+Execute SQL Statement: SELECT percentage FROM cevatm WHERE vat_code = ? 
+Argument(s): |VST|
+20191007: 162742     DEBUG  1113[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@6bf2d08e
+20191007: 162743     DEBUG  1170[main] - com.eppixcomm.eppix.base.blo.IDAccSubServListBLO.getListIDAccServ(IDAccSubServListBLO.java:257) - 
+vatPercentage: 1.15
+20191007: 162743     DEBUG  1172[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.SksKeySetting )
+20191007: 162743     DEBUG  1173[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getSksKeySettingDAC(BaseAbstractDACFactory.java:314) - getSksKeySettingDAC()
+20191007: 162743     DEBUG  1176[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SksKeySettingDACImpl com.eppixcomm.eppix.base.dml.SksKeySettingAbstractDMLFactory@7e774085
+20191007: 162743     DEBUG  1176[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SksKeySettingDACImpl
+20191007: 162743     DEBUG  1178[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 162743     DEBUG  1178[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SksKeySettingDACImpl TO MAP
+20191007: 162743     DEBUG  1179[main] - com.eppixcomm.eppix.base.blo.SksKeySettingAbstractBLO.get(SksKeySettingAbstractBLO.java:500) - get( filter )
+20191007: 162743     DEBUG  1179[main] - com.eppixcomm.eppix.base.blo.SksKeySettingAbstractDACImpl.get(SksKeySettingAbstractDACImpl.java:420) - get( filter )
+20191007: 162743     DEBUG  1179[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+SksKeySetting|0|equalSksKeyCode|
+
+20191007: 162743     DEBUG  1279[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: SksKeySetting
+Execute SQL Statement: SELECT SKS_KEY_CODE, SKS_VALUE, SKS_COMMENT, SKS_TIMESTAMP
+FROM SKS_KEY_SETTING
+WHERE (SKS_KEY_CODE) = ?
+Argument(s): |ADVPAYMNT|
+20191007: 162743     DEBUG  1281[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@15615099
+20191007: 162743     DEBUG  1348[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.AuxCustomers )
+20191007: 162743     DEBUG  1349[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getAuxCustomersDAC(BaseAbstractDACFactory.java:122) - getAuxCustomersDAC()
+20191007: 162743     DEBUG  1367[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.AuxCustomersDACImpl com.eppixcomm.eppix.base.dml.AuxCustomersDMLFactory@1963006a
+20191007: 162743     DEBUG  1367[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.AuxCustomersDACImpl
+20191007: 162743     DEBUG  1371[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 162743     DEBUG  1371[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.AuxCustomersDACImpl TO MAP
+20191007: 162743     DEBUG  1371[main] - com.eppixcomm.eppix.base.blo.AuxCustomersAbstractBLO.get(AuxCustomersAbstractBLO.java:689) - get( filter )
+20191007: 162743     DEBUG  1371[main] - com.eppixcomm.eppix.base.blo.AuxCustomersAbstractDACImpl.get(AuxCustomersAbstractDACImpl.java:1309) - get( filter )
+20191007: 162743     DEBUG  1373[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+AuxCustomers|0|equalBillAcNo|
+
+20191007: 162743     DEBUG  1481[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: AuxCustomers
+Execute SQL Statement: SELECT AUX_TITLE, AUX_FIRSTNAME, AUX_INVOICE_ADDRID, BANK_NAME, BANK_ADDR1, BANK_ADDR2, BANK_AC_NAME, REF, BANK_SCODE, BANK_AC_NO, BANK_AC_TYPE, BANK_PAY_TYPE, AUX_PREF_DEBIT_DAY, BILL_AC_NO, PROTECT_CODE, HANDSET_CT, BANK_DATE, CONF_DATE, AUX_COMMENT, DATE_OF_BIRTH, REF_PAY_DATE, AC_CLOS_DATE, NO_REAS_DATE, REM_LET_DATE, AC_TRAN_DATE, NO_AC_DATE, SR_FLAG, PROCESSED, PACKAGE_CODE, AUX_ACCOUNT_TYPE, AUX_BILL_CYCLE, CREDIT_CARD_NO, CREDIT_CARD_NAME, EXPIRY_DATE, AUX_CARD_CVV_NO, CREDIT_SCORE, SERV_PROV_ID, DEALER_ID, SALESMAN, ID_NUMBER, ACC_STATUS, COMP_REG_NO, STATIONARY_TYPE, MAX_NO_SUBS, AUX_CURRENCY, AUX_COUNTRY_CODE, AUX_GENDER, AUX_SUB_GRP_ACC_NO, AUX_PREPAID_STAT, AUX_CREDIT_CLASS, AUX_AUTO_LIMIT_IND, AUX_LMT_UP_VAL, AUX_LMT_DN_VAL, AUX_ANALYSIS_1, AUX_ANALYSIS_2, AUX_ANALYSIS_3, AUX_ANALYSIS_4, AUX_ANALYSIS_5, AUX_ANALYSIS_6, AUX_ANALYSIS_7, AUX_ANALYSIS_8, AUX_ANALYSIS_9, AUX_ANALYSIS_10, AUX_ANALYSIS_11, AUX_ANALYSIS_12, AUX_ANALYSIS_13, AUX_ANALYSIS_14, AUX_ANALYSIS_15, AUX_ANALYSIS_16, AUX_ANALYSIS_17, AUX_ANALYSIS_18, AUX_ANALYSIS_19, AUX_ANALYSIS_20, AUX_ANALYSIS_21, AUX_ANALYSIS_22, AUX_ANALYSIS_23, AUX_ANALYSIS_24, AUX_ANALYSIS_25, AUX_ANALYSIS_26, AUX_ANALYSIS_27, AUX_ANALYSIS_28, AUX_ANALYSIS_29, AUX_ANALYSIS_30
+FROM AUX_CUSTOMERS
+WHERE (BILL_AC_NO) = ?
+Argument(s): |A3641050|
+20191007: 162743     DEBUG  1489[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@379619aa
+20191007: 162743     DEBUG  1548[main] - com.eppixcomm.eppix.base.blo.IDAccSubServListBLO.getIdAccSubServList(IDAccSubServListBLO.java:761) - 
+SELECT {+FIRST_ROWS} UNIQUE bill_ac_no, id_number, aux_account_type, credit_limit, aux_credit_class, acc_status, aux_analysis_24, analysis_codes1, sbd_subscriber_id, sbd_package_code, sbd_tariff_plan, nvl(vsm_msisdn_no,'0') vsm_msisdn_no, '0' vam_sim_no, '0' asr_msisdn_no, '0' asr_sim_no, nvl(vsm_service_code,'0') vsm_service_code, '0' asr_service_code, sbd_term_date  FROM aux_customers, slcustm, sbd_sub_dets, vsm_service_msisdn, tt_type_text, vam_active_msisdn  WHERE 1=1  AND bill_ac_no = 'A3641050' and tt_group = 'ACCTYPE'  and tt_text in ('S', 'C')  and tt_type = aux_account_type  AND id_number matches '6501110169084' AND bill_ac_no = customer  AND bill_ac_no = sbd_bill_ac_no  AND sbd_subscriber_id = vsm_subscriber_id  and acc_status != 'CLO'  and vam_subscriber_id = vsm_subscriber_id  and vam_msisdn_no = vsm_msisdn_no  and vam_hierarchy = '0'  AND vam_msisdn_known in ('1','2')  AND vam_stat_code not in ('6','7') UNION SELECT {+FIRST_ROWS} UNIQUE bill_ac_no, id_number, aux_account_type, credit_limit, aux_credit_class, acc_status, aux_analysis_24, analysis_codes1, sbd_subscriber_id, sbd_package_code, sbd_tariff_plan,  '0' vsm_msisdn_no, '0' vam_sim_no, nvl(asr_msisdn_no,'0') asr_msisdn_no,  nvl(asr_sim_no,'0') asr_sim_no, '0' vsm_service_code, nvl(asr_service_code,'0') asr_service_code, sbd_term_date  FROM aux_customers, slcustm, sbd_sub_dets, asr_add_serv_req, tt_type_text  WHERE 1=1  AND bill_ac_no = 'A3641050' and tt_group = 'ACCTYPE'  and tt_text in ('S', 'C')  and tt_type = aux_account_type  AND id_number matches '6501110169084' AND bill_ac_no = customer AND bill_ac_no = sbd_bill_ac_no AND sbd_subscriber_id = asr_subscriber_id AND asr_active_flag = 'N' AND NOT EXISTS (select 1 from vam_active_msisdn where vam_subscriber_id = sbd_subscriber_id)  AND asr_action_type in ('SBACT', 'IVRTP', 'NRACT', 'PEACT')  and acc_status != 'CLO' ORDER BY 1, 9, 8, 15 DESC 
+20191007: 162743     DEBUG  1764[main] - com.eppixcomm.eppix.base.blo.IDAccSubServListBLO.getListIDAccServ(IDAccSubServListBLO.java:372) - 
+IdAccSubServListDQO [account=A3641050
+id=6501110169084       
+accountType=IS   
+subId=1454018
+vamMsisdn=833010409      
+vamSim=0
+asrMsisdn=0              
+asrSim=0             
+vsmService=APNW
+asrService=0   
+packageCode=FF120
+tariffPlan=AM24M               
+creditLimit=9253
+creditClass=EXCEL
+accountStatus=OPN            
+mtnStatus=STANDARD                      
+ladStatus1=          
+termDate=2020-06-20]
+20191007: 162743     DEBUG  1764[main] - com.eppixcomm.eppix.base.blo.IDAccSubServListBLO.getListIDAccServ(IDAccSubServListBLO.java:376) - 
+SUBSCRIBER TO PROCCESS: 1454018
+20191007: 162743     DEBUG  1764[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getVamActiveMsisdn
+20191007: 162743     DEBUG  1766[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getVamActiveMsisdn|0||
+
+20191007: 162743     DEBUG  1875[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getVamActiveMsisdn
+Execute SQL Statement: SELECT * FROM vam_active_msisdn WHERE vam_subscriber_id = ? AND vam_hierarchy = '0' AND vam_msisdn_known in ('1','2') AND vam_stat_code not in ('6','7') ORDER BY vam_msisdn_known
+Argument(s): |1454018|
+20191007: 162743     DEBUG  1876[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@182decdb
+20191007: 162743     DEBUG  1934[main] - com.eppixcomm.eppix.base.blo.IDAccSubServListBLO.getListIDAccServ(IDAccSubServListBLO.java:397) - 
+dqo.getVsmService(): APNW
+dqo.getAsrService(): 0   
+20191007: 162743     DEBUG  1937[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.SbdSubDets )
+20191007: 162743     DEBUG  1937[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getSbdSubDetsDAC(BaseAbstractDACFactory.java:234) - getSbdSubDetsDAC()
+20191007: 162743     DEBUG  1950[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SbdSubDetsDACImpl com.eppixcomm.eppix.base.dml.SbdSubDetsAbstractDMLFactory@7637f22
+20191007: 162743     DEBUG  1951[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SbdSubDetsDACImpl
+20191007: 162743     DEBUG  1952[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 162743     DEBUG  1952[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SbdSubDetsDACImpl TO MAP
+20191007: 162743     DEBUG  1953[main] - com.eppixcomm.eppix.base.blo.SbdSubDetsAbstractBLO.get(SbdSubDetsAbstractBLO.java:531) - get( filter )
+20191007: 162743     DEBUG  1953[main] - com.eppixcomm.eppix.base.blo.SbdSubDetsAbstractDACImpl.get(SbdSubDetsAbstractDACImpl.java:556) - get( filter )
+20191007: 162743     DEBUG  1954[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+SbdSubDets|0|equalSbdSubscriberId|
+
+20191007: 162743     DEBUG  2049[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: SbdSubDets
+Execute SQL Statement: SELECT SBD_SUBSCRIBER_ID, SBD_DIALLING_NO, SBD_BILL_AC_NO, SBD_CONNECT_DATE, SBD_DCONNECT_DATE, SBD_TERM_DATE, SBD_TITLE, SBD_SURNAME, SBD_FIRSTNAME, SBD_GENDER, SBD_DOB, SBD_PASSWORD, SBD_LOCATION_CODE, SBD_BILL_CYCLE, SBD_PACKAGE_CODE, SBD_BILLED_UPTO, SBD_TARIFF_PLAN
+FROM SBD_SUB_DETS
+WHERE SBD_SUBSCRIBER_ID = ?
+Argument(s): |1454018|
+20191007: 162743     DEBUG  2050[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@2d363fb3
+20191007: 162743     DEBUG  2115[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.VsrService )
+20191007: 162743     DEBUG  2116[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getVsrServiceDAC(BaseAbstractDACFactory.java:486) - getVsrServiceDAC()
+20191007: 162743     DEBUG  2119[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.VsrServiceDACImpl com.eppixcomm.eppix.base.dml.VsrServiceDMLFactory@6f75e721
+20191007: 162743     DEBUG  2119[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.VsrServiceDACImpl
+20191007: 162743     DEBUG  2121[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 162743     DEBUG  2121[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.VsrServiceDACImpl TO MAP
+20191007: 162743     DEBUG  2121[main] - com.eppixcomm.eppix.base.blo.VsrServiceAbstractBLO.get(VsrServiceAbstractBLO.java:576) - get( filter )
+20191007: 162743     DEBUG  2122[main] - com.eppixcomm.eppix.base.blo.VsrServiceAbstractDACImpl.get(VsrServiceAbstractDACImpl.java:517) - get( filter )
+20191007: 162743     DEBUG  2122[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+VsrService|0|equalVsrServiceCode|
+
+20191007: 162744     DEBUG  2211[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: VsrService
+Execute SQL Statement: SELECT VSR_SERVICE_CODE, VSR_SERVICE_TYPE, VSR_SERVICE_DESC, VSR_ORIGINATOR, VSR_SERVICE_CLASS, VSR_TEMP_DEACT, VSR_PRORATA, VSR_PROVIDER_ID, VSR_SHORT_DESC, VSR_SUSPEND
+FROM VSR_SERVICE
+WHERE VSR_SERVICE_CODE = ?
+Argument(s): |APNW|
+20191007: 162744     DEBUG  2212[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@e2d56bf
+20191007: 162744     DEBUG  2280[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.VstServiceTypes )
+20191007: 162744     DEBUG  2281[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getVstServiceTypesDAC(BaseAbstractDACFactory.java:499) - getVstServiceTypesDAC()
+20191007: 162744     DEBUG  2285[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.VstServiceTypesDACImpl com.eppixcomm.eppix.base.dml.VstServiceTypesDMLFactory@3b22cdd0
+20191007: 162744     DEBUG  2285[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.VstServiceTypesDACImpl
+20191007: 162744     DEBUG  2286[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 162744     DEBUG  2287[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.VstServiceTypesDACImpl TO MAP
+20191007: 162744     DEBUG  2287[main] - com.eppixcomm.eppix.base.blo.VstServiceTypesAbstractBLO.get(VstServiceTypesAbstractBLO.java:595) - get( filter )
+20191007: 162744     DEBUG  2287[main] - com.eppixcomm.eppix.base.blo.VstServiceTypesAbstractDACImpl.get(VstServiceTypesAbstractDACImpl.java:540) - get( filter )
+20191007: 162744     DEBUG  2287[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+VstServiceTypes|0|equalVstServiceType|
+
+20191007: 162744     DEBUG  2389[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: VstServiceTypes
+Execute SQL Statement: SELECT VST_SERVICE_TYPE, VST_SERVICE_DESC, VST_MULTI_CHARGE, VST_SERVICE_CLASS, VST_AUTO_CONNECT, VST_ORIGINATOR, VST_TARIFF_RELATED, VST_PARAMETERISED, VST_PARAMS_LEVEL, VST_ARCHIVE_MONTHS, VST_FUTURE_ACT, VST_NODE_LEVEL
+FROM VST_SERVICE_TYPES
+WHERE VST_SERVICE_TYPE = ?
+Argument(s): |AW|
+20191007: 162744     DEBUG  2390[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@6a6824be
+20191007: 162744     DEBUG  2451[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getTsTariffService
+20191007: 162744     DEBUG  2453[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getTsTariffService|0||
+
+20191007: 162744     DEBUG  2556[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getTsTariffService
+Execute SQL Statement: SELECT * FROM ts_tariff_service WHERE ts_package_code = ?  AND ts_service_code = ?  AND (ts_internal_tariff = ?  OR ts_internal_tariff IS NULL)
+Argument(s): |FF120|APNW|AM24M|
+20191007: 162744     DEBUG  2557[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@368239c8
+20191007: 162744     DEBUG  2617[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.VasActiveService )
+20191007: 162744     DEBUG  2618[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getVasActiveServiceDAC(BaseAbstractDACFactory.java:1177) - getVasActiveServiceDAC()
+20191007: 162744     DEBUG  2624[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.VasActiveServiceDACImpl com.eppixcomm.eppix.base.dml.VasActiveServiceDMLFactory@311d617d
+20191007: 162744     DEBUG  2624[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.VasActiveServiceDACImpl
+20191007: 162744     DEBUG  2626[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 162744     DEBUG  2627[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.VasActiveServiceDACImpl TO MAP
+20191007: 162744     DEBUG  2627[main] - com.eppixcomm.eppix.base.blo.VasActiveServiceAbstractBLO.get(VasActiveServiceAbstractBLO.java:318) - get( filter )
+20191007: 162744     DEBUG  2627[main] - com.eppixcomm.eppix.base.blo.VasActiveServiceAbstractDACImpl.get(VasActiveServiceAbstractDACImpl.java:377) - get( filter )
+20191007: 162744     DEBUG  2628[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+VasActiveService|0|equalVasSubscriberId+equalVasServiceCode+equalornullVasInternTariff|
+
+20191007: 162744     DEBUG  2723[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: VasActiveService
+Execute SQL Statement: SELECT VAS_SUBSCRIBER_ID,VAS_SERVICE_CODE,VAS_INTERN_TARIFF,VAS_SERVICE_TYPE,VAS_ACT_DATE,VAS_DEACT_DATE,VAS_SUB_CHARGE1,VAS_SUB_CHARGE2,VAS_SUB_CHARGE3,VAS_TWINBILL_NO,VAS_MULTI_CHARGE
+FROM VAS_ACTIVE_SERVICE
+WHERE VAS_SUBSCRIBER_ID = ?  AND VAS_SERVICE_CODE = ?  AND (VAS_INTERN_TARIFF = ? OR VAS_INTERN_TARIFF IS NULL) 
+Argument(s): |1454018|APNW|AM24M|
+20191007: 162744     DEBUG  2724[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@2f333739
+20191007: 162744     DEBUG  2780[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.VsrService )
+20191007: 162744     DEBUG  2781[main] - com.eppixcomm.eppix.base.blo.VsrServiceAbstractBLO.get(VsrServiceAbstractBLO.java:576) - get( filter )
+20191007: 162744     DEBUG  2781[main] - com.eppixcomm.eppix.base.blo.VsrServiceAbstractDACImpl.get(VsrServiceAbstractDACImpl.java:517) - get( filter )
+20191007: 162744     DEBUG  2781[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+VsrService|0|equalVsrServiceCode|
+
+20191007: 162744     DEBUG  2808[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: VsrService
+Execute SQL Statement: SELECT VSR_SERVICE_CODE, VSR_SERVICE_TYPE, VSR_SERVICE_DESC, VSR_ORIGINATOR, VSR_SERVICE_CLASS, VSR_TEMP_DEACT, VSR_PRORATA, VSR_PROVIDER_ID, VSR_SHORT_DESC, VSR_SUSPEND
+FROM VSR_SERVICE
+WHERE VSR_SERVICE_CODE = ?
+Argument(s): |APNW|
+20191007: 162744     DEBUG  2808[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@6ed3ef1
+20191007: 162744     DEBUG  2875[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getChg(SubscriberUpgradeMigradeBLO.java:14808) - 
+String chargeCode:      
+String netId: M1
+Date chargeDate: null
+Date effectiveDate: null
+String chgType: F
+20191007: 162744     DEBUG  2876[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.ChgCharges )
+20191007: 162744     DEBUG  2877[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getChgChargesDAC(BaseAbstractDACFactory.java:578) - getChgChargesDAC()
+20191007: 162744     DEBUG  2880[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.ChgChargesDACImpl com.eppixcomm.eppix.base.dml.ChgChargesDMLFactory@7b1d7fff
+20191007: 162744     DEBUG  2880[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.ChgChargesDACImpl
+20191007: 162744     DEBUG  2882[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 162744     DEBUG  2882[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.ChgChargesDACImpl TO MAP
+20191007: 162744     DEBUG  2882[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractBLO.max(ChgChargesAbstractBLO.java:593) - max( filter )
+20191007: 162744     DEBUG  2882[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractDACImpl.max(ChgChargesAbstractDACImpl.java:542) - max( filter )
+20191007: 162744     DEBUG  2882[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+ChgCharges|14|equalChgCode+equalChgNetid+lessthanorequalChgEffectiveDate+equalChgChargef|
+
+20191007: 162744     DEBUG  2976[main] - com.eppixcomm.eppix.common.data.DAOImpl.max(DAOImpl.java:1220) - max(param SQL): DML Name: ChgCharges
+Execute SQL Statement: SELECT MAX(CHG_CODE, CHG_NETID, CHG_EFFECTIVE_DATE)
+FROM CHG_CHARGES
+WHERE CHG_CODE = ? AND CHG_NETID = ? AND CHG_EFFECTIVE_DATE <= ? AND CHG_CHARGEF = ?
+Argument(s): |     |M1|2019-10-07|F|
+20191007: 162744     DEBUG  3012[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getChg(SubscriberUpgradeMigradeBLO.java:14857) - 1 EFF DATE: null
+20191007: 162744     DEBUG  3012[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getChg(SubscriberUpgradeMigradeBLO.java:14862) - 2 EFF DATE = null
+20191007: 162744     DEBUG  3012[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.ChgCharges )
+20191007: 162744     DEBUG  3012[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractBLO.max(ChgChargesAbstractBLO.java:593) - max( filter )
+20191007: 162744     DEBUG  3012[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractDACImpl.max(ChgChargesAbstractDACImpl.java:542) - max( filter )
+20191007: 162744     DEBUG  3013[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+ChgCharges|14|equalChgCode+nullChgNetid+lessthanorequalChgEffectiveDate+equalChgChargef|
+
+20191007: 162744     DEBUG  3111[main] - com.eppixcomm.eppix.common.data.DAOImpl.max(DAOImpl.java:1220) - max(param SQL): DML Name: ChgCharges
+Execute SQL Statement: SELECT MAX(CHG_CODE, CHG_NETID, CHG_EFFECTIVE_DATE)
+FROM CHG_CHARGES
+WHERE CHG_CODE = ? AND (CHG_NETID IS NULL OR LENGTH(CHG_NETID) IS NULL OR LENGTH(CHG_NETID) = 0) AND CHG_EFFECTIVE_DATE <= ? AND CHG_CHARGEF = ?
+Argument(s): |     |2019-10-07|F|
+20191007: 162744     DEBUG  3144[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getChg(SubscriberUpgradeMigradeBLO.java:14878) - 2A EFF DATE: null
+20191007: 162744     DEBUG  3144[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getChg(SubscriberUpgradeMigradeBLO.java:15016) - Effective Date set to 2019-10-07
+20191007: 162744     DEBUG  3144[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.ChgCharges )
+20191007: 162744     DEBUG  3144[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractBLO.get(ChgChargesAbstractBLO.java:564) - get( filter )
+20191007: 162744     DEBUG  3144[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractDACImpl.get(ChgChargesAbstractDACImpl.java:523) - get( filter )
+20191007: 162744     DEBUG  3145[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+ChgCharges|0|equalChgCode+equalChgNetid+equalChgEffectiveDate+equalChgChargef|
+
+20191007: 162745     DEBUG  3252[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: ChgCharges
+Execute SQL Statement: SELECT CHG_CODE, CHG_DESCRIPTION, CHG_VALUE, CHG_VAT_CODE, CHG_NCODE, CHG_NETID, CHG_CHARGEF, CHG_PERIOD, CHG_FREQUENCY, CHG_EFFECTIVE_DATE, CHG_CLASS_ID
+FROM CHG_CHARGES
+WHERE CHG_CODE = ? AND CHG_NETID = ? AND CHG_EFFECTIVE_DATE = ? AND CHG_CHARGEF = ?
+Argument(s): |     |M1|2019-10-07|F|
+20191007: 162745     DEBUG  3312[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.ChgCharges )
+20191007: 162745     DEBUG  3312[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractBLO.get(ChgChargesAbstractBLO.java:564) - get( filter )
+20191007: 162745     DEBUG  3312[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractDACImpl.get(ChgChargesAbstractDACImpl.java:523) - get( filter )
+20191007: 162745     DEBUG  3313[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+ChgCharges|0|equalChgCode+nullChgNetid+lessthanorequalChgEffectiveDate+equalChgChargef|
+
+20191007: 162745     DEBUG  3407[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: ChgCharges
+Execute SQL Statement: SELECT CHG_CODE, CHG_DESCRIPTION, CHG_VALUE, CHG_VAT_CODE, CHG_NCODE, CHG_NETID, CHG_CHARGEF, CHG_PERIOD, CHG_FREQUENCY, CHG_EFFECTIVE_DATE, CHG_CLASS_ID
+FROM CHG_CHARGES
+WHERE CHG_CODE = ? AND (CHG_NETID IS NULL OR LENGTH(CHG_NETID) IS NULL OR LENGTH(CHG_NETID) = 0) AND CHG_EFFECTIVE_DATE <= ? AND CHG_CHARGEF = ?
+Argument(s): |     |2019-10-07|F|
+20191007: 162745     ERROR  3483[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getChg(SubscriberUpgradeMigradeBLO.java:15146) - Unable to SELECT chg_charges details
+20191007: 162745     DEBUG  3484[main] - com.eppixcomm.eppix.base.blo.IDAccSubServListBLO.getIdSubChg(IDAccSubServListBLO.java:1236) - 
+CHGDMO: null
+20191007: 163708     DEBUG     0[main] - com.eppixcomm.eppix.base.test.TestIdcAccSubServ.loadproperties(TestIdcAccSubServ.java:109) - loading appProperties
+20191007: 163708     DEBUG     4[main] - com.eppixcomm.eppix.base.test.TestIdcAccSubServ.loadproperties(TestIdcAccSubServ.java:116) - appProperties loaded : {jdbc_driver=com.informix.jdbc.IfxDriver, jdbc_user=compans, jdbc_pass=C0mp@ns234, jdbc_url=jdbc:informix-sqli://mtnx91:9101/eppix:INFORMIXSERVER=epx_91_dev_3}
+20191007: 163708     DEBUG     4[main] - com.eppixcomm.eppix.base.test.TestIdcAccSubServ.dbConnectionInit(TestIdcAccSubServ.java:129) - DB Connection start
+20191007: 163708     DEBUG     5[main] - com.eppixcomm.eppix.base.test.TestIdcAccSubServ.dbConnectionInit(TestIdcAccSubServ.java:132) - {jdbc_driver=com.informix.jdbc.IfxDriver, jdbc_user=compans, jdbc_pass=C0mp@ns234, jdbc_url=jdbc:informix-sqli://mtnx91:9101/eppix:INFORMIXSERVER=epx_91_dev_3}
+20191007: 163709     DEBUG   472[main] - com.eppixcomm.eppix.common.data.DACFactory.<init>(DACFactory.java:95) - constructor( connection, thrower )
+20191007: 163709     DEBUG   475[main] - com.eppixcomm.eppix.common.data.ConnectionContext.connect(ConnectionContext.java:100) - connect( connection )
+20191007: 163709     DEBUG   476[main] - com.eppixcomm.eppix.common.data.ConnectionContext.get(ConnectionContext.java:82) - get()
+20191007: 163709     DEBUG   482[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.IDAccSubServList )
+20191007: 163709     DEBUG   508[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getIDAccSubServListDAC(BaseDACFactory.java:570) - getIDAccSubServListDAC
+20191007: 163709     DEBUG   515[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.IDAccSubServListDACImpl com.eppixcomm.eppix.base.dml.IDAccSubServListDML@736e9adb
+20191007: 163709     DEBUG   515[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.IDAccSubServListDACImpl
+20191007: 163709     DEBUG   539[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 163709     DEBUG   540[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.IDAccSubServListDACImpl TO MAP
+20191007: 163709     DEBUG   541[main] - com.eppixcomm.eppix.base.test.TestIdcAccSubServ.dbConnectionInit(TestIdcAccSubServ.java:152) - DB Connection successfull
+20191007: 163709     DEBUG   551[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigrade )
+20191007: 163709     DEBUG   693[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getSubscriberUpgradeMigradeDAC(BaseDACFactory.java:518) - getSubscriberUpgradeMigradeDAC
+20191007: 163709     DEBUG   700[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeDACImpl com.eppixcomm.eppix.base.dml.SubscriberUpgradeMigradeDML@619a5dff
+20191007: 163709     DEBUG   700[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeDACImpl
+20191007: 163709     DEBUG   704[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 163709     DEBUG   704[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeDACImpl TO MAP
+20191007: 163709     DEBUG   706[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.HeliosRpcServices )
+20191007: 163709     DEBUG   708[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getHeliosRpcServicesDAC(BaseDACFactory.java:453) - getSimGetForMsisdnDAC()
+20191007: 163709     DEBUG   711[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.HeliosRpcServicesDACImpl com.eppixcomm.eppix.base.dml.HeliosRpcServicesDML@6438a396
+20191007: 163709     DEBUG   712[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.HeliosRpcServicesDACImpl
+20191007: 163709     DEBUG   713[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 163709     DEBUG   714[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.HeliosRpcServicesDACImpl TO MAP
+20191007: 163709     DEBUG   714[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.GetServiceDiscount )
+20191007: 163709     DEBUG   716[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getGetServiceDiscountDAC(BaseDACFactory.java:425) - getGetServiceDiscountDAC()
+20191007: 163709     DEBUG   718[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.GetServiceDiscountDACImpl com.eppixcomm.eppix.base.dml.GetServiceDiscountDML@7506e922
+20191007: 163709     DEBUG   719[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.GetServiceDiscountDACImpl
+20191007: 163709     DEBUG   719[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 163709     DEBUG   720[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.GetServiceDiscountDACImpl TO MAP
+20191007: 163709     DEBUG   722[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.GetSubscriberUpgradeEligibility )
+20191007: 163709     DEBUG   724[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getGetSubscriberUpgradeEligibilityDAC(BaseDACFactory.java:557) - GetSubscriberUpgradeEligibilityDAC
+20191007: 163709     DEBUG   726[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.GetSubscriberUpgradeEligibilityDACImpl com.eppixcomm.eppix.base.dml.GetSubscriberUpgradeEligibilityDML@5b80350b
+20191007: 163709     DEBUG   727[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.GetSubscriberUpgradeEligibilityDACImpl
+20191007: 163709     DEBUG   727[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 163709     DEBUG   727[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.GetSubscriberUpgradeEligibilityDACImpl TO MAP
+20191007: 163709     DEBUG   729[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.GetSULMaxUsageAllowed )
+20191007: 163709     DEBUG   732[main] - com.eppixcomm.eppix.base.blo.BaseDACFactory.getGetSULMaxUsageAllowedDAC(BaseDACFactory.java:531) - getGetSULMaxUsageAllowedDAC
+20191007: 163709     DEBUG   734[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.GetSULMaxUsageAllowedDACImpl com.eppixcomm.eppix.base.dml.GetSULMaxUsageAllowedDML@50134894
+20191007: 163709     DEBUG   734[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.GetSULMaxUsageAllowedDACImpl
+20191007: 163709     DEBUG   735[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 163709     DEBUG   735[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.GetSULMaxUsageAllowedDACImpl TO MAP
+20191007: 163709     DEBUG   735[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.GetServiceDiscount )
+20191007: 163709     DEBUG   735[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigrade )
+20191007: 163709     DEBUG   739[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.Sysdirm )
+20191007: 163709     DEBUG   832[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getSysdirmDAC(BaseAbstractDACFactory.java:327) - getSysdirmDAC()
+20191007: 163709     DEBUG   838[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SysdirmDACImpl com.eppixcomm.eppix.base.dml.SysdirmAbstractDMLFactory@20fa23c1
+20191007: 163709     DEBUG   839[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SysdirmDACImpl
+20191007: 163709     DEBUG   840[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 163709     DEBUG   840[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SysdirmDACImpl TO MAP
+20191007: 163709     DEBUG   841[main] - com.eppixcomm.eppix.base.blo.SysdirmAbstractBLO.get(SysdirmAbstractBLO.java:501) - get( filter )
+20191007: 163709     DEBUG   841[main] - com.eppixcomm.eppix.base.blo.SysdirmAbstractDACImpl.get(SysdirmAbstractDACImpl.java:435) - get( filter )
+20191007: 163709     DEBUG   845[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+Sysdirm|0|equalSystemKey|
+
+20191007: 163709     DEBUG   944[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: Sysdirm
+Execute SQL Statement: SELECT SYSTEM_KEY, KEY_VALUE, DESCRIPTION
+FROM SYSDIRM
+WHERE (SYSTEM_KEY) = ?
+Argument(s): |OPVATCODE|
+20191007: 163709     DEBUG   945[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@3b764bce
+20191007: 163709     DEBUG  1005[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getVatPercentageByCode
+20191007: 163709     DEBUG  1006[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getVatPercentageByCode|0||
+
+20191007: 163709     DEBUG  1096[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getVatPercentageByCode
+Execute SQL Statement: SELECT percentage FROM cevatm WHERE vat_code = ? 
+Argument(s): |VST|
+20191007: 163709     DEBUG  1098[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@6bf2d08e
+20191007: 163709     DEBUG  1156[main] - com.eppixcomm.eppix.base.blo.IDAccSubServListBLO.getListIDAccServ(IDAccSubServListBLO.java:257) - 
+vatPercentage: 1.15
+20191007: 163709     DEBUG  1158[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.SksKeySetting )
+20191007: 163709     DEBUG  1158[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getSksKeySettingDAC(BaseAbstractDACFactory.java:314) - getSksKeySettingDAC()
+20191007: 163709     DEBUG  1162[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SksKeySettingDACImpl com.eppixcomm.eppix.base.dml.SksKeySettingAbstractDMLFactory@7e774085
+20191007: 163709     DEBUG  1163[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SksKeySettingDACImpl
+20191007: 163709     DEBUG  1164[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 163709     DEBUG  1164[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SksKeySettingDACImpl TO MAP
+20191007: 163709     DEBUG  1164[main] - com.eppixcomm.eppix.base.blo.SksKeySettingAbstractBLO.get(SksKeySettingAbstractBLO.java:500) - get( filter )
+20191007: 163709     DEBUG  1164[main] - com.eppixcomm.eppix.base.blo.SksKeySettingAbstractDACImpl.get(SksKeySettingAbstractDACImpl.java:420) - get( filter )
+20191007: 163709     DEBUG  1165[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+SksKeySetting|0|equalSksKeyCode|
+
+20191007: 163709     DEBUG  1255[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: SksKeySetting
+Execute SQL Statement: SELECT SKS_KEY_CODE, SKS_VALUE, SKS_COMMENT, SKS_TIMESTAMP
+FROM SKS_KEY_SETTING
+WHERE (SKS_KEY_CODE) = ?
+Argument(s): |ADVPAYMNT|
+20191007: 163709     DEBUG  1257[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@15615099
+20191007: 163709     DEBUG  1313[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.AuxCustomers )
+20191007: 163709     DEBUG  1314[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getAuxCustomersDAC(BaseAbstractDACFactory.java:122) - getAuxCustomersDAC()
+20191007: 163709     DEBUG  1333[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.AuxCustomersDACImpl com.eppixcomm.eppix.base.dml.AuxCustomersDMLFactory@1963006a
+20191007: 163709     DEBUG  1333[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.AuxCustomersDACImpl
+20191007: 163709     DEBUG  1336[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 163709     DEBUG  1336[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.AuxCustomersDACImpl TO MAP
+20191007: 163709     DEBUG  1336[main] - com.eppixcomm.eppix.base.blo.AuxCustomersAbstractBLO.get(AuxCustomersAbstractBLO.java:689) - get( filter )
+20191007: 163709     DEBUG  1336[main] - com.eppixcomm.eppix.base.blo.AuxCustomersAbstractDACImpl.get(AuxCustomersAbstractDACImpl.java:1309) - get( filter )
+20191007: 163709     DEBUG  1338[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+AuxCustomers|0|equalBillAcNo|
+
+20191007: 163710     DEBUG  1433[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: AuxCustomers
+Execute SQL Statement: SELECT AUX_TITLE, AUX_FIRSTNAME, AUX_INVOICE_ADDRID, BANK_NAME, BANK_ADDR1, BANK_ADDR2, BANK_AC_NAME, REF, BANK_SCODE, BANK_AC_NO, BANK_AC_TYPE, BANK_PAY_TYPE, AUX_PREF_DEBIT_DAY, BILL_AC_NO, PROTECT_CODE, HANDSET_CT, BANK_DATE, CONF_DATE, AUX_COMMENT, DATE_OF_BIRTH, REF_PAY_DATE, AC_CLOS_DATE, NO_REAS_DATE, REM_LET_DATE, AC_TRAN_DATE, NO_AC_DATE, SR_FLAG, PROCESSED, PACKAGE_CODE, AUX_ACCOUNT_TYPE, AUX_BILL_CYCLE, CREDIT_CARD_NO, CREDIT_CARD_NAME, EXPIRY_DATE, AUX_CARD_CVV_NO, CREDIT_SCORE, SERV_PROV_ID, DEALER_ID, SALESMAN, ID_NUMBER, ACC_STATUS, COMP_REG_NO, STATIONARY_TYPE, MAX_NO_SUBS, AUX_CURRENCY, AUX_COUNTRY_CODE, AUX_GENDER, AUX_SUB_GRP_ACC_NO, AUX_PREPAID_STAT, AUX_CREDIT_CLASS, AUX_AUTO_LIMIT_IND, AUX_LMT_UP_VAL, AUX_LMT_DN_VAL, AUX_ANALYSIS_1, AUX_ANALYSIS_2, AUX_ANALYSIS_3, AUX_ANALYSIS_4, AUX_ANALYSIS_5, AUX_ANALYSIS_6, AUX_ANALYSIS_7, AUX_ANALYSIS_8, AUX_ANALYSIS_9, AUX_ANALYSIS_10, AUX_ANALYSIS_11, AUX_ANALYSIS_12, AUX_ANALYSIS_13, AUX_ANALYSIS_14, AUX_ANALYSIS_15, AUX_ANALYSIS_16, AUX_ANALYSIS_17, AUX_ANALYSIS_18, AUX_ANALYSIS_19, AUX_ANALYSIS_20, AUX_ANALYSIS_21, AUX_ANALYSIS_22, AUX_ANALYSIS_23, AUX_ANALYSIS_24, AUX_ANALYSIS_25, AUX_ANALYSIS_26, AUX_ANALYSIS_27, AUX_ANALYSIS_28, AUX_ANALYSIS_29, AUX_ANALYSIS_30
+FROM AUX_CUSTOMERS
+WHERE (BILL_AC_NO) = ?
+Argument(s): |A3641050|
+20191007: 163710     DEBUG  1441[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@379619aa
+20191007: 163710     DEBUG  1501[main] - com.eppixcomm.eppix.base.blo.IDAccSubServListBLO.getIdAccSubServList(IDAccSubServListBLO.java:761) - 
+SELECT {+FIRST_ROWS} UNIQUE bill_ac_no, id_number, aux_account_type, credit_limit, aux_credit_class, acc_status, aux_analysis_24, analysis_codes1, sbd_subscriber_id, sbd_package_code, sbd_tariff_plan, nvl(vsm_msisdn_no,'0') vsm_msisdn_no, '0' vam_sim_no, '0' asr_msisdn_no, '0' asr_sim_no, nvl(vsm_service_code,'0') vsm_service_code, '0' asr_service_code, sbd_term_date  FROM aux_customers, slcustm, sbd_sub_dets, vsm_service_msisdn, tt_type_text, vam_active_msisdn  WHERE 1=1  AND bill_ac_no = 'A3641050' and tt_group = 'ACCTYPE'  and tt_text in ('S', 'C')  and tt_type = aux_account_type  AND id_number matches '6501110169084' AND bill_ac_no = customer  AND bill_ac_no = sbd_bill_ac_no  AND sbd_subscriber_id = vsm_subscriber_id  and acc_status != 'CLO'  and vam_subscriber_id = vsm_subscriber_id  and vam_msisdn_no = vsm_msisdn_no  and vam_hierarchy = '0'  AND vam_msisdn_known in ('1','2')  AND vam_stat_code not in ('6','7') UNION SELECT {+FIRST_ROWS} UNIQUE bill_ac_no, id_number, aux_account_type, credit_limit, aux_credit_class, acc_status, aux_analysis_24, analysis_codes1, sbd_subscriber_id, sbd_package_code, sbd_tariff_plan,  '0' vsm_msisdn_no, '0' vam_sim_no, nvl(asr_msisdn_no,'0') asr_msisdn_no,  nvl(asr_sim_no,'0') asr_sim_no, '0' vsm_service_code, nvl(asr_service_code,'0') asr_service_code, sbd_term_date  FROM aux_customers, slcustm, sbd_sub_dets, asr_add_serv_req, tt_type_text  WHERE 1=1  AND bill_ac_no = 'A3641050' and tt_group = 'ACCTYPE'  and tt_text in ('S', 'C')  and tt_type = aux_account_type  AND id_number matches '6501110169084' AND bill_ac_no = customer AND bill_ac_no = sbd_bill_ac_no AND sbd_subscriber_id = asr_subscriber_id AND asr_active_flag = 'N' AND NOT EXISTS (select 1 from vam_active_msisdn where vam_subscriber_id = sbd_subscriber_id)  AND asr_action_type in ('SBACT', 'IVRTP', 'NRACT', 'PEACT')  and acc_status != 'CLO' ORDER BY 1, 9, 8, 15 DESC 
+20191007: 163710     DEBUG  1727[main] - com.eppixcomm.eppix.base.blo.IDAccSubServListBLO.getListIDAccServ(IDAccSubServListBLO.java:372) - 
+IdAccSubServListDQO [account=A3641050
+id=6501110169084       
+accountType=IS   
+subId=1454018
+vamMsisdn=833010409      
+vamSim=0
+asrMsisdn=0              
+asrSim=0             
+vsmService=APNW
+asrService=0   
+packageCode=FF120
+tariffPlan=AM24M               
+creditLimit=9253
+creditClass=EXCEL
+accountStatus=OPN            
+mtnStatus=STANDARD                      
+ladStatus1=          
+termDate=2020-06-20]
+20191007: 163710     DEBUG  1728[main] - com.eppixcomm.eppix.base.blo.IDAccSubServListBLO.getListIDAccServ(IDAccSubServListBLO.java:376) - 
+SUBSCRIBER TO PROCCESS: 1454018
+20191007: 163710     DEBUG  1728[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getVamActiveMsisdn
+20191007: 163710     DEBUG  1730[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getVamActiveMsisdn|0||
+
+20191007: 163710     DEBUG  1824[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getVamActiveMsisdn
+Execute SQL Statement: SELECT * FROM vam_active_msisdn WHERE vam_subscriber_id = ? AND vam_hierarchy = '0' AND vam_msisdn_known in ('1','2') AND vam_stat_code not in ('6','7') ORDER BY vam_msisdn_known
+Argument(s): |1454018|
+20191007: 163710     DEBUG  1826[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@182decdb
+20191007: 163710     DEBUG  1884[main] - com.eppixcomm.eppix.base.blo.IDAccSubServListBLO.getListIDAccServ(IDAccSubServListBLO.java:397) - 
+dqo.getVsmService(): APNW
+dqo.getAsrService(): 0   
+20191007: 163710     DEBUG  1886[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.SbdSubDets )
+20191007: 163710     DEBUG  1887[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getSbdSubDetsDAC(BaseAbstractDACFactory.java:234) - getSbdSubDetsDAC()
+20191007: 163710     DEBUG  1894[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.SbdSubDetsDACImpl com.eppixcomm.eppix.base.dml.SbdSubDetsAbstractDMLFactory@7637f22
+20191007: 163710     DEBUG  1894[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.SbdSubDetsDACImpl
+20191007: 163710     DEBUG  1896[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 163710     DEBUG  1897[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.SbdSubDetsDACImpl TO MAP
+20191007: 163710     DEBUG  1897[main] - com.eppixcomm.eppix.base.blo.SbdSubDetsAbstractBLO.get(SbdSubDetsAbstractBLO.java:531) - get( filter )
+20191007: 163710     DEBUG  1897[main] - com.eppixcomm.eppix.base.blo.SbdSubDetsAbstractDACImpl.get(SbdSubDetsAbstractDACImpl.java:556) - get( filter )
+20191007: 163710     DEBUG  1899[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+SbdSubDets|0|equalSbdSubscriberId|
+
+20191007: 163710     DEBUG  1996[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: SbdSubDets
+Execute SQL Statement: SELECT SBD_SUBSCRIBER_ID, SBD_DIALLING_NO, SBD_BILL_AC_NO, SBD_CONNECT_DATE, SBD_DCONNECT_DATE, SBD_TERM_DATE, SBD_TITLE, SBD_SURNAME, SBD_FIRSTNAME, SBD_GENDER, SBD_DOB, SBD_PASSWORD, SBD_LOCATION_CODE, SBD_BILL_CYCLE, SBD_PACKAGE_CODE, SBD_BILLED_UPTO, SBD_TARIFF_PLAN
+FROM SBD_SUB_DETS
+WHERE SBD_SUBSCRIBER_ID = ?
+Argument(s): |1454018|
+20191007: 163710     DEBUG  1998[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@2d363fb3
+20191007: 163710     DEBUG  2058[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.VsrService )
+20191007: 163710     DEBUG  2059[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getVsrServiceDAC(BaseAbstractDACFactory.java:486) - getVsrServiceDAC()
+20191007: 163710     DEBUG  2064[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.VsrServiceDACImpl com.eppixcomm.eppix.base.dml.VsrServiceDMLFactory@6f75e721
+20191007: 163710     DEBUG  2065[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.VsrServiceDACImpl
+20191007: 163710     DEBUG  2066[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 163710     DEBUG  2067[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.VsrServiceDACImpl TO MAP
+20191007: 163710     DEBUG  2067[main] - com.eppixcomm.eppix.base.blo.VsrServiceAbstractBLO.get(VsrServiceAbstractBLO.java:576) - get( filter )
+20191007: 163710     DEBUG  2067[main] - com.eppixcomm.eppix.base.blo.VsrServiceAbstractDACImpl.get(VsrServiceAbstractDACImpl.java:517) - get( filter )
+20191007: 163710     DEBUG  2068[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+VsrService|0|equalVsrServiceCode|
+
+20191007: 163710     DEBUG  2184[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: VsrService
+Execute SQL Statement: SELECT VSR_SERVICE_CODE, VSR_SERVICE_TYPE, VSR_SERVICE_DESC, VSR_ORIGINATOR, VSR_SERVICE_CLASS, VSR_TEMP_DEACT, VSR_PRORATA, VSR_PROVIDER_ID, VSR_SHORT_DESC, VSR_SUSPEND
+FROM VSR_SERVICE
+WHERE VSR_SERVICE_CODE = ?
+Argument(s): |APNW|
+20191007: 163710     DEBUG  2185[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@e2d56bf
+20191007: 163710     DEBUG  2243[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.VstServiceTypes )
+20191007: 163710     DEBUG  2244[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getVstServiceTypesDAC(BaseAbstractDACFactory.java:499) - getVstServiceTypesDAC()
+20191007: 163710     DEBUG  2247[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.VstServiceTypesDACImpl com.eppixcomm.eppix.base.dml.VstServiceTypesDMLFactory@3b22cdd0
+20191007: 163710     DEBUG  2247[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.VstServiceTypesDACImpl
+20191007: 163710     DEBUG  2249[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 163710     DEBUG  2249[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.VstServiceTypesDACImpl TO MAP
+20191007: 163710     DEBUG  2250[main] - com.eppixcomm.eppix.base.blo.VstServiceTypesAbstractBLO.get(VstServiceTypesAbstractBLO.java:595) - get( filter )
+20191007: 163710     DEBUG  2250[main] - com.eppixcomm.eppix.base.blo.VstServiceTypesAbstractDACImpl.get(VstServiceTypesAbstractDACImpl.java:540) - get( filter )
+20191007: 163710     DEBUG  2250[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+VstServiceTypes|0|equalVstServiceType|
+
+20191007: 163710     DEBUG  2346[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: VstServiceTypes
+Execute SQL Statement: SELECT VST_SERVICE_TYPE, VST_SERVICE_DESC, VST_MULTI_CHARGE, VST_SERVICE_CLASS, VST_AUTO_CONNECT, VST_ORIGINATOR, VST_TARIFF_RELATED, VST_PARAMETERISED, VST_PARAMS_LEVEL, VST_ARCHIVE_MONTHS, VST_FUTURE_ACT, VST_NODE_LEVEL
+FROM VST_SERVICE_TYPES
+WHERE VST_SERVICE_TYPE = ?
+Argument(s): |AW|
+20191007: 163711     DEBUG  2347[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@6a6824be
+20191007: 163711     DEBUG  2404[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getTsTariffService
+20191007: 163711     DEBUG  2406[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getTsTariffService|0||
+
+20191007: 163711     DEBUG  2496[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getTsTariffService
+Execute SQL Statement: SELECT * FROM ts_tariff_service WHERE ts_package_code = ?  AND ts_service_code = ?  AND (ts_internal_tariff = ?  OR ts_internal_tariff IS NULL)
+Argument(s): |FF120|APNW|AM24M|
+20191007: 163711     DEBUG  2497[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@368239c8
+20191007: 163711     DEBUG  2554[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.VasActiveService )
+20191007: 163711     DEBUG  2554[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getVasActiveServiceDAC(BaseAbstractDACFactory.java:1177) - getVasActiveServiceDAC()
+20191007: 163711     DEBUG  2558[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.VasActiveServiceDACImpl com.eppixcomm.eppix.base.dml.VasActiveServiceDMLFactory@311d617d
+20191007: 163711     DEBUG  2558[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.VasActiveServiceDACImpl
+20191007: 163711     DEBUG  2559[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 163711     DEBUG  2559[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.VasActiveServiceDACImpl TO MAP
+20191007: 163711     DEBUG  2560[main] - com.eppixcomm.eppix.base.blo.VasActiveServiceAbstractBLO.get(VasActiveServiceAbstractBLO.java:318) - get( filter )
+20191007: 163711     DEBUG  2560[main] - com.eppixcomm.eppix.base.blo.VasActiveServiceAbstractDACImpl.get(VasActiveServiceAbstractDACImpl.java:377) - get( filter )
+20191007: 163711     DEBUG  2560[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+VasActiveService|0|equalVasSubscriberId+equalVasServiceCode+equalornullVasInternTariff|
+
+20191007: 163711     DEBUG  2644[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: VasActiveService
+Execute SQL Statement: SELECT VAS_SUBSCRIBER_ID,VAS_SERVICE_CODE,VAS_INTERN_TARIFF,VAS_SERVICE_TYPE,VAS_ACT_DATE,VAS_DEACT_DATE,VAS_SUB_CHARGE1,VAS_SUB_CHARGE2,VAS_SUB_CHARGE3,VAS_TWINBILL_NO,VAS_MULTI_CHARGE
+FROM VAS_ACTIVE_SERVICE
+WHERE VAS_SUBSCRIBER_ID = ?  AND VAS_SERVICE_CODE = ?  AND (VAS_INTERN_TARIFF = ? OR VAS_INTERN_TARIFF IS NULL) 
+Argument(s): |1454018|APNW|AM24M|
+20191007: 163711     DEBUG  2644[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@2f333739
+20191007: 163711     DEBUG  2705[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.VsrService )
+20191007: 163711     DEBUG  2705[main] - com.eppixcomm.eppix.base.blo.VsrServiceAbstractBLO.get(VsrServiceAbstractBLO.java:576) - get( filter )
+20191007: 163711     DEBUG  2705[main] - com.eppixcomm.eppix.base.blo.VsrServiceAbstractDACImpl.get(VsrServiceAbstractDACImpl.java:517) - get( filter )
+20191007: 163711     DEBUG  2705[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+VsrService|0|equalVsrServiceCode|
+
+20191007: 163711     DEBUG  2737[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: VsrService
+Execute SQL Statement: SELECT VSR_SERVICE_CODE, VSR_SERVICE_TYPE, VSR_SERVICE_DESC, VSR_ORIGINATOR, VSR_SERVICE_CLASS, VSR_TEMP_DEACT, VSR_PRORATA, VSR_PROVIDER_ID, VSR_SHORT_DESC, VSR_SUSPEND
+FROM VSR_SERVICE
+WHERE VSR_SERVICE_CODE = ?
+Argument(s): |APNW|
+20191007: 163711     DEBUG  2737[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@6ed3ef1
+20191007: 163711     DEBUG  2794[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getChg(SubscriberUpgradeMigradeBLO.java:14808) - 
+String chargeCode:      
+String netId: M1
+Date chargeDate: null
+Date effectiveDate: null
+String chgType: F
+20191007: 163711     DEBUG  2796[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.ChgCharges )
+20191007: 163711     DEBUG  2796[main] - com.eppixcomm.eppix.base.blo.BaseAbstractDACFactory.getChgChargesDAC(BaseAbstractDACFactory.java:578) - getChgChargesDAC()
+20191007: 163711     DEBUG  2799[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:115) - getDAC( dacImplClass, dmlFactory )com.eppixcomm.eppix.base.blo.ChgChargesDACImpl com.eppixcomm.eppix.base.dml.ChgChargesDMLFactory@7b1d7fff
+20191007: 163711     DEBUG  2799[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:129) - BEFORE INSTANTIATION DAC CLASS: class com.eppixcomm.eppix.base.blo.ChgChargesDACImpl
+20191007: 163711     DEBUG  2801[main] - com.eppixcomm.eppix.common.data.DAC.<init>(DAC.java:66) - constructor(dao, thrower )
+20191007: 163711     DEBUG  2801[main] - com.eppixcomm.eppix.common.data.DACFactory.getDAC(DACFactory.java:136) - AFTER ADDING DAC CLASS: class com.eppixcomm.eppix.base.blo.ChgChargesDACImpl TO MAP
+20191007: 163711     DEBUG  2801[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractBLO.max(ChgChargesAbstractBLO.java:593) - max( filter )
+20191007: 163711     DEBUG  2801[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractDACImpl.max(ChgChargesAbstractDACImpl.java:542) - max( filter )
+20191007: 163711     DEBUG  2802[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+ChgCharges|14|equalChgCode+equalChgNetid+lessthanorequalChgEffectiveDate+equalChgChargef|
+
+20191007: 163711     DEBUG  2889[main] - com.eppixcomm.eppix.common.data.DAOImpl.max(DAOImpl.java:1220) - max(param SQL): DML Name: ChgCharges
+Execute SQL Statement: SELECT MAX(CHG_CODE, CHG_NETID, CHG_EFFECTIVE_DATE)
+FROM CHG_CHARGES
+WHERE CHG_CODE = ? AND CHG_NETID = ? AND CHG_EFFECTIVE_DATE <= ? AND CHG_CHARGEF = ?
+Argument(s): |     |M1|2019-10-07|F|
+20191007: 163711     DEBUG  2916[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getChg(SubscriberUpgradeMigradeBLO.java:14857) - 1 EFF DATE: null
+20191007: 163711     DEBUG  2916[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getChg(SubscriberUpgradeMigradeBLO.java:14862) - 2 EFF DATE = null
+20191007: 163711     DEBUG  2916[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.ChgCharges )
+20191007: 163711     DEBUG  2917[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractBLO.max(ChgChargesAbstractBLO.java:593) - max( filter )
+20191007: 163711     DEBUG  2917[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractDACImpl.max(ChgChargesAbstractDACImpl.java:542) - max( filter )
+20191007: 163711     DEBUG  2917[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+ChgCharges|14|equalChgCode+nullChgNetid+lessthanorequalChgEffectiveDate+equalChgChargef|
+
+20191007: 163711     DEBUG  3008[main] - com.eppixcomm.eppix.common.data.DAOImpl.max(DAOImpl.java:1220) - max(param SQL): DML Name: ChgCharges
+Execute SQL Statement: SELECT MAX(CHG_CODE, CHG_NETID, CHG_EFFECTIVE_DATE)
+FROM CHG_CHARGES
+WHERE CHG_CODE = ? AND (CHG_NETID IS NULL OR LENGTH(CHG_NETID) IS NULL OR LENGTH(CHG_NETID) = 0) AND CHG_EFFECTIVE_DATE <= ? AND CHG_CHARGEF = ?
+Argument(s): |     |2019-10-07|F|
+20191007: 163711     DEBUG  3036[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getChg(SubscriberUpgradeMigradeBLO.java:14878) - 2A EFF DATE: null
+20191007: 163711     DEBUG  3036[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getChg(SubscriberUpgradeMigradeBLO.java:15016) - Effective Date set to 2019-10-07
+20191007: 163711     DEBUG  3036[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.ChgCharges )
+20191007: 163711     DEBUG  3037[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractBLO.get(ChgChargesAbstractBLO.java:564) - get( filter )
+20191007: 163711     DEBUG  3037[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractDACImpl.get(ChgChargesAbstractDACImpl.java:523) - get( filter )
+20191007: 163711     DEBUG  3037[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+ChgCharges|0|equalChgCode+equalChgNetid+equalChgEffectiveDate+equalChgChargef|
+
+20191007: 163711     DEBUG  3124[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: ChgCharges
+Execute SQL Statement: SELECT CHG_CODE, CHG_DESCRIPTION, CHG_VALUE, CHG_VAT_CODE, CHG_NCODE, CHG_NETID, CHG_CHARGEF, CHG_PERIOD, CHG_FREQUENCY, CHG_EFFECTIVE_DATE, CHG_CLASS_ID
+FROM CHG_CHARGES
+WHERE CHG_CODE = ? AND CHG_NETID = ? AND CHG_EFFECTIVE_DATE = ? AND CHG_CHARGEF = ?
+Argument(s): |     |M1|2019-10-07|F|
+20191007: 163711     DEBUG  3189[main] - com.eppixcomm.eppix.common.core.BLOBinder.getBLO(BLOBinder.java:225) - getBLO( bloClass=com.eppixcomm.eppix.base.blo.ChgCharges )
+20191007: 163711     DEBUG  3189[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractBLO.get(ChgChargesAbstractBLO.java:564) - get( filter )
+20191007: 163711     DEBUG  3189[main] - com.eppixcomm.eppix.base.blo.ChgChargesAbstractDACImpl.get(ChgChargesAbstractDACImpl.java:523) - get( filter )
+20191007: 163711     DEBUG  3189[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+ChgCharges|0|equalChgCode+nullChgNetid+lessthanorequalChgEffectiveDate+equalChgChargef|
+
+20191007: 163711     DEBUG  3276[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:631) - get(param SQL): DML Name: ChgCharges
+Execute SQL Statement: SELECT CHG_CODE, CHG_DESCRIPTION, CHG_VALUE, CHG_VAT_CODE, CHG_NCODE, CHG_NETID, CHG_CHARGEF, CHG_PERIOD, CHG_FREQUENCY, CHG_EFFECTIVE_DATE, CHG_CLASS_ID
+FROM CHG_CHARGES
+WHERE CHG_CODE = ? AND (CHG_NETID IS NULL OR LENGTH(CHG_NETID) IS NULL OR LENGTH(CHG_NETID) = 0) AND CHG_EFFECTIVE_DATE <= ? AND CHG_CHARGEF = ?
+Argument(s): |     |2019-10-07|F|
+20191007: 163711     ERROR  3336[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getChg(SubscriberUpgradeMigradeBLO.java:15146) - Unable to SELECT chg_charges details
+20191007: 163711     DEBUG  3336[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getSerialCustomer
+20191007: 163711     DEBUG  3337[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getSerialCustomer|0||
+
+20191007: 163712     DEBUG  3424[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getSerialCustomer
+Execute SQL Statement: SELECT SC_SERIAL, SC_BILL_AC_NO FROM SC_SERIAL_CUSTOMER WHERE SC_BILL_AC_NO = ?
+Argument(s): |A3641050|
+20191007: 163712     DEBUG  3425[main] - com.eppixcomm.eppix.common.data.DAOImpl.fetchDMO(DAOImpl.java:4029) - ROW COMPLETED AND DMO CREATED: ROW: [Ljava.lang.Object;@4f47d241
+20191007: 163712     DEBUG  3485[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getEppixHierarchyByType|0|NONE|
+
+20191007: 163712     DEBUG  3576[main] - com.eppixcomm.eppix.common.data.DAOImpl.iterator(DAOImpl.java:2376) - iterator(static SQL): DML Name: getEppixHierarchyByType
+Execute SQL Statement: SELECT EH_SERIAL, EH_ENTITY_ID, EH_TYPE, EH_VALUE, EH_LINK, EH_HIER_TYPE FROM EH_EPPIX_HIERARCHY WHERE EH_ENTITY_ID = ? AND EH_TYPE = ? AND EH_HIER_TYPE = ? 
+Argument(s): |4200987|COMPANY|ACCOUNT|
+20191007: 163712     DEBUG  3632[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:761) - DML NAME: getMasterEhHh
+20191007: 163712     DEBUG  3633[main] - com.eppixcomm.eppix.common.data.DAOImpl$DAOStmtPool.get(DAOImpl.java:4451) - 
+======================================================================
+getMasterEhHh|0||
+
+20191007: 163712     DEBUG  3732[main] - com.eppixcomm.eppix.common.data.DAOImpl.get(DAOImpl.java:788) - get(static SQL): DML Name: getMasterEhHh
+Execute SQL Statement: SELECT eh.*, hh.* FROM eh_eppix_hierarchy eh, hh_hierarchy_head hh WHERE eh.eh_entity_id = hh.hh_serial AND hh.hh_serial = ? AND eh.eh_hier_type = ? AND eh.eh_type = ? 
+Argument(s): |4200987|COMPANY|COMPANY|
+20191007: 163712     ERROR  3796[main] - com.eppixcomm.eppix.base.blo.SubscriberUpgradeMigradeBLO.getScEhHH(SubscriberUpgradeMigradeBLO.java:10215) - Serial: 4200987 does not exist in table hh_hierarchy_head/eh_eppix_hierarchy
+20191007: 163712     ERROR  3796[main] - com.eppixcomm.eppix.base.blo.IDAccSubServListBLO.IdPopulateAccSubServ(IDAccSubServListBLO.java:1040) - Serial: 4200987 does not exist in table hh_hierarchy_head/eh_eppix_hierarchy
+20191007: 163712     DEBUG  3857[main] - com.eppixcomm.eppix.base.blo.GetServiceDiscountBLO.generateQualKey(GetServiceDiscountBLO.java:364) - 
+QUAL VAL: 8
+20191007: 163712     DEBUG  3857[main] - com.eppixcomm.eppix.base.blo.GetServiceDiscountBLO.generateQualKey(GetServiceDiscountBLO.java:374) - 
+INSERT INTO temp_qualification(qual_val, qual_key, qual_from, qual_to) values('8', 'FF120', TODAY, TODAY)

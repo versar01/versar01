@@ -1,0 +1,238 @@
+package com.eppixcomm.eppix.base.blo;
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import com.eppixcomm.eppix.common.data.DAC;
+import com.eppixcomm.eppix.common.data.DAO;
+import com.eppixcomm.eppix.common.data.DAOArgs;
+import com.eppixcomm.eppix.common.data.DAOIterator;
+import com.eppixcomm.eppix.common.data.DAOParamQueryArgs;
+import com.eppixcomm.eppix.common.data.DAOThrower;
+import com.eppixcomm.eppix.common.data.DMO;
+import com.eppixcomm.eppix.common.util.FilterPart;
+import com.eppixcomm.eppix.common.util.QueryFilter;
+import com.eppixcomm.eppix.common.data.DTOList;
+import com.eppixcomm.eppix.common.data.DTOListState;
+import com.eppixcomm.eppix.base.error.EPPIXObjectBusyException;
+import com.eppixcomm.eppix.base.error.EPPIXObjectExpiredException;
+import com.eppixcomm.eppix.base.error.EPPIXObjectNotFoundException;
+import com.eppixcomm.eppix.base.error.EPPIXSeriousException;
+
+public class NctCompressTypeAbstractDACImpl extends DAC implements NctCompressTypeAbstractDAC{
+
+	  /** Error handler/logger. */
+	  static DAOThrower thrower = DAOThrower.getDAOThrower( EqEventQueueAbstractDACImpl.class );
+
+	  //~ Instance variables /////////////////////////////////////////////////////
+
+	  /** DOCUMENT ME! */
+	  Logger logger = thrower.getLogger(  );
+	
+	public NctCompressTypeAbstractDACImpl(DAO dao ) {
+		super( dao, thrower );
+	}
+	
+	  public void create( NctCompressTypeDMO nctCompressTypeDMO )
+	    throws EPPIXSeriousException {
+	    logger.debug( "create( nctCompressTypeDMO )" );
+	    thrower.ifParameterMissing( "NctCompressTypeDMO", nctCompressTypeDMO );
+	    dao.insert( nctCompressTypeDMO );
+	  }
+
+	  public NctCompressTypeDMO lock( NctCompressTypeDMO aNctCompressTypeDMO )
+	    throws EPPIXSeriousException, EPPIXObjectBusyException {
+	    logger.debug( "lock( aNctCompressTypeDMO )" );
+
+	    thrower.ifParameterMissing( "aNctCompressTypeDMO", aNctCompressTypeDMO );
+
+	    NctCompressTypeDMO lockedNctCompressTypeDMO = null;
+
+	    //
+	    // Cannot lock table by PK. Does not exists
+	    //
+	    lockedNctCompressTypeDMO = (NctCompressTypeDMO) dao.lock( "nctCompressType",
+	        "filterByPrimaryKey", new DAOArgs( 0 ) );
+
+	    return null;
+	  }
+
+	  public void modify( QueryFilter filter )
+	    throws EPPIXSeriousException, EPPIXObjectExpiredException,
+	      EPPIXObjectNotFoundException {
+	    logger.debug( "modify( filter )" );
+
+	    thrower.ifParameterMissing( "filter", filter );
+
+	    dao.updateCustom( new NctCompressTypeDMO(  ), filterQueryArgs( filter, null ) );
+	  }
+
+	  public void delete( QueryFilter filter )
+	    throws EPPIXSeriousException, EPPIXObjectNotFoundException,
+	      EPPIXObjectExpiredException {
+	    logger.debug( "delete( filter )" );
+
+	    thrower.ifParameterMissing( "filter", filter );
+
+	    DAOParamQueryArgs args = filterQueryArgs( filter, null );
+
+	    dao.delete( "nctCompressType", args.getFilterBy(  ), args );
+	  }
+
+	  public boolean exists( QueryFilter filter )
+	    throws EPPIXSeriousException {
+	    logger.debug( "exists( filter )" );
+
+	    return dao.exists( filterQueryArgs( filter, null ) );
+	  }
+
+	  public DTOList getList( 
+	    DTOListState    state,
+	    NctCompressTypeDMO nctCompressTypeDMO )
+	    throws EPPIXSeriousException {
+	    logger.debug( "getList( state, nctCompressTypeDMO )" );
+
+	    /**
+	     * TODO SJ Fixme
+	     */
+
+	    return new DTOList(dao.getList("nctCompressType",  paramQueryArgs(nctCompressTypeDMO)));
+	    
+	  }
+
+	  protected DAOParamQueryArgs paramQueryArgs( 
+	    NctCompressTypeDMO nctCompressTypeDMO ) {
+	    logger.debug( "paramQueryArgs( nctCompressTypeDMO)" );
+
+	    DAOParamQueryArgs queryArgs = new DAOParamQueryArgs( "nctCompressType", 2 * 2 );
+
+	    if ( nctCompressTypeDMO != null ) {
+	      // primary key filters...
+	      // define more filters...
+	      String nctCompressCode = nctCompressTypeDMO.getNctCompressCode();
+
+	      if ( !DMO.isNull( nctCompressCode ) ) {
+	        queryArgs.andFilterBy( "nctCompressTypeMatch" )
+	                 .arg( nctCompressCode + dao.wildcardForAnySequence());
+	      }
+
+	      String nctCompressType = nctCompressTypeDMO.getNctCompressType();
+
+	      if ( !DMO.isNull( nctCompressType ) ) {
+	        queryArgs.andFilterBy( "nctCompressTypeMatch" )
+	                 .arg( nctCompressType + dao.wildcardForAnySequence());
+	      }
+
+	    } else {
+	      // include all default languageCode filters where appropriate...
+	   }
+
+	    return queryArgs;
+	  }
+
+	  public DTOList getList( 
+	    DTOListState state,
+	    QueryFilter  filter )
+	    throws EPPIXSeriousException {
+	    logger.debug( "getList( state, filter )" );
+
+	    /**
+	     * TODO Fixme;
+	     */
+	    return new DTOList(dao.getList(filterQueryArgs( filter, null)));
+	    
+	  }
+
+	  protected DAOParamQueryArgs filterQueryArgs( 
+	    QueryFilter filter,
+	    String      dmlName ) {
+	    List parts = filter.getParts(  );
+	    DAOParamQueryArgs queryArgs = new DAOParamQueryArgs( ( dmlName == null )
+	        ? "nctCompressType" : dmlName, parts.size(  ) );
+
+	    Iterator  it = parts.iterator();
+	    while(it.hasNext()){
+	    	FilterPart part = (FilterPart)it.next();
+//	    for ( FilterPart part : parts ) {
+	      switch ( part.getIndex(  ) ) {
+	        case NctCompressTypeDMO.nctCompressCodeFilter:
+	          part.andFilterBy( queryArgs, "nctCompressCode",
+	            dao.wildcardForAnySequence(  ) );
+	          break;
+
+	        case NctCompressTypeDMO.nctCompressTypeFilter:
+	          part.andFilterBy( queryArgs, "nctCompressType",
+	            dao.wildcardForAnySequence());
+	          break;
+	      }
+	    }
+
+	    return queryArgs;
+	  }
+
+	  public DAOIterator iterate( QueryFilter filter )
+	    throws EPPIXSeriousException {
+	    logger.debug( "iterate( filter )" );
+
+	    /**
+	     * TODO SJ Fixme
+	     */
+	    return dao.iterator( filterQueryArgs( filter, null ) );
+
+	  }
+
+	  public DAOIterator iterateWithLock( QueryFilter filter )
+	    throws EPPIXSeriousException {
+	    logger.debug( "iterateWithLock( filter )" );
+
+	    /**
+	     * README: Possibly cannot be used on Informix
+	     * Use iterator(QueryFilter filter) without a lock
+	     * 
+	     */
+	    return dao.iterator(filterQueryArgs( filter, null ), true );
+	  }
+
+	  public NctCompressTypeDMO get( QueryFilter filter )
+	    throws EPPIXSeriousException {
+	    logger.debug( "get( filter )" );
+
+	    DAOParamQueryArgs args = filterQueryArgs( filter, null );
+
+	    return (NctCompressTypeDMO) dao.get( args.getDMLName(  ),
+	      args.getFilterBy(  ), args );
+	  }
+
+	  public Object max( QueryFilter filter )
+	    throws EPPIXSeriousException {
+	    logger.debug( "max( filter )" );
+
+	    DAOParamQueryArgs args = filterQueryArgs( filter, null );
+
+	    return dao.max( args.getDMLName(  ), args.getFilterBy(  ), args,
+	      args.getMaxField(  ) );
+	  }
+
+
+	  public Object min( QueryFilter filter )
+	    throws EPPIXSeriousException {
+	    logger.debug( "min( filter )" );
+
+	    DAOParamQueryArgs args = filterQueryArgs( filter, null );
+
+	    return dao.min( args.getDMLName(  ), args.getFilterBy(  ), args,
+	      args.getMaxField(  ) );
+	  }
+
+	  public int count( QueryFilter filter )
+	    throws EPPIXSeriousException {
+	    logger.debug( "count( filter )" );
+
+	    DAOParamQueryArgs args = filterQueryArgs( filter, null );
+
+	    return dao.count( args.getDMLName(  ), args.getFilterBy(  ), args );
+	  }	
+
+}
