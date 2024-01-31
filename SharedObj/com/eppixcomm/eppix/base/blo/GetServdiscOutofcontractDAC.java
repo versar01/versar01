@@ -1,0 +1,41 @@
+package com.eppixcomm.eppix.base.blo;
+
+import java.math.BigDecimal;
+
+import com.eppixcomm.eppix.base.error.EPPIXSeriousException;
+import com.eppixcomm.eppix.common.data.DAOIterator;
+import com.eppixcomm.eppix.common.data.StringDMO;
+import com.eppixcomm.eppix.common.util.Date;
+import com.eppixcomm.eppix.common.util.DateTime;
+
+public interface GetServdiscOutofcontractDAC {
+	
+	//Percentage Based Discounts
+	//=======================================================================================================================
+	public BigDecimal percDiscount1(Date endDate, String packageCode, String interTariff, String serviceCode)throws EPPIXSeriousException;
+	
+	public BigDecimal percDiscount2(Date endDate, String packageCode, String interTariff, String serviceCode)throws EPPIXSeriousException;
+	
+	public BigDecimal percDiscount3(Date endDate, String packageCode, String interTariff, String serviceCode)throws EPPIXSeriousException;
+
+	//Fixed Charge Based Discount
+	//=======================================================================================================================
+	public BigDecimal fixedDiscount1(Date endDate, String packageCode, String interTariff, String serviceCode)throws EPPIXSeriousException;
+	
+	public BigDecimal fixedDiscount2(Date endDate, String packageCode, String interTariff, String serviceCode)throws EPPIXSeriousException;
+	
+	public BigDecimal fixedDiscount3(Date endDate, String packageCode, String interTariff, String serviceCode)throws EPPIXSeriousException;
+	//=======================================================================================================================
+	
+	public StringDMO getVatPercentageByCode(String vatCode)throws EPPIXSeriousException;
+	
+//	public boolean getActiveSubCount(String accountNo)throws EPPIXSeriousException;
+	
+//	public DAOIterator getAuxSbdVamByRsaId(String rsaId, Date fromDate)throws EPPIXSeriousException;
+	
+//	public DAOIterator getAuxSbdVamByPassPort(String passport, Date fromDate)throws EPPIXSeriousException;
+	
+	public TsTariffServiceDMO getTsTariffService(String packageCode, String serviceCode, String interTariff)throws EPPIXSeriousException;
+	
+
+}

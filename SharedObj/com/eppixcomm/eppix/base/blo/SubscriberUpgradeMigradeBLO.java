@@ -14771,8 +14771,8 @@ DTOActionTypes, BaseMessages{
 		mshDMO.setMshMsisdnNo(msisdn);
 		mshDMO.setMshHistCode(histCode);
 		mshDMO.setMshComment(hVal.toString());
-		mshDMO.setMshUserId("");
-		mshDMO.setMshTerminalId(null);
+		mshDMO.setMshUserId(this.getUserName());
+		mshDMO.setMshTerminalId(this.getHostName());
 		mshDMO.setMshTimestamp(new DateTime());
 
 		try {
@@ -14800,8 +14800,8 @@ DTOActionTypes, BaseMessages{
 		sbhDMO.setSbhHistCode(histCode);
 		sbhDMO.setSbhOldValue(hVal.toString());
 		sbhDMO.setSbhNewValue("");
-		sbhDMO.setSbhUserId("");
-		sbhDMO.setSbhTerminalId(null);
+		sbhDMO.setSbhUserId(this.getUserName());
+		sbhDMO.setSbhTerminalId(this.getHostName());
 		sbhDMO.setSbhTimestamp(new DateTime());
 
 		try {

@@ -278,4 +278,13 @@ public class EncExpiryNotConfDMO extends DBO implements Serializable {
 		this.encConfigDatetime = encConfigDatetime;
 	}
 
+	@Override
+	public String toString() {
+		return "\nEncExpiryNotConfDMO [\nencConfType=" + encConfType + "\nencAccountType=" + encAccountType
+				+ "\nencContLength=" + encContLength + "\nencExpiryDays=" + encExpiryDays + "\nencDelvMethod="
+				+ encDelvMethod + "\nencDelvTempSms=" + encDelvTempSms + "\nencDelvTempEml=" + encDelvTempEml
+				+ "\nencNotifyLevel=" + encNotifyLevel + "\nencAnalysis1=" + encAnalysis1 + "\nencAnalysis2="
+				+ encAnalysis2 + "\nencAnalysis3=" + encAnalysis3 + "\nencConfigDatetime=" + encConfigDatetime + "]";
+	}
+
 }

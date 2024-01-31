@@ -162,29 +162,18 @@ public class CenContExpiryNotifyDMO extends DBO implements Serializable {
 	protected void set(Object[] fields) {
 		this.cenSubscriberId = ((Integer) fields[0]);
 		this.cenExpiryMsisdn = rtrim((String) fields[1]);
-
 		this.cenSmsSentTo = rtrim((String) fields[2]);
-
 		this.cenTermDate = ((fields[3] == null) ? null : new Date(fields[3]));
 		this.cenNotifGenDt = ((fields[4] == null) ? null : new Date(fields[4]));
 		this.cenContact = rtrim((String) fields[5]);
-
 		this.cenEmailSentTo = rtrim((String) fields[6]);
-
 		this.cenNotifyLevel = rtrim((String) fields[7]);
-
 		this.cenCurrCharge = (BigDecimal) fields[8];
-
 		this.cenNewCharge = (BigDecimal) fields[9];
-
 		this.cenAnalysis1 = rtrim((String) fields[10]);
-
 		this.cenAnalysis2 = rtrim((String) fields[11]);
-
 		this.cenAnalysis3 = rtrim((String) fields[12]);
-
 		this.cenAnalysis4 = rtrim((String) fields[13]);
-
 		this.cenAnalysis5 = rtrim((String) fields[14]);
 
 	}
